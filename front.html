@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="{{ url_for('static', filename='dstyle.css') }}">
+  <title>E-Commerce Churn Predictor</title>
+
+</head>
+<body>
+
+<div class="container">
+  <form method="POST" action="/">
+    <div class="small">
+      Nigerian E-commerce
+    </div>
+    <br>
+    <p>Enter details to predict if a Customer is Churning or Not</p>
+    <br>
+    <label>Age</label>
+    <input type="number" name="age" placeholder="enter your age" required>
+    <br><br>
+    <label>TotalSpent</label>
+    <input type="number" name="total" placeholder="enter total amount spent" required>
+    <br><br>
+    <label>DaysSinceLastOrder</label>
+    <input type="number" name="DaysLastActive" placeholder="enter number of days since last order" required>
+    <br><br>
+    <label>NumberOfOrders</label>
+    <input type="number" name="NumOfOrders" placeholder="enter number of orders" required>
+    <br><br>
+    <label>NumberOfComplaints</label>
+    <input type="number" name="complaints" placeholder="enter number of complaints" required>
+    <br><br>
+    <label>DiscountUsed</label>
+    <input type="number" name="discountused" placeholder="enter number of discounts used">
+    <br><br>
+    <label>SatisfactionScore</label>
+    <input type="number" name="satisfaction" placeholder="satisfaction(5max)" required>
+    <br><br>
+    <label>DeliveryDays</label>
+    <input type="number" name="delivery" placeholder="enter delivery days" required>
+    <br><br>
+    <label>NumberOfReturns</label>
+    <input type="number" name="returns" placeholder="enter number of returns" required>
+    <br><br>    
+    <label>LoyaltyYears</label>
+    <input type='number' name="loyalty" placeholder="enter loyalty years" required>
+    <br><br>
+    <label>Gender</label>
+    <select name="gender">
+      <option value="1">Male</option>
+      <option value="0">Female</option>
+    </select>
+    <br><br>
+    <label>State</label>
+    <select name="state" required>
+      <option value="0">Abuja</option>
+      <option value="1">Anambra</option>
+      <option value="2">Bauchi</option>
+      <option value="3">Borno</option>
+      <option value="4">Delta</option>
+      <option value="5">Enugu</option>
+      <option value="6">Imo</option>
+      <option value="7">Kaduna</option>
+      <option value="8">Kano</option>
+      <option value="9">Lagos</option>
+      <option value="10">Oyo</option>
+      <option value="11">Rivers</option>
+    </select>
+    <br><br>
+    <label>ProductCategory</label>
+    <select name="product" required>
+      <option value="0">Auto</option>
+      <option value="1">Beuty</option>
+      <option value="2">Books</option>
+      <option value="3">Electronics</option>
+      <option value="4">Fashion</option>
+      <option value="5">Food</option>
+      <option value="6">Home</option>
+      <option value="7">Sports</option>
+    </select>
+    <button type="submit">Predict</button>
+    </form>
+    <br><br>
+    {% if answer %}
+    <div class="result {{ result_class }}">
+        <h2>Result: {{ answer }}</h2>
+    </div>
+    {% endif %}
+</div> 
+
+</body>
+</html>
