@@ -1,0 +1,1531 @@
+,CustomerID,Age,Gender,State,DeviceType,PaymentMethod,ProductCategory,TotalSpent(NGN),NumOrders,AvgOrderValue(NGN),DaysSinceLastOrder,NumComplaints,DiscountsUsed,SatisfactionScore,DeliveryDays,NumReturns,LoyaltyYears,Churned,SatisfactionIndex,LoyaltyIndex
+0,CUS00001,56,Male,Borno,Mobile,Debit card,Fashion,43334.95,7,6190.71,16,0,2,5.0,6,0,2.1,No,0.833,10.5
+1,CUS00002,46,Female,Bauchi,Mobile,Debit card,Auto,79885.0,5,15977.0,47,0,2,3.6,2,1,1.7,No,1.8,6.12
+2,CUS00003,32,Male,Lagos,Mobile,Bank transfer,Food,78535.32,11,7139.57,86,0,1,3.6,5,0,3.7,Yes,0.72,13.32
+3,CUS00004,60,Female,Rivers,Desktop,Bank transfer,Fashion,77571.37,6,12928.56,58,1,4,3.5,7,1,4.0,No,0.438,14.0
+4,CUS00005,25,Female,Kano,Phone,Bank transfer,Food,86429.18,15,5761.95,45,0,1,5.0,3,1,0.0,No,1.667,0.0
+5,CUS00006,38,Male,Abuja,Mobile,Bank transfer,Electronics,88405.31,15,5893.69,40,0,4,3.1,5,1,2.7,No,0.62,8.37
+6,CUS00007,56,Female,Anambra,Mobile,Cash,Beauty,65546.72,3,21848.91,54,2,3,3.5,3,0,0.0,No,0.7,0.0
+7,CUS00008,36,Male,Enugu,Tablet,Debit card,Beauty,142272.16,8,17784.02,67,2,2,5.0,5,1,4.6,Yes,0.714,23.0
+8,CUS00009,40,Male,Bauchi,Desktop,Bank transfer,Electronics,32373.37,4,8093.34,63,0,1,3.6,1,1,2.7,No,3.6,9.72
+9,CUS00010,28,Female,Abuja,Mobile,Debit card,Food,52556.35,6,8759.39,35,0,0,4.6,1,1,0.8,No,4.6,3.68
+10,CUS00011,28,Male,Rivers,Mobile,Bank transfer,Fashion,210098.36,18,11672.13,54,0,1,2.6,3,2,1.6,Yes,0.867,4.16
+11,CUS00012,41,Male,Kaduna,Mobile,Bank transfer,Beauty,38290.39,6,6381.73,59,2,2,3.3,2,1,1.6,Yes,0.825,5.28
+12,CUS00013,53,Female,Imo,Mobile,Bank transfer,Beauty,24081.04,9,2675.67,14,0,0,5.0,2,1,2.1,No,2.5,10.5
+13,CUS00014,57,Male,Kano,Mobile,Debit card,Electronics,118051.45,10,11805.14,50,0,2,2.8,3,0,3.6,No,0.933,10.08
+14,CUS00015,89,Male,Anambra,Mobile,USSD,Books,500.0,2,250.0,1,0,4,3.3,5,1,0.3,No,0.66,0.99
+15,CUS00016,20,Male,Kano,Mobile,Bank transfer,Home,74412.67,21,3543.46,59,0,4,3.8,3,1,4.8,No,1.267,18.24
+16,CUS00017,39,Male,Borno,Mobile,USSD,Food,181562.12,1,181562.12,64,1,2,2.5,2,0,4.4,No,0.833,11.0
+17,CUS00018,19,Male,Abuja,Tablet,Bank transfer,Electronics,15477.88,3,5159.29,67,0,3,3.1,3,1,0.7,No,1.033,2.17
+18,CUS00019,41,Male,Kano,Mobile,Debit card,Books,500.0,1,500.0,33,2,1,3.6,2,0,2.1,No,0.9,7.56
+19,CUS00020,61,Male,Imo,Tablet,Bank transfer,Food,17536.85,10,1753.68,54,0,3,3.5,2,1,4.6,No,1.75,16.1
+20,CUS00021,47,Female,Kaduna,Desktop,Bank transfer,Fashion,125426.18,18,6968.12,87,0,6,4.8,1,1,3.8,Yes,4.8,18.24
+21,CUS00022,55,Female,Abuja,Mobile,POS,Fashion,135614.95,8,16951.87,87,0,4,5.0,4,1,1.5,No,1.25,7.5
+22,CUS00023,19,Female,Anambra,Mobile,Debit card,Fashion,61933.5,1,61933.5,44,0,4,2.6,2,1,3.2,Yes,1.3,8.32
+23,CUS00024,38,Male,Lagos,Desktop,Bank transfer,Beauty,115744.56,4,28936.14,49,0,2,3.6,5,0,6.5,No,0.72,23.4
+24,CUS00025,50,Female,Enugu,Tablet,USSD,Fashion,147561.49,5,29512.3,78,0,4,4.2,1,0,2.2,No,4.2,9.24
+25,CUS00026,29,Female,Abuja,Desktop,Debit card,Food,165430.59,2,82715.3,1,3,0,5.0,2,1,1.1,No,1.0,5.5
+26,CUS00027,39,Female,Delta,Mobile,Cash,Home,73914.91,12,6159.58,35,1,2,4.2,7,3,2.3,Yes,0.525,9.66
+27,CUS00028,61,Male,Borno,Desktop,Bank transfer,Beauty,500.0,12,41.67,85,0,4,3.8,2,0,2.4,No,1.9,9.12
+28,CUS00029,42,Male,Kaduna,Tablet,POS,Food,48060.45,2,24030.22,74,0,4,4.2,4,1,1.2,No,1.05,5.04
+29,CUS00030,44,Female,Borno,Phone,Debit card,Food,65793.81,11,5981.26,56,1,4,4.2,1,0,2.7,No,2.1,11.34
+30,CUS00031,59,Female,Abuja,Desktop,Debit card,Beauty,73347.75,15,4889.85,1,2,3,5.0,1,0,0.1,No,1.667,0.5
+31,CUS00032,45,Female,Abuja,Mobile,USSD,Electronics,76546.33,17,4502.73,43,1,2,3.7,7,0,1.0,No,0.462,3.7
+32,CUS00033,33,Female,Delta,Mobile,Cash,Electronics,135350.26,21,6445.25,27,2,4,5.0,4,0,3.1,No,0.833,15.5
+33,CUS00034,32,Female,Anambra,Laptop,Debit card,Electronics,142349.28,3,47449.76,54,1,1,3.3,4,2,0.0,Yes,0.66,0.0
+34,CUS00035,64,Male,Borno,Phone,Bank transfer,Electronics,77274.69,21,3679.75,20,3,1,3.6,1,0,3.4,Yes,0.9,12.24
+35,CUS00036,61,Male,Abuja,Desktop,Debit card,Home,134431.82,6,22405.3,14,0,3,3.3,4,0,0.0,No,0.825,0.0
+36,CUS00037,20,Male,Enugu,Mobile,Bank transfer,Fashion,101094.76,5,20218.95,1,2,3,1.2,6,0,0.0,Yes,0.15,0.0
+37,CUS00038,54,Female,Kano,Tablet,Bank transfer,Fashion,87902.77,9,9766.97,81,2,0,3.5,6,0,1.3,Yes,0.438,4.55
+38,CUS00039,24,Male,Anambra,Desktop,Cash,Food,125794.49,5,25158.9,33,0,3,3.8,6,2,2.4,No,0.633,9.12
+39,CUS00040,38,Female,Enugu,Tablet,USSD,Beauty,88251.34,9,9805.7,49,0,4,3.0,1,1,4.0,No,3.0,12.0
+40,CUS00041,26,Female,Anambra,Tablet,Debit card,Electronics,177601.5,21,8457.21,44,0,2,2.3,4,0,2.1,No,0.575,4.83
+41,CUS00042,56,Female,Enugu,Mobile,Debit card,Food,20271.5,6,3378.58,12,0,7,2.6,5,0,1.6,No,0.52,4.16
+42,CUS00043,35,Female,Imo,Desktop,Bank transfer,Home,61817.31,14,4415.52,7,0,1,5.0,1,0,2.9,No,5.0,14.5
+43,CUS00044,21,Female,Kaduna,Phone,Bank transfer,Electronics,79306.65,7,11329.52,14,1,2,5.0,1,0,0.7,No,2.5,3.5
+44,CUS00045,42,Female,Enugu,Desktop,Bank transfer,Home,104775.37,8,13096.92,23,2,2,4.9,5,1,2.2,No,0.7,10.78
+45,CUS00046,31,Male,Oyo,Desktop,Debit card,Food,142058.22,10,14205.82,55,2,2,2.2,5,2,0.2,Yes,0.314,0.44
+46,CUS00047,26,Male,Enugu,Tablet,Debit card,Food,83902.06,13,6454.0,21,0,2,4.4,1,0,2.1,No,4.4,9.24
+47,CUS00048,43,Female,Lagos,Tablet,Debit card,Electronics,20999.67,1,20999.67,97,0,0,2.8,5,0,1.8,No,0.56,5.04
+48,CUS00049,19,Female,Lagos,Mobile,Debit card,Fashion,122913.13,10,12291.31,75,2,1,2.9,4,0,0.8,Yes,0.483,2.32
+49,CUS00050,37,Male,Bauchi,Mobile,Debit card,Books,118973.14,6,19828.86,69,1,2,3.0,5,1,2.2,Yes,0.5,6.6
+50,CUS00051,45,Male,Oyo,Laptop,Debit card,Food,500.0,8,62.5,41,1,5,4.2,2,1,2.2,No,1.4,9.24
+51,CUS00052,64,Male,Oyo,Mobile,Debit card,Fashion,84828.81,13,6525.29,90,1,7,4.5,5,1,3.8,No,0.75,17.1
+52,CUS00053,24,Female,Kano,Mobile,Bank transfer,Food,13443.62,2,6721.81,38,0,5,3.4,5,1,0.0,No,0.68,0.0
+53,CUS00054,61,Male,Oyo,Mobile,Debit card,Electronics,55090.7,2,27545.35,44,1,1,3.4,3,0,1.9,No,0.85,6.46
+54,CUS00055,25,Male,Kano,Tablet,Debit card,Home,44373.6,1,44373.6,50,0,1,4.0,4,2,0.9,Yes,1.0,3.6
+55,CUS00056,64,Male,Bauchi,Mobile,USSD,Fashion,121416.91,5,24283.38,66,1,2,4.1,3,1,3.3,No,1.025,13.53
+56,CUS00057,52,Female,Bauchi,Mobile,Bank transfer,Electronics,90257.36,14,6446.95,64,0,6,4.7,7,1,3.1,No,0.671,14.57
+57,CUS00058,31,Male,Kaduna,Mobile,Bank transfer,Fashion,27148.4,7,3878.34,30,0,2,2.2,3,2,2.8,Yes,0.733,6.16
+58,CUS00059,34,Female,Lagos,Desktop,USSD,Fashion,124602.97,1,124602.97,29,0,0,3.5,2,1,0.9,No,1.75,3.15
+59,CUS00060,53,Male,Enugu,Desktop,Debit card,Beauty,20478.74,5,4095.75,64,0,1,5.0,2,2,2.1,Yes,2.5,10.5
+60,CUS00061,57,Male,Enugu,Mobile,USSD,Beauty,99855.12,1,99855.12,66,0,4,3.4,4,1,0.0,No,0.85,0.0
+61,CUS00062,21,Male,Delta,Mobile,Debit card,Beauty,48369.52,2,24184.76,33,0,4,3.3,5,0,0.0,No,0.66,0.0
+62,CUS00063,89,Female,Delta,Mobile,Debit card,Food,68544.53,9,7616.06,1,0,2,3.5,1,0,0.1,No,3.5,0.35
+63,CUS00064,23,Female,Rivers,Mobile,Bank transfer,Auto,107692.18,2,53846.09,38,1,4,2.7,7,0,1.9,Yes,0.338,5.13
+64,CUS00065,59,Female,Anambra,Mobile,Bank transfer,Beauty,108465.22,13,8343.48,63,0,0,2.0,4,0,3.0,Yes,0.5,6.0
+65,CUS00066,21,Female,Kaduna,Mobile,Debit card,Electronics,145163.61,7,20737.66,99,0,3,1.4,4,2,0.0,Yes,0.35,0.0
+66,CUS00067,46,Female,Rivers,Mobile,USSD,Electronics,81298.58,8,10162.32,9,0,4,3.4,3,1,4.0,No,1.133,13.6
+67,CUS00068,35,Female,Rivers,Mobile,Debit card,Beauty,98790.29,6,16465.05,32,1,1,3.1,4,1,2.2,Yes,0.62,6.82
+68,CUS00069,43,Male,Abuja,Pc,Debit card,Fashion,65301.82,11,5936.53,33,0,1,2.8,3,1,0.0,No,0.933,0.0
+69,CUS00070,61,Female,Abuja,Laptop,Debit card,Fashion,93189.54,11,8471.78,85,0,0,4.8,6,3,2.2,Yes,0.8,10.56
+70,CUS00071,51,Female,Borno,Mobile,Bank transfer,Electronics,80315.08,9,8923.9,43,0,6,2.6,3,0,3.6,Yes,0.867,9.36
+71,CUS00072,27,Male,Rivers,Mobile,Bank transfer,Books,80576.06,10,8057.61,17,1,1,4.9,5,0,2.9,No,0.817,14.21
+72,CUS00073,53,Male,Oyo,Desktop,Bank transfer,Fashion,3831.23,6,638.54,61,0,3,5.0,3,0,3.6,No,1.667,18.0
+73,CUS00074,31,Female,Anambra,Mobile,USSD,Electronics,99916.19,10,9991.62,32,1,4,5.0,4,0,0.0,Yes,1.0,0.0
+74,CUS00075,48,Male,Kaduna,Desktop,Bank transfer,Electronics,101405.27,6,16900.88,8,0,6,3.6,2,1,1.4,No,1.8,5.04
+75,CUS00076,32,Female,Rivers,Mobile,Bank transfer,Home,54392.19,8,6799.02,18,0,2,3.1,6,0,0.6,No,0.517,1.86
+76,CUS00077,25,Female,Imo,Mobile,Cash,Fashion,27202.58,6,4533.76,97,0,1,1.0,2,0,4.6,Yes,0.5,4.6
+77,CUS00078,31,Male,Enugu,Mobile,Cash,Food,151414.56,5,30282.91,56,0,3,2.1,3,1,3.0,No,0.7,6.3
+78,CUS00079,40,Female,Anambra,Mobile,Debit card,Beauty,107115.05,4,26778.76,48,0,5,4.3,3,0,6.3,No,1.433,27.09
+79,CUS00080,57,Female,Abuja,Mobile,Bank transfer,Home,74691.35,10,7469.14,37,0,2,5.0,3,1,1.3,No,1.667,6.5
+80,CUS00081,38,Male,Borno,Desktop,Bank transfer,Electronics,33833.52,14,2416.68,53,3,1,4.4,5,2,0.9,No,0.55,3.96
+81,CUS00082,33,Male,Enugu,Mobile,POS,Food,48018.33,13,3693.72,53,0,0,3.8,3,1,1.8,No,1.267,6.84
+82,CUS00083,62,Female,Abuja,Mobile,Debit card,Food,143616.57,1,143616.57,53,3,0,3.5,6,1,4.1,Yes,0.389,14.35
+83,CUS00084,35,Male,Abuja,Phone,Cash,Beauty,217428.06,14,15530.58,48,0,4,5.0,2,2,1.5,No,2.5,7.5
+84,CUS00085,64,Female,Anambra,Mobile,POS,Auto,60223.58,6,10037.26,71,1,2,5.0,4,1,2.2,No,1.0,11.0
+85,CUS00086,41,Male,Abuja,Mobile,Bank transfer,Fashion,107936.02,11,9812.37,45,0,1,2.9,2,0,2.1,No,1.45,6.09
+86,CUS00087,43,Female,Imo,Mobile,Debit card,Auto,48352.08,3,16117.36,15,0,1,1.5,4,0,2.1,No,0.375,3.15
+87,CUS00088,42,Female,Bauchi,Phone,Bank transfer,Home,152537.94,8,19067.24,26,0,3,1.4,3,0,1.0,No,0.467,1.4
+88,CUS00089,62,Female,Borno,Mobile,Bank transfer,Beauty,145876.02,9,16208.45,1,0,2,4.8,3,0,1.8,No,1.6,8.64
+89,CUS00090,58,Male,Lagos,Mobile,Bank transfer,Home,64004.17,1,64004.17,105,0,2,3.5,6,1,1.7,Yes,0.583,5.95
+90,CUS00091,46,Male,Bauchi,Tablet,Debit card,Food,56709.84,11,5155.44,70,0,5,3.7,2,1,2.0,No,1.85,7.4
+91,CUS00092,32,Male,Lagos,Mobile,Debit card,Electronics,500.0,14,35.71,20,3,6,1.7,5,1,3.4,Yes,0.212,5.78
+92,CUS00093,62,Female,Delta,Tablet,Debit card,Home,18328.87,7,2618.41,36,0,0,2.7,2,0,4.6,No,1.35,12.42
+93,CUS00094,18,Female,Delta,Desktop,Debit card,Beauty,24723.86,14,1765.99,25,1,3,3.2,4,2,0.7,Yes,0.64,2.24
+94,CUS00095,42,Male,Abuja,Mobile,Debit card,Sports,91083.57,7,13011.94,91,1,1,3.7,1,0,1.4,Yes,1.85,5.18
+95,CUS00096,24,Female,Kaduna,Tablet,USSD,Fashion,70319.48,12,5859.96,2,0,2,3.1,2,0,0.8,No,1.55,2.48
+96,CUS00097,26,Female,Kaduna,Pc,Bank transfer,Fashion,24459.9,1,24459.9,48,2,3,2.5,3,0,2.3,No,0.5,5.75
+97,CUS00098,41,Male,Lagos,Mobile,Debit card,Beauty,72347.62,20,3617.38,41,0,2,2.7,4,3,1.2,Yes,0.675,3.24
+98,CUS00099,18,Female,Enugu,Mobile,Bank transfer,Electronics,107740.17,15,7182.68,69,0,3,4.7,4,0,2.4,No,1.175,11.28
+99,CUS00100,61,Female,Anambra,Mobile,Bank transfer,Food,108752.77,6,18125.46,41,1,4,3.7,7,0,3.7,Yes,0.462,13.69
+100,CUS00101,25,Male,Abuja,Mobile,Debit card,Books,500.0,1,500.0,1,0,3,4.1,4,0,0.0,No,1.025,0.0
+101,CUS00102,41,Female,Anambra,Pc,Debit card,Books,79228.14,9,8803.13,37,0,1,2.6,3,0,2.7,No,0.867,7.02
+102,CUS00103,28,Male,Bauchi,Tablet,Debit card,Food,22749.67,1,22749.67,15,2,1,1.0,7,0,1.3,Yes,0.111,1.3
+103,CUS00104,34,Female,Kaduna,Tablet,Debit card,Electronics,125577.79,10,12557.78,47,0,0,5.0,4,1,2.7,No,1.25,13.5
+104,CUS00105,25,Female,Oyo,Tablet,USSD,Fashion,120286.59,10,12028.66,88,2,1,2.6,2,2,2.1,Yes,0.65,5.46
+105,CUS00106,52,Female,Borno,Mobile,Bank transfer,Food,44588.77,3,14862.92,1,2,6,3.8,4,1,3.8,No,0.633,14.44
+106,CUS00107,52,Female,Bauchi,Tablet,Bank transfer,Electronics,50527.97,13,3886.77,20,0,1,5.0,3,0,3.4,No,1.667,17.0
+107,CUS00108,50,Female,Borno,Desktop,POS,Electronics,64242.98,12,5353.58,28,2,0,4.2,1,0,2.9,No,1.4,12.18
+108,CUS00109,22,Female,Imo,Mobile,Bank transfer,Home,500.0,12,41.67,33,0,3,5.0,5,0,3.2,No,1.0,16.0
+109,CUS00110,59,Male,Bauchi,Laptop,Debit card,Electronics,100118.57,8,12514.82,67,4,2,4.1,6,1,0.9,Yes,0.41,3.69
+110,CUS00111,56,Male,Lagos,Tablet,Bank transfer,Electronics,72722.0,1,72722.0,39,0,2,2.9,7,2,1.1,No,0.414,3.19
+111,CUS00112,58,Female,Imo,Desktop,Bank transfer,Electronics,128657.88,12,10721.49,57,2,5,3.8,4,0,2.1,Yes,0.633,7.98
+112,CUS00113,89,Female,Kano,Mobile,POS,Fashion,35571.59,6,5928.6,26,2,4,5.0,3,0,0.8,No,1.0,4.0
+113,CUS00114,24,Male,Bauchi,Mobile,Debit card,Fashion,57139.47,1,57139.47,51,1,1,5.0,6,2,4.2,No,0.714,21.0
+114,CUS00115,26,Male,Imo,Mobile,Bank transfer,Fashion,17206.36,14,1229.03,68,0,2,2.9,5,1,1.5,Yes,0.58,4.35
+115,CUS00116,25,Male,Abuja,Mobile,Bank transfer,Food,39806.92,18,2211.5,23,0,1,3.8,7,1,2.8,No,0.543,10.64
+116,CUS00117,29,Male,Borno,Desktop,Bank transfer,Fashion,31810.81,7,4544.4,68,0,4,2.1,3,2,5.1,Yes,0.7,10.71
+117,CUS00118,51,Female,Rivers,Mobile,Debit card,Fashion,129818.82,18,7212.16,46,1,2,4.3,3,1,0.9,No,1.075,3.87
+118,CUS00119,43,Female,Rivers,Mobile,Cash,Electronics,53578.22,8,6697.28,76,1,0,5.0,2,0,2.1,No,1.667,10.5
+119,CUS00120,89,Male,Abuja,Pc,Bank transfer,Fashion,90587.91,6,15097.98,38,1,2,3.5,5,1,3.6,Yes,0.583,12.6
+120,CUS00121,41,Female,Kano,Mobile,Bank transfer,Beauty,67865.65,4,16966.41,56,0,0,2.8,1,0,3.4,No,2.8,9.52
+121,CUS00122,54,Male,Kano,Mobile,Debit card,Food,27874.06,16,1742.13,43,0,7,3.9,5,1,1.5,No,0.78,5.85
+122,CUS00123,52,Male,Lagos,Mobile,Bank transfer,Fashion,77426.48,4,19356.62,42,0,1,5.0,5,0,1.2,No,1.0,6.0
+123,CUS00124,61,Female,Kaduna,Mobile,Cash,Home,111959.65,11,10178.15,52,1,2,3.6,5,0,1.7,No,0.6,6.12
+124,CUS00125,57,Male,Anambra,Mobile,Debit card,Electronics,30650.83,5,6130.17,61,1,3,3.7,4,0,4.2,No,0.74,15.54
+125,CUS00126,39,Male,Borno,Desktop,Bank transfer,Books,121410.08,5,24282.02,7,0,2,3.3,7,0,1.6,Yes,0.471,5.28
+126,CUS00127,44,Female,Kano,Mobile,Bank transfer,Fashion,46762.56,13,3597.12,88,1,2,4.5,5,0,2.1,No,0.75,9.45
+127,CUS00128,52,Female,Oyo,Mobile,Debit card,Home,63265.72,6,10544.29,1,0,3,4.2,2,2,1.4,No,2.1,5.88
+128,CUS00129,18,Female,Lagos,Mobile,Bank transfer,Fashion,108880.74,5,21776.15,24,1,6,2.5,2,0,3.1,Yes,0.833,7.75
+129,CUS00130,52,Male,Delta,Desktop,Debit card,Electronics,55145.37,13,4241.95,42,1,4,2.5,2,1,2.2,Yes,0.833,5.5
+130,CUS00131,54,Male,Enugu,Mobile,USSD,Fashion,86690.87,15,5779.39,57,1,5,3.2,5,0,0.5,Yes,0.533,1.6
+131,CUS00132,64,Female,Delta,Mobile,Debit card,Auto,70838.91,11,6439.9,92,0,0,4.2,1,0,0.5,No,4.2,2.1
+132,CUS00133,31,Female,Lagos,Desktop,Debit card,Fashion,90821.56,4,22705.39,1,3,3,3.6,6,1,0.0,Yes,0.4,0.0
+133,CUS00134,20,Male,Borno,Mobile,Debit card,Electronics,500.0,5,100.0,29,1,3,2.9,6,0,0.8,No,0.414,2.32
+134,CUS00135,18,Female,Imo,Mobile,USSD,Electronics,2664.32,8,333.04,1,0,3,3.8,2,0,3.2,No,1.9,12.16
+135,CUS00136,22,Male,Bauchi,Mobile,Bank transfer,Electronics,112718.52,9,12524.28,45,1,5,3.2,3,1,4.0,Yes,0.8,12.8
+136,CUS00137,43,Male,Anambra,Mobile,POS,Sports,131673.16,3,43891.05,53,2,2,4.4,4,2,3.0,No,0.733,13.2
+137,CUS00138,31,Male,Enugu,Desktop,Debit card,Fashion,44028.1,11,4002.55,92,0,2,3.8,5,0,2.8,No,0.76,10.64
+138,CUS00139,56,Female,Delta,Mobile,Debit card,Beauty,74018.72,8,9252.34,48,2,4,3.2,7,0,1.8,Yes,0.356,5.76
+139,CUS00140,44,Male,Enugu,Desktop,POS,Beauty,98262.37,1,98262.37,76,1,0,3.7,1,1,3.2,No,1.85,11.84
+140,CUS00141,26,Male,Oyo,Tablet,USSD,Home,116194.79,3,38731.6,62,0,2,4.8,3,1,2.4,No,1.6,11.52
+141,CUS00142,32,Male,Oyo,Mobile,Bank transfer,Fashion,500.0,5,100.0,31,1,2,2.9,3,1,4.7,Yes,0.725,13.63
+142,CUS00143,32,Female,Imo,Tablet,Debit card,Electronics,217428.06,7,31061.15,2,0,1,3.9,1,0,1.9,No,3.9,7.41
+143,CUS00144,43,Male,Oyo,Mobile,Bank transfer,Fashion,70033.93,17,4119.64,53,1,5,3.4,3,0,4.0,Yes,0.85,13.6
+144,CUS00145,59,Female,Lagos,Desktop,Debit card,Home,116641.31,9,12960.15,1,2,0,3.9,4,0,3.3,No,0.65,12.87
+145,CUS00146,30,Female,Anambra,Mobile,Bank transfer,Electronics,197429.37,3,65809.79,83,1,2,2.8,3,1,3.1,Yes,0.7,8.68
+146,CUS00147,49,Male,Borno,Pc,Bank transfer,Food,74739.74,9,8304.42,40,3,3,3.6,1,1,0.0,No,0.9,0.0
+147,CUS00148,56,Female,Imo,Desktop,USSD,Food,217428.06,6,36238.01,80,0,5,4.6,10,1,3.4,No,0.46,15.64
+148,CUS00149,49,Male,Lagos,Mobile,Bank transfer,Beauty,103102.06,9,11455.78,30,1,2,2.6,4,1,1.8,Yes,0.52,4.68
+149,CUS00150,21,Male,Rivers,Mobile,Bank transfer,Electronics,144444.81,10,14444.48,53,2,4,2.2,4,0,1.3,Yes,0.367,2.86
+150,CUS00151,47,Female,Bauchi,Mobile,Bank transfer,Books,89860.64,14,6418.62,51,0,4,2.2,1,2,0.0,Yes,2.2,0.0
+151,CUS00152,54,Female,Bauchi,Mobile,USSD,Fashion,44200.82,7,6314.4,43,2,3,2.3,4,2,2.0,Yes,0.383,4.6
+152,CUS00153,40,Male,Oyo,Tablet,Debit card,Home,128109.73,16,8006.86,32,0,0,4.1,3,0,2.1,No,1.367,8.61
+153,CUS00154,56,Male,Rivers,Mobile,POS,Auto,114859.55,12,9571.63,56,0,0,2.1,1,1,0.0,Yes,2.1,0.0
+154,CUS00155,62,Male,Kano,Desktop,Bank transfer,Beauty,38826.36,4,9706.59,17,0,3,3.2,1,0,0.0,No,3.2,0.0
+155,CUS00156,32,Female,Kano,Mobile,Debit card,Home,102164.15,19,5377.06,8,1,1,4.1,5,1,2.7,No,0.683,11.07
+156,CUS00157,60,Female,Borno,Laptop,USSD,Home,129876.95,9,14430.77,82,1,4,3.9,7,2,3.3,Yes,0.488,12.87
+157,CUS00158,46,Male,Oyo,Desktop,Debit card,Food,138185.05,3,46061.68,66,2,4,3.1,4,3,2.3,Yes,0.517,7.13
+158,CUS00159,53,Male,Delta,Pc,USSD,Auto,82009.8,16,5125.61,46,2,2,3.7,6,1,3.7,Yes,0.462,13.69
+159,CUS00160,30,Male,Lagos,Mobile,Bank transfer,Fashion,68886.42,18,3827.02,94,0,0,3.6,3,1,1.9,No,1.2,6.84
+160,CUS00161,49,Female,Oyo,Mobile,Bank transfer,Beauty,140227.32,7,20032.47,36,0,4,3.3,3,0,1.9,No,1.1,6.27
+161,CUS00162,24,Female,Kaduna,Desktop,Bank transfer,Home,30542.78,5,6108.56,84,1,0,3.3,6,1,0.6,Yes,0.471,1.98
+162,CUS00163,39,Male,Enugu,Desktop,Bank transfer,Food,88686.96,7,12669.57,50,2,1,5.0,7,2,0.0,No,0.556,0.0
+163,CUS00164,45,Male,Borno,Mobile,USSD,Fashion,23348.8,11,2122.62,14,2,1,4.3,6,0,4.8,No,0.538,20.64
+164,CUS00165,19,Female,Bauchi,Pc,Debit card,Food,132941.93,14,9495.85,100,2,2,5.0,1,0,3.7,No,1.667,18.5
+165,CUS00166,43,Male,Kano,Phone,USSD,Auto,73387.95,10,7338.8,74,0,5,3.0,3,0,0.0,No,1.0,0.0
+166,CUS00167,62,Female,Abuja,Desktop,Bank transfer,Fashion,142086.25,8,17760.78,41,0,2,3.4,4,1,2.2,No,0.85,7.48
+167,CUS00168,23,Male,Kano,Mobile,USSD,Beauty,107113.57,15,7140.9,66,0,2,2.2,3,1,1.8,Yes,0.733,3.96
+168,CUS00169,45,Male,Borno,Mobile,Bank transfer,Home,29955.09,6,4992.52,32,0,0,2.7,4,0,1.6,No,0.675,4.32
+169,CUS00170,45,Male,Bauchi,Laptop,Bank transfer,Fashion,149108.25,13,11469.87,69,0,4,5.0,5,2,1.4,Yes,1.0,7.0
+170,CUS00171,61,Male,Borno,Mobile,Bank transfer,Electronics,80315.08,6,13385.85,1,1,1,3.0,6,0,2.6,Yes,0.429,7.8
+171,CUS00172,61,Male,Enugu,Desktop,Bank transfer,Fashion,124702.89,10,12470.29,14,0,3,5.0,7,0,3.2,No,0.714,16.0
+172,CUS00173,37,Female,Bauchi,Desktop,Bank transfer,Home,50728.55,7,7246.94,74,0,2,2.3,3,0,2.6,No,0.767,5.98
+173,CUS00174,47,Female,Abuja,Mobile,Debit card,Auto,71229.37,7,10175.62,37,0,4,2.4,1,0,1.8,No,2.4,4.32
+174,CUS00175,28,Male,Oyo,Laptop,USSD,Electronics,91544.22,6,15257.37,51,2,2,3.2,4,1,1.8,Yes,0.533,5.76
+175,CUS00176,45,Female,Rivers,Desktop,Bank transfer,Food,53333.03,14,3809.5,4,1,2,5.0,7,2,3.4,Yes,0.625,17.0
+176,CUS00177,42,Male,Abuja,Desktop,USSD,Electronics,161155.6,4,40288.9,100,0,3,4.4,3,0,2.7,No,1.467,11.88
+177,CUS00178,56,Female,Bauchi,Mobile,USSD,Food,91494.69,4,22873.67,80,0,7,4.0,5,1,2.1,No,0.8,8.4
+178,CUS00179,50,Female,Bauchi,Desktop,Bank transfer,Fashion,500.0,18,27.78,38,0,4,3.1,5,1,1.9,No,0.62,5.89
+179,CUS00180,18,Male,Kaduna,Mobile,Debit card,Fashion,100271.01,12,8355.92,32,2,2,3.4,4,1,2.5,Yes,0.567,8.5
+180,CUS00181,44,Female,Imo,Desktop,Bank transfer,Books,69332.92,1,69332.92,75,1,3,3.2,4,1,1.3,Yes,0.64,4.16
+181,CUS00182,30,Female,Kaduna,Mobile,Cash,Electronics,81628.3,5,16325.66,104,0,1,2.6,2,1,3.2,Yes,1.3,8.32
+182,CUS00183,58,Male,Anambra,Pc,Bank transfer,Auto,68412.13,1,68412.13,73,2,1,2.6,1,1,0.4,Yes,0.867,1.04
+183,CUS00184,20,Female,Kaduna,Mobile,USSD,Food,121317.09,3,40439.03,110,2,1,4.5,1,1,1.4,No,1.5,6.3
+184,CUS00185,56,Male,Lagos,Desktop,USSD,Beauty,135385.95,1,135385.95,17,1,1,1.7,3,0,2.9,No,0.425,4.93
+185,CUS00186,23,Female,Rivers,Pc,Debit card,Electronics,97737.39,7,13962.48,20,3,4,5.0,6,1,0.3,Yes,0.556,1.5
+186,CUS00187,25,Female,Enugu,Mobile,Debit card,Fashion,69731.0,2,34865.5,9,1,0,3.2,4,0,0.0,Yes,0.64,0.0
+187,CUS00188,44,Female,Abuja,Mobile,POS,Electronics,83139.83,8,10392.48,58,0,5,2.7,2,0,2.1,No,1.35,5.67
+188,CUS00189,26,Male,Bauchi,Mobile,Bank transfer,Food,85881.98,1,85881.98,50,1,4,4.2,2,0,0.0,No,1.4,0.0
+189,CUS00190,54,Female,Anambra,Mobile,Debit card,Auto,48890.65,8,6111.33,40,1,3,5.0,5,1,0.1,No,0.833,0.5
+190,CUS00191,50,Female,Anambra,Mobile,Bank transfer,Food,111051.79,5,22210.36,69,0,3,4.6,6,1,3.1,No,0.767,14.26
+191,CUS00192,59,Female,Enugu,Laptop,USSD,Fashion,105701.9,15,7046.79,81,1,1,4.0,6,1,1.7,Yes,0.571,6.8
+192,CUS00193,61,Female,Rivers,Desktop,USSD,Fashion,154319.86,15,10287.99,1,0,3,4.6,5,0,3.9,No,0.92,17.94
+193,CUS00194,41,Female,Abuja,Mobile,USSD,Fashion,141490.74,11,12862.79,27,2,5,1.8,1,0,0.2,Yes,0.6,0.36
+194,CUS00195,32,Female,Kano,Mobile,Debit card,Fashion,54144.63,6,9024.1,69,0,1,3.0,3,1,1.9,Yes,1.0,5.7
+195,CUS00196,49,Female,Borno,Tablet,Debit card,Beauty,121913.43,17,7171.38,30,0,0,2.6,7,1,2.6,Yes,0.371,6.76
+196,CUS00197,49,Female,Kaduna,Desktop,Bank transfer,Food,42207.1,1,42207.1,21,0,4,4.7,6,1,0.2,No,0.783,0.94
+197,CUS00198,41,Male,Borno,Tablet,Bank transfer,Electronics,116316.94,1,116316.94,75,1,3,3.1,1,0,3.5,No,1.55,10.85
+198,CUS00199,58,Female,Borno,Tablet,Debit card,Fashion,61752.36,7,8821.77,6,1,0,4.3,3,0,2.8,No,1.075,12.04
+199,CUS00200,29,Male,Oyo,Mobile,USSD,Fashion,38953.6,19,2050.19,35,0,1,4.0,4,1,0.0,No,1.0,0.0
+200,CUS00201,56,Female,Borno,Pc,Bank transfer,Fashion,97602.04,6,16267.01,54,0,1,2.6,2,0,1.9,Yes,1.3,4.94
+201,CUS00202,19,Male,Anambra,Mobile,USSD,Electronics,500.0,7,71.43,27,0,1,2.9,1,1,2.6,No,2.9,7.54
+202,CUS00203,20,Male,Kaduna,Tablet,Debit card,Beauty,6206.1,1,6206.1,68,0,2,4.8,4,0,1.1,No,1.2,5.28
+203,CUS00204,54,Male,Kaduna,Mobile,POS,Electronics,77012.87,12,6417.74,27,2,2,2.7,2,0,0.0,No,0.675,0.0
+204,CUS00205,34,Female,Lagos,Mobile,USSD,Food,88709.88,12,7392.49,87,0,1,3.6,2,0,2.4,No,1.8,8.64
+205,CUS00206,19,Male,Rivers,Mobile,Debit card,Fashion,68380.66,11,6216.42,41,2,1,2.7,3,0,5.3,Yes,0.54,14.31
+206,CUS00207,19,Female,Oyo,Desktop,Debit card,Home,13925.37,4,3481.34,65,3,2,3.2,3,1,1.4,Yes,0.533,4.48
+207,CUS00208,45,Female,Borno,Desktop,Bank transfer,Electronics,48194.87,4,12048.72,67,0,3,3.5,3,0,4.4,No,1.167,15.4
+208,CUS00209,40,Male,Imo,Desktop,Cash,Food,102604.42,1,102604.42,26,0,2,2.7,2,1,0.9,No,1.35,2.43
+209,CUS00210,54,Female,Kano,Phone,Cash,Food,111180.18,8,13897.52,1,4,5,2.5,4,1,2.3,Yes,0.312,5.75
+210,CUS00211,49,Male,Bauchi,Phone,USSD,Fashion,84269.96,2,42134.98,55,3,4,3.8,1,0,3.2,No,0.95,12.16
+211,CUS00212,50,Male,Lagos,Pc,Debit card,Beauty,137057.52,2,68528.76,47,0,0,2.7,4,0,2.0,Yes,0.675,5.4
+212,CUS00213,18,Male,Kaduna,Desktop,Bank transfer,Fashion,102882.87,5,20576.57,61,1,4,2.7,1,3,1.6,Yes,1.35,4.32
+213,CUS00214,36,Female,Kaduna,Desktop,Debit card,Electronics,51364.5,5,10272.9,38,1,4,2.6,3,0,3.1,No,0.65,8.06
+214,CUS00215,19,Male,Delta,Mobile,Bank transfer,Electronics,72377.41,5,14475.48,32,2,2,3.4,5,1,4.8,Yes,0.486,16.32
+215,CUS00216,61,Female,Oyo,Mobile,Cash,Food,21871.02,10,2187.1,105,0,0,4.4,1,2,2.5,No,4.4,11.0
+216,CUS00217,43,Female,Borno,Mobile,Debit card,Auto,80133.75,8,10016.72,1,0,3,5.0,5,1,1.2,No,1.0,6.0
+217,CUS00218,49,Female,Oyo,Desktop,Debit card,Beauty,135044.53,6,22507.42,67,0,2,2.8,4,0,1.7,Yes,0.7,4.76
+218,CUS00219,23,Male,Delta,Desktop,USSD,Food,115838.05,8,14479.76,27,0,0,5.0,1,0,5.8,No,5.0,29.0
+219,CUS00220,49,Male,Oyo,Mobile,Bank transfer,Fashion,148090.42,3,49363.47,34,2,0,2.5,3,0,2.2,No,0.5,5.5
+220,CUS00221,21,Female,Kaduna,Mobile,Bank transfer,Fashion,71370.16,8,8921.27,35,0,2,3.5,1,1,1.1,No,3.5,3.85
+221,CUS00222,28,Female,Anambra,Desktop,Bank transfer,Fashion,145574.49,8,18196.81,20,0,2,2.8,3,1,0.3,No,0.933,0.84
+222,CUS00223,34,Male,Abuja,Mobile,Debit card,Fashion,76301.31,1,76301.31,62,0,2,2.6,3,0,0.0,No,0.867,0.0
+223,CUS00224,55,Female,Kaduna,Mobile,Debit card,Fashion,151221.33,12,12601.78,86,2,2,2.8,1,0,2.5,Yes,0.933,7.0
+224,CUS00225,41,Male,Lagos,Tablet,Debit card,Books,84016.45,3,28005.48,59,2,0,3.4,7,0,3.0,Yes,0.378,10.2
+225,CUS00226,22,Male,Rivers,Mobile,Debit card,Fashion,116825.41,8,14603.18,48,0,2,4.1,4,1,1.4,No,1.025,5.74
+226,CUS00227,51,Male,Delta,Mobile,Bank transfer,Food,151380.06,13,11644.62,15,0,4,4.2,2,1,2.0,No,2.1,8.4
+227,CUS00228,23,Female,Kano,Desktop,Cash,Fashion,76295.76,12,6357.98,60,1,2,2.6,6,1,0.2,Yes,0.371,0.52
+228,CUS00229,39,Female,Bauchi,Mobile,Bank transfer,Electronics,94827.5,8,11853.44,109,3,0,2.5,1,0,2.2,Yes,0.625,5.5
+229,CUS00230,28,Female,Kano,Mobile,Bank transfer,Fashion,142998.85,6,23833.14,33,1,2,2.6,1,0,2.7,No,1.3,7.02
+230,CUS00231,33,Male,Kaduna,Mobile,Bank transfer,Electronics,79014.86,12,6584.57,33,0,0,3.4,1,1,1.2,No,3.4,4.08
+231,CUS00232,50,Female,Lagos,Pc,Debit card,Electronics,25559.85,11,2323.62,28,0,3,3.3,7,1,4.5,Yes,0.471,14.85
+232,CUS00233,26,Female,Borno,Desktop,Bank transfer,Sports,181435.32,4,45358.83,30,0,3,2.5,4,1,0.7,No,0.625,1.75
+233,CUS00234,23,Male,Kaduna,Desktop,Debit card,Fashion,63860.6,4,15965.15,1,1,0,3.8,5,0,2.4,No,0.633,9.12
+234,CUS00235,33,Female,Rivers,Desktop,Cash,Food,92144.02,1,92144.02,57,0,4,5.0,4,0,3.3,No,1.25,16.5
+235,CUS00236,46,Female,Anambra,Pc,Bank transfer,Fashion,137020.3,8,17127.54,19,1,0,3.0,5,1,1.9,Yes,0.5,5.7
+236,CUS00237,20,Male,Imo,Mobile,Bank transfer,Home,57617.77,7,8231.11,1,0,6,3.1,4,1,1.7,No,0.775,5.27
+237,CUS00238,37,Male,Bauchi,Mobile,Bank transfer,Food,39645.94,13,3049.69,67,0,2,4.1,4,1,0.0,No,1.025,0.0
+238,CUS00239,53,Female,Rivers,Desktop,Bank transfer,Fashion,96418.18,9,10713.13,12,0,0,2.9,4,0,4.0,Yes,0.725,11.6
+239,CUS00240,36,Male,Delta,Phone,Bank transfer,Electronics,4311.56,14,307.97,34,3,0,4.2,2,1,1.7,No,0.84,7.14
+240,CUS00241,43,Male,Borno,Desktop,Bank transfer,Food,72044.23,4,18011.06,88,2,3,2.8,3,2,2.8,Yes,0.56,7.84
+241,CUS00242,20,Female,Delta,Desktop,Cash,Food,96026.74,13,7386.67,2,3,2,5.0,4,0,3.0,No,0.714,15.0
+242,CUS00243,36,Female,Kaduna,Mobile,Bank transfer,Beauty,72852.16,5,14570.43,1,1,2,3.8,4,0,1.1,No,0.76,4.18
+243,CUS00244,37,Female,Lagos,Mobile,POS,Fashion,15544.71,11,1413.16,53,0,6,2.9,1,2,1.7,Yes,2.9,4.93
+244,CUS00245,49,Male,Rivers,Mobile,Cash,Home,156738.01,1,156738.01,79,2,1,2.9,1,0,4.0,Yes,0.967,11.6
+245,CUS00246,24,Male,Enugu,Mobile,USSD,Electronics,89659.22,9,9962.14,1,0,3,3.0,6,1,0.3,No,0.5,0.9
+246,CUS00247,58,Female,Borno,Mobile,Bank transfer,Fashion,149401.85,1,149401.85,57,1,5,4.9,3,0,5.2,No,1.225,25.48
+247,CUS00248,50,Female,Lagos,Tablet,Debit card,Auto,73298.37,6,12216.39,62,0,3,2.2,5,0,0.9,Yes,0.44,1.98
+248,CUS00249,57,Male,Anambra,Mobile,Debit card,Electronics,45399.46,10,4539.95,1,0,0,2.8,1,2,0.2,No,2.8,0.56
+249,CUS00250,56,Male,Borno,Laptop,USSD,Beauty,97113.14,5,19422.63,68,3,4,2.9,1,0,2.2,Yes,0.725,6.38
+250,CUS00251,35,Female,Delta,Mobile,Bank transfer,Auto,75289.58,2,37644.79,71,1,0,3.5,2,0,5.3,No,1.167,18.55
+251,CUS00252,57,Female,Borno,Mobile,Bank transfer,Fashion,32000.73,12,2666.73,35,1,5,3.2,3,1,0.0,No,0.8,0.0
+252,CUS00253,18,Female,Imo,Mobile,Debit card,Food,151140.29,7,21591.47,82,0,1,2.0,2,1,1.8,No,1.0,3.6
+253,CUS00254,28,Female,Kaduna,Desktop,Debit card,Fashion,56997.84,5,11399.57,79,1,8,3.1,6,0,2.7,Yes,0.443,8.37
+254,CUS00255,45,Male,Oyo,Mobile,Debit card,Food,2188.01,8,273.5,48,0,5,3.4,4,1,2.1,No,0.85,7.14
+255,CUS00256,42,Male,Delta,Desktop,Debit card,Fashion,144767.47,21,6893.69,31,1,1,2.9,7,0,2.6,Yes,0.362,7.54
+256,CUS00257,40,Male,Imo,Mobile,Cash,Food,62306.59,13,4792.81,15,0,3,4.2,4,1,0.9,No,1.05,3.78
+257,CUS00258,48,Male,Bauchi,Mobile,Bank transfer,Fashion,57647.92,13,4434.46,43,1,4,4.4,1,1,1.1,No,2.2,4.84
+258,CUS00259,47,Female,Abuja,Mobile,USSD,Electronics,5557.56,10,555.76,62,1,4,3.4,6,0,1.8,No,0.486,6.12
+259,CUS00260,59,Male,Oyo,Mobile,Debit card,Beauty,163342.37,8,20417.8,35,0,3,3.7,2,1,0.3,No,1.85,1.11
+260,CUS00261,52,Female,Kaduna,Mobile,Debit card,Electronics,26973.37,1,26973.37,1,1,5,1.3,4,1,1.9,Yes,0.26,2.47
+261,CUS00262,24,Female,Enugu,Pc,Debit card,Electronics,87630.23,4,21907.56,83,0,2,3.1,2,0,1.4,No,1.55,4.34
+262,CUS00263,33,Male,Oyo,Mobile,Debit card,Fashion,126067.91,5,25213.58,50,0,2,4.5,8,0,1.3,No,0.562,5.85
+263,CUS00264,43,Male,Bauchi,Laptop,POS,Food,103977.26,1,103977.26,33,1,2,3.1,6,3,2.5,Yes,0.443,7.75
+264,CUS00265,89,Female,Lagos,Mobile,USSD,Food,82315.56,2,41157.78,70,2,4,2.8,2,2,0.0,Yes,0.7,0.0
+265,CUS00266,18,Male,Enugu,Laptop,Debit card,Books,8425.04,1,8425.04,90,0,3,5.0,3,0,1.7,No,1.667,8.5
+266,CUS00267,29,Male,Delta,Desktop,Cash,Home,48562.38,7,6937.48,1,1,3,5.0,4,0,5.5,No,1.0,27.5
+267,CUS00268,22,Male,Enugu,Desktop,USSD,Food,93451.02,12,7787.58,58,0,4,4.0,5,0,0.4,No,0.8,1.6
+268,CUS00269,54,Female,Rivers,Mobile,POS,Fashion,49577.17,13,3813.63,2,0,0,4.6,4,2,3.9,No,1.15,17.94
+269,CUS00270,49,Male,Bauchi,Mobile,POS,Fashion,94151.18,10,9415.12,59,0,3,1.3,1,0,2.1,No,1.3,2.73
+270,CUS00271,26,Male,Borno,Desktop,Bank transfer,Books,115678.45,3,38559.48,48,0,3,2.7,2,0,1.1,No,1.35,2.97
+271,CUS00272,58,Male,Imo,Tablet,Bank transfer,Electronics,128312.63,1,128312.63,64,2,6,3.0,3,0,0.0,Yes,0.6,0.0
+272,CUS00273,52,Female,Oyo,Mobile,POS,Electronics,29821.93,1,29821.93,30,1,0,3.3,6,0,2.2,No,0.471,7.26
+273,CUS00274,36,Female,Rivers,Mobile,Bank transfer,Books,183849.07,1,183849.07,1,0,6,3.0,4,0,4.2,No,0.75,12.6
+274,CUS00275,33,Female,Enugu,Mobile,Debit card,Food,119536.57,3,39845.52,31,0,3,1.0,2,1,1.4,Yes,0.5,1.4
+275,CUS00276,20,Male,Rivers,Mobile,Cash,Electronics,84922.86,7,12131.84,57,1,3,3.9,5,0,1.9,No,0.65,7.41
+276,CUS00277,37,Male,Kano,Desktop,Bank transfer,Fashion,134029.15,2,67014.58,75,1,6,4.0,3,0,3.5,No,1.0,14.0
+277,CUS00278,41,Male,Bauchi,Mobile,Bank transfer,Fashion,191443.35,9,21271.48,9,0,4,5.0,5,1,2.5,No,1.0,12.5
+278,CUS00279,50,Male,Imo,Mobile,Debit card,Electronics,20257.6,6,3376.27,75,2,3,2.7,9,1,0.0,Yes,0.245,0.0
+279,CUS00280,41,Female,Anambra,Tablet,Debit card,Home,74863.18,8,9357.9,25,2,3,2.6,3,1,2.1,Yes,0.52,5.46
+280,CUS00281,28,Female,Lagos,Desktop,Bank transfer,Food,500.0,13,38.46,55,1,2,1.0,5,0,4.3,Yes,0.167,4.3
+281,CUS00282,25,Male,Enugu,Desktop,Bank transfer,Beauty,93669.32,2,46834.66,29,1,2,3.2,2,0,1.9,No,1.067,6.08
+282,CUS00283,53,Male,Bauchi,Mobile,USSD,Food,101442.74,10,10144.27,50,1,1,4.4,3,0,0.0,No,1.1,0.0
+283,CUS00284,55,Male,Anambra,Desktop,Bank transfer,Food,83237.7,7,11891.1,71,1,2,2.9,4,1,2.6,Yes,0.58,7.54
+284,CUS00285,57,Female,Anambra,Mobile,Debit card,Fashion,55545.99,6,9257.66,8,2,0,5.0,3,0,1.7,No,1.0,8.5
+285,CUS00286,37,Male,Kaduna,Mobile,Debit card,Auto,500.0,12,41.67,24,2,3,3.2,8,1,0.0,Yes,0.32,0.0
+286,CUS00287,52,Female,Imo,Tablet,Debit card,Fashion,101809.02,12,8484.09,50,0,2,3.6,3,1,0.0,Yes,1.2,0.0
+287,CUS00288,42,Female,Rivers,Tablet,Bank transfer,Fashion,150494.55,3,50164.85,117,0,2,2.1,5,1,3.5,Yes,0.42,7.35
+288,CUS00289,52,Male,Anambra,Mobile,USSD,Home,58404.17,7,8343.45,19,0,3,3.8,1,0,0.9,No,3.8,3.42
+289,CUS00290,42,Male,Kano,Mobile,Debit card,Food,104802.7,9,11644.74,106,2,0,1.5,4,0,0.6,Yes,0.25,0.9
+290,CUS00291,46,Male,Bauchi,Desktop,Bank transfer,Fashion,14433.51,6,2405.58,105,0,6,4.2,6,0,1.9,Yes,0.7,7.98
+291,CUS00292,35,Male,Abuja,Mobile,Bank transfer,Electronics,105574.59,10,10557.46,42,1,2,4.2,2,2,1.0,Yes,1.4,4.2
+292,CUS00293,63,Male,Abuja,Mobile,Debit card,Beauty,67297.8,9,7477.53,36,1,2,4.9,1,1,2.2,No,2.45,10.78
+293,CUS00294,35,Female,Borno,Desktop,Bank transfer,Fashion,50691.19,17,2981.83,24,2,1,2.5,4,0,1.7,Yes,0.417,4.25
+294,CUS00295,19,Female,Borno,Tablet,Debit card,Fashion,50783.64,1,50783.64,42,1,3,3.7,4,1,0.2,Yes,0.74,0.74
+295,CUS00296,52,Male,Enugu,Desktop,Bank transfer,Fashion,67287.48,7,9612.5,2,0,5,4.1,5,1,1.2,No,0.82,4.92
+296,CUS00297,33,Male,Borno,Pc,Bank transfer,Food,102209.5,3,34069.83,42,0,5,3.9,8,1,2.7,No,0.488,10.53
+297,CUS00298,58,Male,Delta,Mobile,Debit card,Sports,25952.66,11,2359.33,89,0,4,2.6,3,0,2.1,Yes,0.867,5.46
+298,CUS00299,53,Female,Rivers,Pc,POS,Fashion,67129.81,1,67129.81,26,0,4,1.1,2,1,1.9,Yes,0.55,2.09
+299,CUS00300,50,Male,Delta,Desktop,Debit card,Food,83133.77,9,9237.09,37,0,2,3.8,1,2,4.9,No,3.8,18.62
+300,CUS00301,21,Female,Anambra,Mobile,Bank transfer,Fashion,35543.23,4,8885.81,1,0,0,3.3,4,2,3.1,No,0.825,10.23
+301,CUS00302,50,Male,Bauchi,Mobile,Bank transfer,Fashion,165849.93,4,41462.48,56,3,2,2.9,4,3,3.3,Yes,0.414,9.57
+302,CUS00303,31,Male,Enugu,Tablet,Debit card,Electronics,46592.7,1,46592.7,52,0,2,4.3,2,0,1.8,No,2.15,7.74
+303,CUS00304,38,Female,Oyo,Desktop,Bank transfer,Electronics,54875.34,5,10975.07,46,3,5,3.5,5,2,2.3,Yes,0.438,8.05
+304,CUS00305,37,Male,Anambra,Mobile,Bank transfer,Fashion,40976.14,13,3152.01,38,2,3,2.2,4,0,1.4,Yes,0.367,3.08
+305,CUS00306,25,Male,Rivers,Desktop,Debit card,Fashion,165931.6,7,23704.51,36,2,6,1.6,4,1,3.2,Yes,0.267,5.12
+306,CUS00307,43,Male,Abuja,Laptop,Debit card,Food,109880.74,11,9989.16,60,0,5,2.4,2,1,1.8,No,1.2,4.32
+307,CUS00308,20,Female,Imo,Mobile,Bank transfer,Food,42853.36,16,2678.34,44,1,2,5.0,3,0,2.3,No,1.25,11.5
+308,CUS00309,34,Female,Borno,Desktop,USSD,Beauty,134780.42,9,14975.6,54,0,0,4.2,1,1,2.2,No,4.2,9.24
+309,CUS00310,50,Female,Kaduna,Mobile,Bank transfer,Electronics,94031.44,5,18806.29,51,2,5,3.7,4,1,2.0,No,0.617,7.4
+310,CUS00311,29,Female,Bauchi,Desktop,USSD,Fashion,96576.4,10,9657.64,78,0,5,3.3,4,0,6.4,No,0.825,21.12
+311,CUS00312,43,Female,Lagos,Mobile,Bank transfer,Fashion,69498.53,5,13899.71,65,0,0,3.3,4,2,1.0,Yes,0.825,3.3
+312,CUS00313,39,Female,Imo,Mobile,Bank transfer,Fashion,51276.28,5,10255.26,50,0,6,4.7,5,0,1.0,No,0.94,4.7
+313,CUS00314,63,Male,Delta,Pc,Debit card,Books,100199.47,1,100199.47,90,0,3,3.0,4,2,3.0,Yes,0.75,9.0
+314,CUS00315,47,Female,Borno,Desktop,Debit card,Electronics,60471.07,12,5039.26,57,0,3,4.1,3,2,1.1,Yes,1.367,4.51
+315,CUS00316,55,Male,Enugu,Mobile,USSD,Fashion,166754.0,6,27792.33,84,2,6,3.2,4,0,1.6,Yes,0.533,5.12
+316,CUS00317,55,Female,Delta,Desktop,Bank transfer,Sports,27881.9,8,3485.24,63,0,5,5.0,1,0,0.4,No,5.0,2.0
+317,CUS00318,62,Female,Bauchi,Mobile,Bank transfer,Fashion,154127.05,2,77063.52,1,0,4,4.2,2,0,2.7,No,2.1,11.34
+318,CUS00319,25,Male,Delta,Desktop,Bank transfer,Fashion,79990.65,10,7999.06,84,1,3,4.7,4,0,2.8,No,0.94,13.16
+319,CUS00320,44,Female,Bauchi,Mobile,Cash,Sports,98458.86,4,24614.72,49,3,4,2.9,2,0,1.5,Yes,0.58,4.35
+320,CUS00321,44,Female,Delta,Mobile,Bank transfer,Electronics,122492.1,7,17498.87,43,2,2,4.6,5,2,3.1,Yes,0.657,14.26
+321,CUS00322,51,Female,Imo,Mobile,Bank transfer,Fashion,56638.78,12,4719.9,53,0,2,3.2,2,2,0.0,No,1.6,0.0
+322,CUS00323,38,Female,Kano,Desktop,Debit card,Food,123891.18,11,11262.83,34,0,1,3.6,4,1,0.9,No,0.9,3.24
+323,CUS00324,89,Male,Imo,Mobile,Bank transfer,Electronics,500.0,7,71.43,51,4,2,5.0,4,0,1.7,Yes,0.625,8.5
+324,CUS00325,50,Male,Oyo,Mobile,Debit card,Beauty,52600.47,1,52600.47,27,4,2,2.5,6,0,0.2,Yes,0.25,0.5
+325,CUS00326,43,Female,Anambra,Desktop,Bank transfer,Fashion,43417.17,21,2067.48,83,1,1,3.7,5,0,0.0,Yes,0.617,0.0
+326,CUS00327,64,Female,Anambra,Desktop,Bank transfer,Food,28592.23,16,1787.01,41,0,3,3.9,5,0,1.5,No,0.78,5.85
+327,CUS00328,50,Male,Rivers,Desktop,USSD,Fashion,75327.03,11,6847.91,33,2,2,4.0,1,0,3.0,No,1.333,12.0
+328,CUS00329,22,Male,Borno,Desktop,Debit card,Beauty,102358.75,4,25589.69,17,0,4,3.0,6,3,3.9,Yes,0.5,11.7
+329,CUS00330,36,Male,Imo,Mobile,Bank transfer,Food,116619.7,7,16659.96,53,0,0,5.0,7,1,1.2,No,0.714,6.0
+330,CUS00331,21,Female,Imo,Desktop,USSD,Beauty,95839.45,5,19167.89,50,2,2,2.2,3,0,3.1,Yes,0.44,6.82
+331,CUS00332,52,Female,Lagos,Mobile,Bank transfer,Electronics,55043.79,14,3931.7,56,1,3,5.0,4,1,3.0,No,1.0,15.0
+332,CUS00333,34,Male,Lagos,Mobile,USSD,Sports,101605.74,9,11289.53,14,0,2,4.7,2,0,3.8,No,2.35,17.86
+333,CUS00334,61,Male,Rivers,Mobile,Debit card,Fashion,90592.86,4,22648.22,1,0,2,5.0,1,0,1.5,No,5.0,7.5
+334,CUS00335,45,Male,Kaduna,Mobile,Cash,Electronics,127122.53,5,25424.51,63,1,0,1.9,2,0,0.0,Yes,0.633,0.0
+335,CUS00336,47,Male,Anambra,Desktop,Debit card,Food,119962.15,13,9227.86,89,1,3,2.6,2,2,2.1,Yes,0.867,5.46
+336,CUS00337,46,Male,Kaduna,Mobile,Debit card,Fashion,86371.44,16,5398.22,14,1,4,5.0,3,0,0.5,No,1.25,2.5
+337,CUS00338,63,Female,Borno,Phone,Bank transfer,Fashion,44623.61,15,2974.91,92,2,3,1.6,2,0,0.9,Yes,0.4,1.44
+338,CUS00339,23,Female,Bauchi,Mobile,Bank transfer,Books,55617.24,11,5056.11,53,0,5,1.9,2,2,1.5,Yes,0.95,2.85
+339,CUS00340,52,Male,Bauchi,Mobile,Bank transfer,Fashion,60259.48,6,10043.25,44,1,3,3.0,3,0,1.5,No,0.75,4.5
+340,CUS00341,58,Male,Abuja,Mobile,Bank transfer,Books,70813.01,1,70813.01,33,0,3,3.7,2,0,2.2,No,1.85,8.14
+341,CUS00342,54,Male,Delta,Desktop,Debit card,Fashion,97062.27,9,10784.7,3,0,3,5.0,5,0,3.1,No,1.0,15.5
+342,CUS00343,41,Female,Lagos,Laptop,Bank transfer,Fashion,117182.85,7,16740.41,74,2,4,3.3,5,1,1.4,Yes,0.471,4.62
+343,CUS00344,46,Female,Abuja,Mobile,Debit card,Food,82699.66,8,10337.46,21,0,0,2.9,8,1,2.6,Yes,0.362,7.54
+344,CUS00345,43,Female,Oyo,Phone,Bank transfer,Food,85725.62,8,10715.7,21,0,1,3.8,6,2,2.0,No,0.633,7.6
+345,CUS00346,48,Male,Rivers,Pc,Debit card,Fashion,91448.78,1,91448.78,74,0,6,4.0,4,0,3.4,No,1.0,13.6
+346,CUS00347,52,Female,Rivers,Pc,USSD,Fashion,61784.26,10,6178.43,1,2,0,3.9,2,1,1.7,No,0.975,6.63
+347,CUS00348,50,Female,Bauchi,Mobile,Bank transfer,Food,43357.35,11,3941.58,1,1,2,3.3,4,0,1.9,Yes,0.66,6.27
+348,CUS00349,38,Female,Imo,Mobile,Debit card,Electronics,6005.29,11,545.94,44,2,5,1.5,4,0,1.4,Yes,0.25,2.1
+349,CUS00350,49,Female,Anambra,Desktop,Bank transfer,Beauty,53718.28,12,4476.52,53,0,2,2.6,2,1,1.8,No,1.3,4.68
+350,CUS00351,40,Female,Kaduna,Tablet,Debit card,Food,106291.55,11,9662.87,59,0,2,4.9,5,1,0.8,No,0.98,3.92
+351,CUS00352,50,Female,Lagos,Mobile,Debit card,Fashion,53368.99,5,10673.8,35,0,3,3.7,1,1,0.7,No,3.7,2.59
+352,CUS00353,20,Male,Abuja,Desktop,Bank transfer,Fashion,74298.68,7,10614.1,120,0,2,3.2,3,1,3.2,Yes,1.067,10.24
+353,CUS00354,35,Female,Kaduna,Desktop,Debit card,Food,105989.41,8,13248.68,38,0,3,4.6,5,0,0.4,No,0.92,1.84
+354,CUS00355,42,Male,Imo,Desktop,USSD,Food,108431.03,8,13553.88,38,0,1,2.4,3,0,1.5,Yes,0.8,3.6
+355,CUS00356,59,Male,Abuja,Mobile,USSD,Electronics,36421.02,12,3035.08,21,2,5,5.0,3,1,3.5,Yes,1.0,17.5
+356,CUS00357,48,Male,Delta,Mobile,Debit card,Auto,129867.67,11,11806.15,48,0,5,3.6,3,2,1.5,No,1.2,5.4
+357,CUS00358,20,Male,Oyo,Mobile,Cash,Electronics,135730.75,8,16966.34,63,3,2,3.1,2,2,3.2,Yes,0.62,9.92
+358,CUS00359,57,Female,Oyo,Mobile,USSD,Fashion,34156.76,19,1797.72,81,1,0,3.6,6,1,1.1,No,0.514,3.96
+359,CUS00360,63,Male,Kaduna,Mobile,Bank transfer,Food,47927.34,8,5990.92,1,0,1,3.3,1,1,0.4,No,3.3,1.32
+360,CUS00361,41,Female,Kaduna,Desktop,Bank transfer,Fashion,138599.08,1,138599.08,37,2,2,2.1,4,1,0.0,Yes,0.35,0.0
+361,CUS00362,49,Female,Kaduna,Desktop,Bank transfer,Fashion,78391.59,14,5599.4,58,0,4,3.7,4,1,4.0,Yes,0.925,14.8
+362,CUS00363,64,Female,Abuja,Pc,Bank transfer,Electronics,500.0,5,100.0,62,0,0,2.2,4,0,0.3,Yes,0.55,0.66
+363,CUS00364,39,Male,Delta,Mobile,Bank transfer,Sports,22014.33,3,7338.11,45,0,1,3.7,4,1,3.1,Yes,0.925,11.47
+364,CUS00365,40,Female,Kano,Mobile,Bank transfer,Fashion,73778.37,6,12296.39,61,3,4,4.9,2,0,0.5,No,0.98,2.45
+365,CUS00366,19,Female,Kaduna,Tablet,POS,Electronics,32663.08,8,4082.88,20,0,4,3.2,6,0,4.0,No,0.533,12.8
+366,CUS00367,44,Female,Anambra,Mobile,Bank transfer,Fashion,66395.93,8,8299.49,91,1,1,2.3,1,2,5.3,Yes,1.15,12.19
+367,CUS00368,59,Female,Borno,Desktop,USSD,Auto,86457.83,1,86457.83,74,0,0,3.4,3,1,0.0,No,1.133,0.0
+368,CUS00369,19,Male,Imo,Mobile,Bank transfer,Electronics,150801.46,2,75400.73,4,1,9,2.7,1,0,0.4,No,1.35,1.08
+369,CUS00370,43,Female,Borno,Desktop,Debit card,Food,71929.57,9,7992.17,12,3,4,4.1,1,0,3.2,No,1.025,13.12
+370,CUS00371,34,Female,Lagos,Mobile,Bank transfer,Food,133264.38,11,12114.94,13,2,2,3.4,7,0,2.1,Yes,0.378,7.14
+371,CUS00372,57,Female,Lagos,Mobile,Bank transfer,Food,149294.21,11,13572.2,65,0,4,5.0,5,0,3.2,No,1.0,16.0
+372,CUS00373,50,Male,Imo,Mobile,USSD,Fashion,149543.94,4,37385.98,6,2,2,4.7,4,2,1.1,No,0.783,5.17
+373,CUS00374,26,Female,Abuja,Laptop,Debit card,Fashion,97813.96,3,32604.65,35,1,4,3.3,2,1,5.0,No,1.1,16.5
+374,CUS00375,60,Male,Imo,Laptop,Debit card,Fashion,500.0,5,100.0,58,1,3,4.2,5,3,2.2,Yes,0.7,9.24
+375,CUS00376,56,Female,Borno,Desktop,USSD,Fashion,105737.12,9,11748.57,43,2,3,3.1,2,2,0.2,Yes,0.775,0.62
+376,CUS00377,43,Male,Borno,Desktop,USSD,Food,132177.99,15,8811.87,52,2,2,3.5,5,1,1.6,Yes,0.5,5.6
+377,CUS00378,59,Male,Kaduna,Desktop,Bank transfer,Fashion,81351.98,1,81351.98,13,0,0,3.1,2,1,0.2,No,1.55,0.62
+378,CUS00379,43,Female,Bauchi,Desktop,Cash,Sports,163506.27,6,27251.04,62,1,6,4.3,2,0,4.4,No,1.433,18.92
+379,CUS00380,52,Male,Rivers,Mobile,Bank transfer,Food,123692.51,1,123692.51,26,0,1,3.5,5,0,1.0,No,0.7,3.5
+380,CUS00381,42,Male,Kano,Pc,Bank transfer,Fashion,110572.3,1,110572.3,35,0,0,4.3,5,2,2.7,Yes,0.86,11.61
+381,CUS00382,41,Male,Borno,Desktop,Bank transfer,Electronics,133887.13,12,11157.26,52,0,2,4.4,5,2,1.3,No,0.88,5.72
+382,CUS00383,30,Female,Anambra,Mobile,Bank transfer,Fashion,100001.64,10,10000.16,48,0,1,4.4,1,0,1.1,No,4.4,4.84
+383,CUS00384,24,Male,Imo,Mobile,USSD,Beauty,500.0,10,50.0,45,0,2,4.1,3,1,0.0,No,1.367,0.0
+384,CUS00385,89,Female,Delta,Laptop,USSD,Sports,62538.75,12,5211.56,22,2,4,2.4,4,2,2.9,Yes,0.4,6.96
+385,CUS00386,62,Male,Bauchi,Mobile,Debit card,Electronics,138872.56,5,27774.51,36,0,4,5.0,2,1,3.9,No,2.5,19.5
+386,CUS00387,37,Male,Borno,Mobile,Bank transfer,Food,48658.39,5,9731.68,45,5,4,5.0,6,0,0.6,Yes,0.455,3.0
+387,CUS00388,18,Male,Imo,Desktop,Bank transfer,Sports,74943.74,18,4163.54,3,3,2,3.3,1,1,0.0,No,0.825,0.0
+388,CUS00389,25,Female,Oyo,Desktop,Bank transfer,Home,37982.37,6,6330.4,31,0,3,3.1,2,0,3.2,No,1.55,9.92
+389,CUS00390,63,Female,Bauchi,Mobile,USSD,Sports,165276.52,11,15025.14,56,1,3,4.1,2,2,0.0,Yes,1.367,0.0
+390,CUS00391,33,Female,Abuja,Pc,Bank transfer,Fashion,160667.16,8,20083.4,6,1,0,4.1,1,2,3.8,No,2.05,15.58
+391,CUS00392,31,Female,Kano,Mobile,Debit card,Electronics,45225.9,1,45225.9,79,0,4,3.3,1,2,0.6,No,3.3,1.98
+392,CUS00393,29,Female,Enugu,Mobile,Bank transfer,Food,91628.41,1,91628.41,83,1,0,2.2,5,0,0.3,Yes,0.367,0.66
+393,CUS00394,40,Female,Enugu,Mobile,Debit card,Electronics,54377.77,5,10875.55,7,0,7,3.8,4,0,2.4,No,0.95,9.12
+394,CUS00395,32,Female,Kaduna,Desktop,Debit card,Food,112672.51,13,8667.12,85,0,2,4.1,7,2,0.4,Yes,0.586,1.64
+395,CUS00396,45,Male,Kaduna,Mobile,USSD,Food,107935.74,11,9812.34,40,1,2,4.2,7,0,0.9,No,0.525,3.78
+396,CUS00397,51,Male,Abuja,Desktop,Bank transfer,Fashion,121526.75,12,10127.23,57,0,1,3.8,4,0,2.5,No,0.95,9.5
+397,CUS00398,19,Male,Delta,Mobile,Bank transfer,Books,99936.33,3,33312.11,30,1,1,3.2,4,1,0.0,Yes,0.64,0.0
+398,CUS00399,49,Male,Kaduna,Mobile,Debit card,Food,217093.28,16,13568.33,72,1,7,4.5,4,0,4.5,No,0.9,20.25
+399,CUS00400,40,Female,Rivers,Desktop,Bank transfer,Fashion,38743.43,3,12914.48,57,1,4,3.6,1,2,2.1,Yes,1.8,7.56
+400,CUS00401,39,Male,Borno,Tablet,Cash,Auto,8022.85,9,891.43,20,0,0,3.0,1,1,0.1,No,3.0,0.3
+401,CUS00402,42,Male,Kano,Phone,Bank transfer,Electronics,67310.94,7,9615.85,10,2,6,3.3,4,1,0.5,Yes,0.55,1.65
+402,CUS00403,39,Female,Imo,Mobile,Debit card,Home,14440.53,7,2062.93,1,0,5,1.8,5,0,3.5,No,0.36,6.3
+403,CUS00404,39,Male,Abuja,Desktop,Bank transfer,Electronics,17839.2,14,1274.23,50,1,2,3.3,4,2,2.9,Yes,0.66,9.57
+404,CUS00405,59,Female,Lagos,Mobile,Debit card,Beauty,39940.84,4,9985.21,62,2,3,4.2,2,1,4.1,No,1.05,17.22
+405,CUS00406,23,Female,Imo,Mobile,Bank transfer,Books,43501.5,1,43501.5,64,0,2,3.8,5,0,1.0,No,0.76,3.8
+406,CUS00407,32,Female,Imo,Desktop,Bank transfer,Electronics,42042.19,8,5255.27,41,1,6,5.0,6,0,2.4,No,0.714,12.0
+407,CUS00408,60,Male,Oyo,Mobile,Bank transfer,Fashion,108319.85,6,18053.31,10,0,1,3.2,5,0,2.6,No,0.64,8.32
+408,CUS00409,54,Female,Abuja,Mobile,Debit card,Electronics,62221.49,21,2962.93,24,2,3,4.0,5,0,3.0,No,0.571,12.0
+409,CUS00410,50,Female,Abuja,Mobile,Debit card,Electronics,76921.84,11,6992.89,79,0,2,4.3,2,2,3.7,No,2.15,15.91
+410,CUS00411,25,Male,Enugu,Mobile,Bank transfer,Books,125240.47,5,25048.09,30,2,0,5.0,6,0,0.9,No,0.625,4.5
+411,CUS00412,61,Female,Anambra,Mobile,Bank transfer,Food,50515.49,2,25257.74,49,0,7,3.6,4,0,1.8,No,0.9,6.48
+412,CUS00413,61,Male,Delta,Laptop,Bank transfer,Food,73095.43,1,73095.43,12,0,0,2.5,5,1,1.1,No,0.5,2.75
+413,CUS00414,22,Female,Anambra,Mobile,USSD,Electronics,101459.2,8,12682.4,55,2,3,4.3,4,1,1.9,Yes,0.717,8.17
+414,CUS00415,56,Female,Rivers,Mobile,USSD,Auto,500.0,8,62.5,31,0,0,5.0,3,0,3.0,No,1.667,15.0
+415,CUS00416,21,Male,Lagos,Phone,Bank transfer,Food,500.0,15,33.33,76,1,2,3.2,2,1,0.0,No,1.067,0.0
+416,CUS00417,23,Female,Imo,Pc,USSD,Beauty,100575.28,13,7736.56,68,0,3,4.3,3,0,3.7,No,1.433,15.91
+417,CUS00418,62,Male,Enugu,Desktop,USSD,Home,107140.64,9,11904.52,30,1,1,4.7,5,0,0.3,No,0.783,1.41
+418,CUS00419,49,Male,Lagos,Mobile,Bank transfer,Home,177889.91,6,29648.32,41,0,4,4.5,3,1,1.5,Yes,1.5,6.75
+419,CUS00420,47,Male,Imo,Mobile,Bank transfer,Food,92114.27,9,10234.92,28,0,2,3.6,5,1,3.9,Yes,0.72,14.04
+420,CUS00421,64,Male,Rivers,Mobile,Bank transfer,Beauty,121888.29,5,24377.66,2,0,5,5.0,5,0,2.5,No,1.0,12.5
+421,CUS00422,52,Male,Anambra,Desktop,Bank transfer,Food,76203.73,16,4762.73,19,0,5,3.4,3,2,2.5,Yes,1.133,8.5
+422,CUS00423,57,Female,Abuja,Mobile,Debit card,Food,98375.22,7,14053.6,50,0,1,4.0,6,1,0.2,No,0.667,0.8
+423,CUS00424,33,Female,Kaduna,Mobile,Bank transfer,Sports,160026.56,7,22860.94,54,0,3,4.4,3,1,0.4,No,1.467,1.76
+424,CUS00425,30,Male,Kaduna,Mobile,Bank transfer,Fashion,500.0,1,500.0,49,1,3,3.8,7,2,3.4,Yes,0.475,12.92
+425,CUS00426,59,Male,Borno,Mobile,Debit card,Electronics,103612.73,7,14801.82,35,3,4,3.1,4,2,1.1,Yes,0.443,3.41
+426,CUS00427,47,Female,Bauchi,Desktop,Debit card,Auto,181101.4,12,15091.78,72,1,3,4.1,3,2,1.3,No,1.025,5.33
+427,CUS00428,36,Female,Oyo,Mobile,Bank transfer,Food,97691.54,2,48845.77,46,2,3,4.4,2,1,3.4,No,1.1,14.96
+428,CUS00429,34,Female,Delta,Mobile,Bank transfer,Home,159275.78,4,39818.94,66,2,2,3.9,3,1,0.4,No,0.78,1.56
+429,CUS00430,36,Female,Rivers,Desktop,USSD,Food,56685.45,11,5153.22,1,2,3,2.7,3,1,2.4,Yes,0.54,6.48
+430,CUS00431,45,Male,Oyo,Laptop,Bank transfer,Fashion,83557.86,1,83557.86,1,3,5,3.3,1,0,2.1,No,0.825,6.93
+431,CUS00432,43,Female,Borno,Mobile,Bank transfer,Sports,86508.61,13,6654.51,53,0,4,4.4,3,1,2.0,No,1.467,8.8
+432,CUS00433,54,Male,Borno,Mobile,Debit card,Electronics,500.0,5,100.0,2,0,4,2.1,2,1,1.2,Yes,1.05,2.52
+433,CUS00434,43,Male,Delta,Desktop,USSD,Food,32432.0,6,5405.33,38,2,4,1.4,5,1,1.1,Yes,0.2,1.54
+434,CUS00435,40,Female,Imo,Mobile,Debit card,Beauty,35640.62,2,17820.31,35,2,2,5.0,6,0,0.4,No,0.625,2.0
+435,CUS00436,43,Male,Oyo,Pc,USSD,Food,121992.97,9,13554.77,92,2,3,4.0,1,0,2.7,No,1.333,10.8
+436,CUS00437,29,Male,Anambra,Desktop,Bank transfer,Home,124246.89,20,6212.34,56,3,0,4.1,7,1,1.0,Yes,0.41,4.1
+437,CUS00438,18,Male,Delta,Mobile,Bank transfer,Auto,99581.64,11,9052.88,49,1,5,2.4,3,0,3.5,No,0.6,8.4
+438,CUS00439,18,Female,Borno,Mobile,Debit card,Books,122084.63,3,40694.88,70,1,0,4.2,3,2,1.7,No,1.05,7.14
+439,CUS00440,64,Female,Anambra,Desktop,Bank transfer,Electronics,77613.28,13,5970.25,56,0,2,3.8,5,0,0.4,No,0.76,1.52
+440,CUS00441,51,Female,Abuja,Mobile,Bank transfer,Fashion,139086.93,6,23181.16,31,4,5,1.9,3,1,1.6,Yes,0.271,3.04
+441,CUS00442,49,Female,Enugu,Mobile,Bank transfer,Beauty,85395.48,14,6099.68,77,0,0,4.9,3,1,1.4,No,1.633,6.86
+442,CUS00443,42,Female,Anambra,Mobile,USSD,Fashion,87603.88,12,7300.32,11,0,3,3.7,3,1,3.5,No,1.233,12.95
+443,CUS00444,57,Male,Imo,Mobile,USSD,Auto,73048.33,1,73048.33,54,0,1,3.1,2,0,1.4,No,1.55,4.34
+444,CUS00445,62,Female,Kaduna,Mobile,Bank transfer,Auto,115800.27,2,57900.14,1,0,2,3.1,5,1,1.6,Yes,0.62,4.96
+445,CUS00446,18,Male,Oyo,Pc,USSD,Fashion,66046.05,12,5503.84,51,0,4,1.5,3,1,4.1,Yes,0.5,6.15
+446,CUS00447,33,Male,Imo,Mobile,Bank transfer,Food,217428.06,8,27178.51,50,0,3,4.1,1,0,2.8,No,4.1,11.48
+447,CUS00448,56,Female,Bauchi,Tablet,Bank transfer,Food,34053.29,2,17026.64,95,0,0,3.8,5,0,4.5,No,0.76,17.1
+448,CUS00449,22,Female,Kano,Desktop,Bank transfer,Fashion,217428.06,4,54357.02,1,0,1,3.3,1,0,3.9,No,3.3,12.87
+449,CUS00450,39,Female,Borno,Phone,POS,Electronics,115934.2,1,115934.2,26,3,4,4.8,1,0,0.7,No,1.2,3.36
+450,CUS00451,46,Female,Delta,Mobile,Bank transfer,Food,81015.51,7,11573.64,69,2,3,2.1,6,2,3.5,Yes,0.262,7.35
+451,CUS00452,20,Female,Rivers,Mobile,Debit card,Fashion,64574.89,19,3398.68,55,2,6,2.9,1,2,4.3,Yes,0.967,12.47
+452,CUS00453,29,Male,Bauchi,Tablet,Debit card,Fashion,125052.6,12,10421.05,50,2,6,2.6,1,1,4.3,Yes,0.867,11.18
+453,CUS00454,89,Male,Kaduna,Mobile,Bank transfer,Electronics,57673.24,18,3204.07,16,3,2,3.2,5,0,3.5,Yes,0.4,11.2
+454,CUS00455,89,Female,Anambra,Tablet,Cash,Fashion,75990.94,12,6332.58,27,0,8,3.6,3,0,3.5,No,1.2,12.6
+455,CUS00456,54,Male,Enugu,Desktop,Bank transfer,Beauty,147965.26,13,11381.94,82,0,3,3.9,3,1,1.5,No,1.3,5.85
+456,CUS00457,39,Male,Imo,Desktop,Debit card,Home,154261.41,17,9074.2,43,0,1,3.2,4,2,0.7,Yes,0.8,2.24
+457,CUS00458,46,Female,Abuja,Desktop,POS,Fashion,155757.92,9,17306.44,56,0,1,2.6,4,0,1.5,Yes,0.65,3.9
+458,CUS00459,31,Female,Kano,Mobile,Debit card,Fashion,72304.34,7,10329.19,41,0,0,5.0,2,0,0.0,No,2.5,0.0
+459,CUS00460,45,Female,Lagos,Mobile,Bank transfer,Sports,140381.63,13,10798.59,9,0,6,5.0,6,2,4.0,No,0.833,20.0
+460,CUS00461,22,Female,Bauchi,Mobile,Debit card,Electronics,42297.12,15,2819.81,73,1,6,3.6,1,0,1.6,No,1.8,5.76
+461,CUS00462,89,Male,Enugu,Mobile,Debit card,Fashion,44189.37,5,8837.87,60,1,0,2.7,4,0,3.9,Yes,0.54,10.53
+462,CUS00463,47,Male,Lagos,Tablet,Bank transfer,Auto,500.0,4,125.0,114,0,2,5.0,5,0,0.2,No,1.0,1.0
+463,CUS00464,63,Male,Kano,Mobile,Cash,Books,160279.07,8,20034.88,14,0,3,2.1,2,0,3.6,No,1.05,7.56
+464,CUS00465,89,Male,Rivers,Mobile,Bank transfer,Food,46120.91,12,3843.41,69,0,1,3.2,1,2,1.3,No,3.2,4.16
+465,CUS00466,29,Male,Rivers,Mobile,Bank transfer,Food,79306.03,11,7209.64,5,0,0,2.8,6,1,0.1,Yes,0.467,0.28
+466,CUS00467,33,Female,Oyo,Desktop,Debit card,Beauty,44035.4,1,44035.4,49,0,2,2.3,2,0,4.4,No,1.15,10.12
+467,CUS00468,43,Female,Kano,Desktop,Bank transfer,Electronics,116282.44,17,6840.14,74,0,2,3.2,2,2,3.7,No,1.6,11.84
+468,CUS00469,43,Male,Kano,Desktop,Bank transfer,Fashion,68096.49,4,17024.12,1,0,2,2.6,5,2,2.3,No,0.52,5.98
+469,CUS00470,38,Female,Lagos,Mobile,Cash,Fashion,26283.24,6,4380.54,38,0,3,3.5,4,0,2.1,No,0.875,7.35
+470,CUS00471,56,Female,Enugu,Mobile,Debit card,Fashion,104874.82,3,34958.27,28,0,5,3.5,1,0,2.7,No,3.5,9.45
+471,CUS00472,53,Female,Imo,Desktop,POS,Auto,20482.15,21,975.34,23,0,2,2.9,7,3,2.3,Yes,0.414,6.67
+472,CUS00473,50,Female,Delta,Desktop,Bank transfer,Fashion,47316.74,9,5257.42,56,0,3,3.1,2,1,0.8,No,1.55,2.48
+473,CUS00474,47,Female,Lagos,Mobile,USSD,Fashion,500.0,3,166.67,78,0,4,3.3,3,1,1.4,No,1.1,4.62
+474,CUS00475,54,Male,Abuja,Mobile,Debit card,Beauty,20921.88,12,1743.49,41,0,4,4.3,4,2,4.9,No,1.075,21.07
+475,CUS00476,40,Male,Rivers,Mobile,Debit card,Electronics,93033.81,11,8457.62,51,0,1,3.4,5,1,6.0,No,0.68,20.4
+476,CUS00477,27,Female,Rivers,Phone,Bank transfer,Fashion,500.0,7,71.43,48,2,3,4.3,4,0,4.3,No,0.717,18.49
+477,CUS00478,22,Male,Oyo,Phone,Debit card,Electronics,18348.44,12,1529.04,45,1,4,4.1,1,1,2.7,No,2.05,11.07
+478,CUS00479,53,Female,Imo,Mobile,Debit card,Food,84893.4,3,28297.8,12,0,0,4.1,5,2,1.5,No,0.82,6.15
+479,CUS00480,51,Male,Abuja,Mobile,Bank transfer,Home,60537.69,5,12107.54,78,0,5,4.9,5,0,0.8,No,0.98,3.92
+480,CUS00481,48,Female,Rivers,Desktop,Bank transfer,Beauty,174641.65,1,174641.65,53,1,5,2.4,3,0,0.9,No,0.6,2.16
+481,CUS00482,27,Male,Lagos,Mobile,Debit card,Auto,167525.34,1,167525.34,56,2,1,3.0,5,2,2.1,Yes,0.429,6.3
+482,CUS00483,36,Male,Abuja,Desktop,Bank transfer,Food,45943.49,17,2702.56,20,1,3,5.0,5,0,5.2,No,0.833,26.0
+483,CUS00484,49,Male,Lagos,Mobile,Cash,Books,110071.19,16,6879.45,31,3,4,3.2,1,2,4.7,Yes,0.8,15.04
+484,CUS00485,18,Male,Delta,Desktop,Debit card,Sports,118717.72,8,14839.72,39,1,1,1.0,7,2,3.1,Yes,0.125,3.1
+485,CUS00486,22,Male,Delta,Mobile,Debit card,Food,58113.45,16,3632.09,1,2,3,3.3,1,0,0.6,No,1.1,1.98
+486,CUS00487,62,Female,Rivers,Desktop,Bank transfer,Electronics,17700.63,21,842.89,1,1,3,3.6,1,0,3.3,No,1.8,11.88
+487,CUS00488,21,Male,Rivers,Mobile,Debit card,Fashion,84446.57,6,14074.43,26,2,0,1.0,3,0,1.6,Yes,0.2,1.6
+488,CUS00489,33,Male,Enugu,Desktop,USSD,Food,77221.94,8,9652.74,60,0,3,4.8,7,3,0.0,Yes,0.686,0.0
+489,CUS00490,41,Female,Delta,Desktop,Bank transfer,Fashion,65390.6,7,9341.51,25,0,0,2.8,3,2,2.4,No,0.933,6.72
+490,CUS00491,33,Female,Imo,Desktop,Debit card,Home,104904.26,6,17484.04,14,1,4,3.8,3,1,0.7,No,0.95,2.66
+491,CUS00492,19,Male,Imo,Mobile,Debit card,Fashion,51217.17,13,3939.78,20,1,1,3.3,6,0,0.8,No,0.471,2.64
+492,CUS00493,45,Female,Bauchi,Mobile,Bank transfer,Beauty,33160.11,8,4145.01,31,1,2,2.2,3,1,1.6,Yes,0.55,3.52
+493,CUS00494,49,Female,Bauchi,Laptop,Debit card,Beauty,217428.06,11,19766.19,34,2,5,2.4,1,1,1.3,Yes,0.8,3.12
+494,CUS00495,44,Female,Oyo,Mobile,Bank transfer,Food,102368.65,13,7874.51,109,0,3,2.6,3,0,1.9,Yes,0.867,4.94
+495,CUS00496,37,Male,Delta,Laptop,Debit card,Auto,32050.98,9,3561.22,76,0,0,4.6,6,1,1.9,No,0.767,8.74
+496,CUS00497,41,Female,Lagos,Laptop,Debit card,Fashion,217428.06,3,72476.02,75,1,0,3.4,4,2,0.0,Yes,0.68,0.0
+497,CUS00498,29,Male,Lagos,Mobile,Bank transfer,Food,5328.35,1,5328.35,80,0,1,3.0,7,0,4.3,Yes,0.429,12.9
+498,CUS00499,52,Female,Kaduna,Desktop,Debit card,Beauty,58984.89,8,7373.11,15,6,3,2.6,5,1,0.5,Yes,0.236,1.3
+499,CUS00500,50,Female,Abuja,Mobile,Cash,Home,73389.62,7,10484.23,8,1,3,4.7,2,2,0.6,No,1.567,2.82
+500,CUS00501,50,Male,Anambra,Phone,Debit card,Books,56369.93,8,7046.24,11,0,1,5.0,4,0,1.5,No,1.25,7.5
+501,CUS00502,60,Female,Bauchi,Mobile,Bank transfer,Food,59572.28,7,8510.33,85,0,0,4.7,2,2,1.8,No,2.35,8.46
+502,CUS00503,54,Female,Rivers,Tablet,Bank transfer,Sports,169198.35,20,8459.92,28,0,3,4.0,2,0,4.2,No,2.0,16.8
+503,CUS00504,29,Male,Oyo,Mobile,Bank transfer,Fashion,46710.22,1,46710.22,7,1,2,3.8,12,1,2.4,Yes,0.292,9.12
+504,CUS00505,20,Male,Imo,Desktop,Bank transfer,Fashion,194854.98,1,194854.98,32,1,7,2.3,6,0,2.8,Yes,0.329,6.44
+505,CUS00506,18,Male,Anambra,Desktop,Debit card,Food,104670.71,9,11630.08,37,0,3,3.3,5,0,2.4,No,0.66,7.92
+506,CUS00507,50,Male,Kano,Desktop,Debit card,Home,89142.48,6,14857.08,53,0,6,2.8,2,0,2.3,No,1.4,6.44
+507,CUS00508,57,Male,Oyo,Mobile,Debit card,Electronics,106430.82,9,11825.65,52,3,0,1.7,7,1,2.5,Yes,0.17,4.25
+508,CUS00509,27,Female,Kano,Phone,Bank transfer,Fashion,198846.75,21,9468.89,20,3,0,4.6,6,1,0.0,Yes,0.511,0.0
+509,CUS00510,60,Female,Borno,Mobile,Debit card,Food,40288.31,14,2877.74,65,1,0,2.8,7,0,1.6,Yes,0.35,4.48
+510,CUS00511,61,Male,Delta,Pc,Bank transfer,Electronics,34581.19,1,34581.19,25,0,5,4.7,7,0,3.7,No,0.671,17.39
+511,CUS00512,46,Male,Kano,Desktop,USSD,Beauty,51031.02,5,10206.2,40,1,6,4.4,1,1,7.9,No,2.2,34.76
+512,CUS00513,30,Male,Kano,Mobile,Bank transfer,Fashion,86446.44,10,8644.64,65,3,1,4.1,1,1,0.2,Yes,1.025,0.82
+513,CUS00514,29,Female,Borno,Mobile,Bank transfer,Food,7340.3,11,667.3,25,3,2,4.1,1,0,2.6,Yes,1.025,10.66
+514,CUS00515,48,Female,Enugu,Tablet,Bank transfer,Food,86005.27,18,4778.07,27,2,0,5.0,2,2,2.1,Yes,1.25,10.5
+515,CUS00516,63,Female,Enugu,Mobile,USSD,Electronics,161209.62,12,13434.14,62,3,0,5.0,4,0,5.1,No,0.714,25.5
+516,CUS00517,19,Male,Enugu,Mobile,Debit card,Auto,91813.33,7,13116.19,19,1,4,3.5,2,0,0.0,No,1.167,0.0
+517,CUS00518,52,Male,Delta,Mobile,USSD,Fashion,71829.15,3,23943.05,33,1,3,3.8,8,0,2.9,Yes,0.422,11.02
+518,CUS00519,40,Female,Anambra,Phone,Bank transfer,Electronics,57182.78,5,11436.56,61,0,3,2.9,7,1,0.0,Yes,0.414,0.0
+519,CUS00520,34,Male,Oyo,Laptop,Bank transfer,Fashion,125433.03,5,25086.61,106,1,0,2.6,3,0,1.5,Yes,0.65,3.9
+520,CUS00521,43,Female,Oyo,Mobile,Bank transfer,Food,47837.53,11,4348.87,63,2,6,4.0,7,0,1.9,No,0.444,7.6
+521,CUS00522,25,Female,Rivers,Mobile,Bank transfer,Beauty,168087.82,9,18676.42,59,0,1,3.7,6,1,3.6,Yes,0.617,13.32
+522,CUS00523,46,Female,Enugu,Tablet,Bank transfer,Home,172001.19,1,172001.19,60,0,4,2.7,3,1,0.4,Yes,0.9,1.08
+523,CUS00524,43,Female,Delta,Mobile,Bank transfer,Books,96553.79,5,19310.76,12,1,0,2.1,1,1,3.0,No,1.05,6.3
+524,CUS00525,27,Female,Rivers,Phone,Bank transfer,Electronics,84481.82,12,7040.15,48,0,2,2.2,3,1,2.0,Yes,0.733,4.4
+525,CUS00526,43,Female,Abuja,Mobile,Debit card,Sports,131379.69,9,14597.74,44,1,3,4.7,2,0,2.4,No,1.567,11.28
+526,CUS00527,51,Male,Rivers,Mobile,Bank transfer,Electronics,134265.93,10,13426.59,54,0,3,2.9,4,0,3.4,No,0.725,9.86
+527,CUS00528,43,Male,Anambra,Laptop,USSD,Food,48730.37,9,5414.49,48,3,3,3.2,4,1,0.1,Yes,0.457,0.32
+528,CUS00529,24,Female,Bauchi,Desktop,Bank transfer,Fashion,61305.02,16,3831.56,56,0,3,5.0,4,0,2.1,No,1.25,10.5
+529,CUS00530,21,Male,Kano,Mobile,Bank transfer,Fashion,25494.37,9,2832.71,35,2,0,2.4,5,0,1.1,Yes,0.343,2.64
+530,CUS00531,62,Male,Enugu,Desktop,Bank transfer,Food,103407.92,6,17234.65,46,0,3,2.8,1,0,3.6,Yes,2.8,10.08
+531,CUS00532,28,Male,Borno,Desktop,Debit card,Food,114998.25,3,38332.75,8,0,3,2.7,4,1,2.5,Yes,0.675,6.75
+532,CUS00533,46,Female,Bauchi,Mobile,Bank transfer,Sports,24253.35,9,2694.82,35,1,3,5.0,3,1,1.7,No,1.25,8.5
+533,CUS00534,53,Female,Imo,Mobile,Bank transfer,Electronics,64516.05,1,64516.05,86,0,3,5.0,4,1,1.1,No,1.25,5.5
+534,CUS00535,42,Male,Rivers,Desktop,Bank transfer,Beauty,24373.57,7,3481.94,54,0,0,4.3,5,0,3.2,No,0.86,13.76
+535,CUS00536,38,Female,Delta,Mobile,Debit card,Fashion,44554.01,6,7425.67,44,0,0,4.3,1,1,3.9,No,4.3,16.77
+536,CUS00537,53,Male,Kano,Desktop,Bank transfer,Beauty,109795.77,1,109795.77,101,0,0,2.9,3,1,1.2,Yes,0.967,3.48
+537,CUS00538,27,Female,Oyo,Mobile,Bank transfer,Sports,51993.31,3,17331.1,4,2,4,5.0,3,0,0.3,No,1.0,1.5
+538,CUS00539,43,Female,Lagos,Tablet,POS,Beauty,71462.83,12,5955.24,11,1,4,3.8,2,1,3.0,No,1.267,11.4
+539,CUS00540,26,Female,Kano,Mobile,USSD,Home,11770.97,9,1307.89,96,1,4,4.4,5,0,0.0,No,0.733,0.0
+540,CUS00541,41,Male,Anambra,Desktop,Debit card,Fashion,93414.56,8,11676.82,46,1,3,3.4,2,4,0.0,Yes,1.133,0.0
+541,CUS00542,52,Female,Imo,Mobile,USSD,Books,83007.7,9,9223.08,37,0,0,3.2,2,0,0.4,No,1.6,1.28
+542,CUS00543,52,Male,Anambra,Mobile,Bank transfer,Food,52196.83,8,6524.6,9,0,0,5.0,2,2,1.4,No,2.5,7.0
+543,CUS00544,53,Male,Rivers,Desktop,USSD,Food,76494.36,14,5463.88,58,0,3,4.0,6,0,0.0,No,0.667,0.0
+544,CUS00545,35,Male,Abuja,Mobile,Cash,Sports,93113.27,8,11639.16,61,0,3,5.0,3,0,0.0,No,1.667,0.0
+545,CUS00546,56,Female,Anambra,Mobile,Debit card,Electronics,48330.93,1,48330.93,12,0,2,3.8,4,0,0.3,No,0.95,1.14
+546,CUS00547,89,Female,Anambra,Mobile,USSD,Home,18568.19,16,1160.51,40,2,3,2.7,7,1,3.0,Yes,0.3,8.1
+547,CUS00548,41,Male,Delta,Mobile,Cash,Sports,166250.85,9,18472.32,34,2,3,2.9,3,2,0.1,Yes,0.58,0.29
+548,CUS00549,40,Male,Rivers,Mobile,POS,Fashion,56502.73,5,11300.55,52,1,3,3.6,6,2,1.5,Yes,0.514,5.4
+549,CUS00550,89,Male,Kano,Mobile,Bank transfer,Electronics,80315.08,1,80315.08,11,0,1,2.9,7,2,4.9,Yes,0.414,14.21
+550,CUS00551,54,Female,Abuja,Desktop,Bank transfer,Electronics,130487.79,9,14498.64,82,0,4,2.4,6,0,1.9,Yes,0.4,4.56
+551,CUS00552,29,Male,Bauchi,Desktop,Debit card,Fashion,217428.06,7,31061.15,72,1,2,4.7,3,2,2.5,No,1.175,11.75
+552,CUS00553,30,Female,Lagos,Tablet,Debit card,Home,28998.11,15,1933.21,34,1,0,3.0,5,1,0.6,No,0.5,1.8
+553,CUS00554,40,Male,Enugu,Pc,Debit card,Electronics,105242.22,6,17540.37,38,0,1,3.6,1,0,5.2,No,3.6,18.72
+554,CUS00555,42,Male,Oyo,Desktop,USSD,Food,53160.15,3,17720.05,40,0,2,3.8,2,0,1.2,No,1.9,4.56
+555,CUS00556,52,Female,Anambra,Tablet,Cash,Beauty,60754.44,12,5062.87,21,0,4,2.9,2,0,1.7,No,1.45,4.93
+556,CUS00557,58,Male,Rivers,Mobile,USSD,Auto,52590.46,12,4382.54,31,1,2,5.0,8,1,4.0,Yes,0.556,20.0
+557,CUS00558,47,Female,Enugu,Mobile,Bank transfer,Electronics,34345.53,8,4293.19,36,0,2,2.4,2,0,1.7,No,1.2,4.08
+558,CUS00559,34,Female,Oyo,Mobile,Bank transfer,Fashion,83141.89,21,3959.14,93,0,0,3.8,2,0,2.1,No,1.9,7.98
+559,CUS00560,37,Male,Oyo,Mobile,USSD,Electronics,18647.38,7,2663.91,73,0,4,3.7,1,1,1.6,No,3.7,5.92
+560,CUS00561,42,Female,Bauchi,Mobile,Bank transfer,Electronics,127606.34,9,14178.48,73,0,1,3.4,5,1,1.6,No,0.68,5.44
+561,CUS00562,39,Male,Bauchi,Desktop,Bank transfer,Fashion,87475.13,13,6728.86,56,0,2,2.2,4,0,2.6,Yes,0.55,5.72
+562,CUS00563,30,Female,Bauchi,Mobile,Debit card,Food,104009.57,11,9455.42,11,0,5,4.4,6,2,2.8,Yes,0.733,12.32
+563,CUS00564,36,Female,Borno,Mobile,Bank transfer,Sports,64021.51,7,9145.93,43,0,4,4.2,5,0,1.0,No,0.84,4.2
+564,CUS00565,53,Male,Kaduna,Mobile,Debit card,Fashion,68475.82,14,4891.13,74,1,0,2.8,1,0,0.9,No,1.4,2.52
+565,CUS00566,29,Male,Kaduna,Desktop,Debit card,Electronics,97940.38,1,97940.38,7,1,0,4.2,2,1,1.1,No,1.4,4.62
+566,CUS00567,58,Male,Oyo,Laptop,Bank transfer,Electronics,32617.72,18,1812.1,64,0,2,3.9,6,0,0.0,No,0.65,0.0
+567,CUS00568,36,Male,Bauchi,Mobile,POS,Fashion,68890.43,21,3280.5,114,3,0,2.2,3,1,0.0,Yes,0.367,0.0
+568,CUS00569,29,Male,Delta,Phone,USSD,Electronics,46317.39,4,11579.35,76,0,4,2.6,6,0,2.4,Yes,0.433,6.24
+569,CUS00570,26,Male,Anambra,Mobile,Cash,Food,44924.4,7,6417.77,87,3,3,4.6,3,1,3.4,Yes,0.767,15.64
+570,CUS00571,24,Female,Enugu,Mobile,Debit card,Home,87885.06,7,12555.01,51,0,3,3.8,2,0,3.3,No,1.9,12.54
+571,CUS00572,45,Female,Enugu,Mobile,Bank transfer,Fashion,145269.7,13,11174.59,74,0,1,2.9,3,0,0.0,No,0.967,0.0
+572,CUS00573,31,Male,Kaduna,Mobile,Bank transfer,Food,54105.76,2,27052.88,23,1,6,2.6,2,0,1.6,No,0.867,4.16
+573,CUS00574,48,Female,Oyo,Mobile,Bank transfer,Fashion,137351.92,9,15261.32,68,1,8,3.0,2,0,0.3,No,1.0,0.9
+574,CUS00575,36,Male,Rivers,Mobile,USSD,Beauty,133095.65,5,26619.13,64,1,2,3.1,4,0,2.2,No,0.62,6.82
+575,CUS00576,64,Male,Kano,Desktop,Bank transfer,Fashion,27130.01,9,3014.45,53,0,3,2.7,5,0,1.4,Yes,0.54,3.78
+576,CUS00577,33,Male,Kano,Pc,Bank transfer,Auto,36021.49,7,5145.93,84,0,3,1.8,1,1,2.9,Yes,1.8,5.22
+577,CUS00578,22,Female,Kaduna,Desktop,Bank transfer,Electronics,200222.63,8,25027.83,28,0,2,4.6,3,1,2.0,No,1.533,9.2
+578,CUS00579,52,Female,Rivers,Mobile,Debit card,Home,163791.67,5,32758.33,39,0,1,4.5,2,0,0.0,No,2.25,0.0
+579,CUS00580,29,Female,Borno,Desktop,Bank transfer,Beauty,83581.67,5,16716.33,47,2,0,2.2,2,1,0.5,Yes,0.55,1.1
+580,CUS00581,42,Male,Borno,Mobile,Debit card,Fashion,96581.79,9,10731.31,14,1,0,3.6,4,1,2.0,No,0.72,7.2
+581,CUS00582,38,Female,Kaduna,Mobile,POS,Electronics,56611.91,12,4717.66,51,1,3,2.6,2,0,2.1,Yes,0.867,5.46
+582,CUS00583,53,Female,Kano,Desktop,Bank transfer,Beauty,104455.87,5,20891.17,1,0,1,3.2,6,0,0.0,No,0.533,0.0
+583,CUS00584,40,Male,Rivers,Pc,Debit card,Electronics,52726.81,3,17575.6,76,0,0,3.2,6,1,0.0,No,0.533,0.0
+584,CUS00585,33,Female,Bauchi,Mobile,Debit card,Food,500.0,11,45.45,46,0,3,3.1,6,1,2.1,Yes,0.517,6.51
+585,CUS00586,56,Male,Oyo,Desktop,Bank transfer,Food,217428.06,7,31061.15,29,0,2,5.0,3,0,0.0,No,1.667,0.0
+586,CUS00587,62,Female,Enugu,Desktop,USSD,Electronics,85949.17,12,7162.43,19,0,5,3.1,2,0,0.0,No,1.55,0.0
+587,CUS00588,59,Male,Delta,Pc,Bank transfer,Fashion,34101.97,3,11367.32,37,0,3,2.7,4,2,1.3,Yes,0.675,3.51
+588,CUS00589,56,Male,Abuja,Mobile,Debit card,Fashion,81972.51,1,81972.51,65,0,0,2.7,3,2,1.3,Yes,0.9,3.51
+589,CUS00590,31,Male,Oyo,Mobile,Debit card,Food,36640.25,5,7328.05,61,1,0,4.5,2,1,0.7,No,1.5,3.15
+590,CUS00591,48,Male,Bauchi,Mobile,Debit card,Fashion,49794.07,4,12448.52,23,0,1,1.8,1,1,0.9,No,1.8,1.62
+591,CUS00592,43,Male,Imo,Mobile,Debit card,Food,123392.44,7,17627.49,19,1,1,2.7,3,2,2.0,Yes,0.675,5.4
+592,CUS00593,52,Female,Kano,Desktop,Bank transfer,Home,96136.62,4,24034.16,64,0,4,4.9,3,2,0.9,No,1.633,4.41
+593,CUS00594,40,Female,Bauchi,Mobile,Bank transfer,Fashion,84565.1,11,7687.74,23,0,2,3.7,5,0,2.1,No,0.74,7.77
+594,CUS00595,46,Male,Imo,Mobile,Bank transfer,Food,124553.38,6,20758.9,46,0,5,3.7,5,0,1.4,No,0.74,5.18
+595,CUS00596,89,Female,Kaduna,Mobile,Debit card,Home,106627.39,8,13328.42,48,0,0,5.0,6,0,2.3,No,0.833,11.5
+596,CUS00597,28,Male,Rivers,Desktop,Debit card,Electronics,150095.35,8,18761.92,54,0,4,3.7,1,4,3.3,No,3.7,12.21
+597,CUS00598,35,Female,Enugu,Desktop,Bank transfer,Sports,64306.33,8,8038.29,70,2,4,2.8,4,0,3.3,Yes,0.467,9.24
+598,CUS00599,64,Male,Anambra,Desktop,Debit card,Home,65666.43,7,9380.92,7,1,0,3.2,2,0,3.9,No,1.067,12.48
+599,CUS00600,29,Female,Kaduna,Mobile,Debit card,Electronics,26450.08,10,2645.01,1,1,5,2.4,1,0,3.3,No,1.2,7.92
+600,CUS00601,26,Female,Oyo,Desktop,Debit card,Food,65695.87,4,16423.97,27,0,3,4.8,3,1,2.4,No,1.6,11.52
+601,CUS00602,27,Female,Kaduna,Mobile,Bank transfer,Electronics,128414.65,14,9172.48,99,0,3,4.1,6,0,1.3,Yes,0.683,5.33
+602,CUS00603,61,Male,Oyo,Mobile,Bank transfer,Books,143499.43,6,23916.57,105,0,1,4.6,3,0,1.4,No,1.533,6.44
+603,CUS00604,34,Male,Anambra,Mobile,Bank transfer,Fashion,128213.73,1,128213.73,99,1,5,4.7,7,0,0.7,No,0.588,3.29
+604,CUS00605,43,Female,Lagos,Pc,Debit card,Fashion,4261.37,8,532.67,39,0,0,3.1,5,1,2.0,No,0.62,6.2
+605,CUS00606,24,Female,Imo,Mobile,Bank transfer,Home,133741.53,3,44580.51,1,1,4,2.6,4,2,3.0,Yes,0.52,7.8
+606,CUS00607,63,Female,Enugu,Mobile,Debit card,Books,2266.66,11,206.06,1,0,4,3.4,6,0,0.9,No,0.567,3.06
+607,CUS00608,30,Male,Delta,Desktop,USSD,Fashion,125415.28,19,6600.8,26,2,1,2.6,4,0,1.9,No,0.433,4.94
+608,CUS00609,57,Female,Delta,Desktop,Bank transfer,Food,68449.7,4,17112.42,39,2,6,3.7,2,0,2.1,No,0.925,7.77
+609,CUS00610,59,Male,Imo,Tablet,Debit card,Sports,116614.0,9,12957.11,84,0,3,4.6,7,1,2.3,No,0.657,10.58
+610,CUS00611,26,Male,Abuja,Mobile,USSD,Books,25039.82,1,25039.82,71,0,4,3.3,4,0,1.2,No,0.825,3.96
+611,CUS00612,44,Male,Bauchi,Mobile,Bank transfer,Electronics,137702.54,10,13770.25,51,0,0,3.6,4,1,0.9,No,0.9,3.24
+612,CUS00613,19,Female,Lagos,Desktop,Bank transfer,Food,19076.14,3,6358.71,18,0,7,3.4,2,2,1.0,No,1.7,3.4
+613,CUS00614,22,Female,Imo,Desktop,USSD,Electronics,54919.53,4,13729.88,16,0,0,4.3,6,0,2.8,No,0.717,12.04
+614,CUS00615,46,Female,Delta,Mobile,Debit card,Fashion,40085.74,2,20042.87,52,4,5,2.8,5,0,1.9,Yes,0.311,5.32
+615,CUS00616,54,Female,Kaduna,Mobile,Debit card,Auto,6057.18,11,550.65,65,1,1,1.3,5,1,1.4,Yes,0.217,1.82
+616,CUS00617,55,Female,Bauchi,Mobile,Bank transfer,Beauty,89253.74,13,6865.67,56,3,1,4.0,2,0,2.4,No,0.8,9.6
+617,CUS00618,36,Female,Lagos,Phone,Bank transfer,Food,166274.01,8,20784.25,13,2,4,4.5,5,0,1.4,No,0.643,6.3
+618,CUS00619,25,Male,Rivers,Laptop,Bank transfer,Fashion,217428.06,3,72476.02,64,0,5,3.9,5,1,3.7,No,0.78,14.43
+619,CUS00620,62,Female,Rivers,Mobile,Bank transfer,Beauty,89372.01,15,5958.13,57,0,0,2.9,2,1,0.5,No,1.45,1.45
+620,CUS00621,18,Male,Bauchi,Mobile,Bank transfer,Home,135250.66,4,33812.66,12,1,5,2.4,1,0,1.7,No,1.2,4.08
+621,CUS00622,39,Female,Imo,Mobile,Debit card,Food,95444.26,1,95444.26,21,1,5,3.5,5,0,0.0,No,0.583,0.0
+622,CUS00623,34,Male,Oyo,Mobile,Bank transfer,Sports,107449.74,10,10744.97,65,0,1,3.6,1,0,1.5,No,3.6,5.4
+623,CUS00624,24,Female,Oyo,Desktop,Debit card,Home,69603.31,2,34801.66,37,0,6,3.4,4,0,0.0,No,0.85,0.0
+624,CUS00625,89,Female,Kaduna,Mobile,Bank transfer,Home,93778.46,12,7814.87,92,5,0,5.0,3,1,3.1,Yes,0.625,15.5
+625,CUS00626,62,Female,Lagos,Desktop,Debit card,Electronics,109186.54,6,18197.76,60,0,1,2.6,6,0,3.1,No,0.433,8.06
+626,CUS00627,21,Female,Lagos,Mobile,USSD,Electronics,58969.31,11,5360.85,30,0,3,5.0,3,0,3.2,No,1.667,16.0
+627,CUS00628,53,Female,Bauchi,Mobile,Bank transfer,Food,81512.76,15,5434.18,44,1,1,3.5,6,0,2.0,No,0.5,7.0
+628,CUS00629,23,Female,Kano,Desktop,Debit card,Fashion,82370.64,1,82370.64,46,0,3,1.7,2,0,0.7,Yes,0.85,1.19
+629,CUS00630,48,Female,Rivers,Mobile,USSD,Fashion,122188.15,5,24437.63,23,1,3,3.3,5,1,0.8,No,0.55,2.64
+630,CUS00631,36,Male,Lagos,Mobile,Bank transfer,Food,37028.55,7,5289.79,17,2,2,4.5,8,0,4.3,Yes,0.45,19.35
+631,CUS00632,61,Male,Bauchi,Laptop,Bank transfer,Electronics,82680.6,15,5512.04,66,0,4,3.1,1,1,4.2,No,3.1,13.02
+632,CUS00633,56,Female,Anambra,Desktop,Bank transfer,Food,171040.25,4,42760.06,70,0,2,2.0,4,0,2.2,No,0.5,4.4
+633,CUS00634,44,Female,Abuja,Mobile,Bank transfer,Home,137382.71,5,27476.54,63,0,3,3.3,9,0,1.2,No,0.367,3.96
+634,CUS00635,27,Male,Anambra,Phone,Debit card,Electronics,145713.06,10,14571.31,90,0,5,2.6,4,1,4.1,Yes,0.65,10.66
+635,CUS00636,43,Female,Enugu,Laptop,Debit card,Food,86099.43,5,17219.89,28,3,4,4.0,4,3,1.0,Yes,0.571,4.0
+636,CUS00637,36,Male,Imo,Mobile,Debit card,Food,99444.89,8,12430.61,95,2,4,5.0,5,0,2.3,Yes,0.714,11.5
+637,CUS00638,56,Female,Kaduna,Mobile,Bank transfer,Books,130100.63,1,130100.63,17,1,0,2.4,4,0,4.0,Yes,0.48,9.6
+638,CUS00639,20,Male,Lagos,Desktop,USSD,Fashion,155211.5,19,8169.03,14,0,4,2.8,1,1,0.7,No,2.8,1.96
+639,CUS00640,89,Male,Enugu,Desktop,Bank transfer,Beauty,500.0,1,500.0,1,0,1,5.0,6,0,3.2,No,0.833,16.0
+640,CUS00641,89,Female,Delta,Desktop,Bank transfer,Fashion,25805.14,6,4300.86,31,1,0,2.6,1,1,2.8,No,1.3,7.28
+641,CUS00642,45,Female,Enugu,Desktop,Cash,Food,143924.98,8,17990.62,29,1,2,2.4,3,0,1.9,No,0.6,4.56
+642,CUS00643,37,Female,Bauchi,Desktop,POS,Books,72539.98,17,4267.06,60,0,1,2.3,6,1,0.5,Yes,0.383,1.15
+643,CUS00644,45,Male,Lagos,Desktop,Bank transfer,Books,54772.56,1,54772.56,52,0,4,3.9,3,0,0.9,No,1.3,3.51
+644,CUS00645,25,Female,Abuja,Mobile,Debit card,Fashion,28562.76,17,1680.16,9,0,4,3.8,2,2,2.4,No,1.9,9.12
+645,CUS00646,58,Male,Imo,Mobile,Debit card,Fashion,60024.25,11,5456.75,33,0,0,2.8,5,0,0.0,No,0.56,0.0
+646,CUS00647,56,Female,Bauchi,Mobile,Debit card,Beauty,217428.06,10,21742.81,33,0,1,3.5,2,0,2.2,No,1.75,7.7
+647,CUS00648,89,Male,Bauchi,Mobile,POS,Food,179099.24,3,59699.75,1,0,0,5.0,1,1,2.8,No,5.0,14.0
+648,CUS00649,20,Male,Kaduna,Desktop,Debit card,Beauty,83990.38,10,8399.04,15,0,2,2.5,4,0,3.5,No,0.625,8.75
+649,CUS00650,43,Female,Kaduna,Desktop,Bank transfer,Sports,82392.23,4,20598.06,21,2,3,1.5,3,1,0.0,Yes,0.3,0.0
+650,CUS00651,45,Male,Rivers,Tablet,Bank transfer,Beauty,111463.45,14,7961.68,88,0,2,4.0,1,0,4.0,No,4.0,16.0
+651,CUS00652,42,Female,Rivers,Phone,Bank transfer,Food,128305.53,3,42768.51,50,1,1,3.4,5,0,4.5,Yes,0.567,15.3
+652,CUS00653,50,Female,Oyo,Tablet,Bank transfer,Beauty,127564.97,7,18223.57,64,1,5,2.8,4,1,2.6,No,0.56,7.28
+653,CUS00654,55,Male,Kano,Desktop,Debit card,Fashion,133312.99,5,26662.6,1,2,0,4.2,3,0,0.4,No,0.84,1.68
+654,CUS00655,23,Male,Lagos,Mobile,Debit card,Auto,56611.95,3,18870.65,80,2,5,4.3,3,0,1.5,Yes,0.86,6.45
+655,CUS00656,61,Male,Lagos,Mobile,Bank transfer,Beauty,71595.99,11,6508.73,84,0,1,1.3,4,1,1.9,Yes,0.325,2.47
+656,CUS00657,62,Male,Borno,Mobile,USSD,Electronics,119606.42,10,11960.64,1,0,2,2.8,6,0,2.4,Yes,0.467,6.72
+657,CUS00658,49,Female,Enugu,Mobile,USSD,Books,61267.49,14,4376.25,23,0,1,5.0,3,1,2.0,No,1.667,10.0
+658,CUS00659,62,Female,Lagos,Desktop,Bank transfer,Fashion,84770.2,1,84770.2,59,0,6,4.1,5,1,2.4,Yes,0.82,9.84
+659,CUS00660,64,Male,Lagos,Mobile,Bank transfer,Food,102944.37,13,7918.8,64,0,0,4.2,5,1,1.9,No,0.84,7.98
+660,CUS00661,38,Female,Kano,Mobile,Bank transfer,Food,120333.33,20,6016.67,24,1,3,4.7,5,2,2.4,No,0.783,11.28
+661,CUS00662,33,Male,Delta,Mobile,USSD,Electronics,5004.36,5,1000.87,35,1,4,3.5,4,1,1.3,Yes,0.7,4.55
+662,CUS00663,38,Female,Rivers,Mobile,Debit card,Beauty,117163.55,17,6891.97,27,1,0,4.3,2,2,1.5,No,1.433,6.45
+663,CUS00664,28,Male,Rivers,Laptop,Bank transfer,Electronics,74482.42,6,12413.74,48,2,1,4.2,3,1,1.1,No,0.84,4.62
+664,CUS00665,54,Female,Abuja,Mobile,POS,Fashion,116835.6,1,116835.6,80,3,2,4.0,4,0,4.9,Yes,0.571,19.6
+665,CUS00666,53,Female,Lagos,Tablet,Bank transfer,Fashion,119961.93,6,19993.66,21,1,1,3.2,7,2,4.2,Yes,0.4,13.44
+666,CUS00667,52,Female,Kano,Mobile,POS,Fashion,157356.18,13,12104.32,75,2,1,3.7,3,1,2.8,Yes,0.74,10.36
+667,CUS00668,36,Male,Imo,Mobile,Debit card,Food,145905.41,3,48635.14,21,0,2,2.9,5,0,4.0,Yes,0.58,11.6
+668,CUS00669,37,Male,Rivers,Mobile,Bank transfer,Food,145595.72,4,36398.93,19,2,4,3.5,3,1,3.2,No,0.7,11.2
+669,CUS00670,35,Male,Kano,Mobile,POS,Books,149965.16,10,14996.52,69,2,2,2.3,4,2,2.3,Yes,0.383,5.29
+670,CUS00671,64,Female,Anambra,Mobile,Bank transfer,Food,98112.05,8,12264.01,72,2,5,2.7,7,1,0.0,Yes,0.3,0.0
+671,CUS00672,58,Female,Delta,Mobile,Bank transfer,Fashion,86448.33,10,8644.83,70,1,1,3.2,5,2,1.6,Yes,0.533,5.12
+672,CUS00673,31,Female,Lagos,Mobile,Cash,Fashion,124276.77,9,13808.53,5,0,0,2.6,1,2,1.5,No,2.6,3.9
+673,CUS00674,32,Male,Abuja,Mobile,Debit card,Beauty,117943.64,10,11794.36,31,0,6,3.0,2,1,0.3,Yes,1.5,0.9
+674,CUS00675,48,Female,Enugu,Mobile,Bank transfer,Electronics,71092.02,5,14218.4,69,0,1,3.3,6,0,0.0,No,0.55,0.0
+675,CUS00676,18,Male,Rivers,Mobile,Bank transfer,Sports,103217.05,9,11468.56,46,3,0,3.9,4,0,2.7,Yes,0.557,10.53
+676,CUS00677,20,Female,Anambra,Mobile,Bank transfer,Beauty,83420.66,3,27806.89,12,0,0,4.4,1,1,2.5,No,4.4,11.0
+677,CUS00678,33,Male,Imo,Tablet,Bank transfer,Home,46573.02,14,3326.64,58,2,5,3.0,3,1,0.2,Yes,0.6,0.6
+678,CUS00679,40,Female,Kano,Desktop,Debit card,Fashion,143070.73,4,35767.68,23,2,2,4.8,5,1,0.9,No,0.686,4.32
+679,CUS00680,28,Male,Kaduna,Mobile,Debit card,Fashion,87483.97,13,6729.54,98,0,2,4.4,5,1,3.7,No,0.88,16.28
+680,CUS00681,29,Male,Bauchi,Desktop,Debit card,Food,177191.87,6,29531.98,91,2,2,4.0,4,1,0.7,Yes,0.667,2.8
+681,CUS00682,27,Male,Lagos,Mobile,USSD,Fashion,217428.06,9,24158.67,63,0,5,3.7,8,1,2.3,No,0.462,8.51
+682,CUS00683,49,Female,Lagos,Phone,Debit card,Electronics,80315.08,5,16063.02,85,0,2,3.8,5,0,1.7,No,0.76,6.46
+683,CUS00684,33,Female,Anambra,Mobile,Debit card,Fashion,86468.75,2,43234.38,46,0,7,4.7,3,2,2.8,No,1.567,13.16
+684,CUS00685,25,Male,Kano,Mobile,Debit card,Electronics,136182.15,1,136182.15,67,0,3,4.7,2,0,0.7,No,2.35,3.29
+685,CUS00686,55,Male,Oyo,Desktop,Bank transfer,Food,102976.12,2,51488.06,89,1,5,4.8,2,2,2.1,No,1.6,10.08
+686,CUS00687,43,Male,Lagos,Desktop,Bank transfer,Electronics,98971.27,6,16495.21,52,1,4,3.5,4,0,2.3,Yes,0.7,8.05
+687,CUS00688,41,Male,Oyo,Mobile,Debit card,Electronics,34273.13,9,3808.13,37,1,2,4.1,3,2,2.3,Yes,1.025,9.43
+688,CUS00689,45,Female,Imo,Tablet,Bank transfer,Food,32937.64,13,2533.66,1,1,1,4.8,7,1,2.1,No,0.6,10.08
+689,CUS00690,25,Female,Kaduna,Mobile,POS,Food,99512.71,5,19902.54,42,0,3,2.9,6,1,2.5,No,0.483,7.25
+690,CUS00691,45,Female,Anambra,Desktop,Bank transfer,Electronics,23615.23,3,7871.74,69,0,4,3.2,5,1,5.3,Yes,0.64,16.96
+691,CUS00692,53,Male,Kano,Mobile,USSD,Food,61065.5,1,61065.5,73,1,1,3.5,1,1,5.8,No,1.75,20.3
+692,CUS00693,43,Male,Kano,Desktop,Bank transfer,Electronics,107541.28,10,10754.13,60,0,3,4.4,2,0,1.0,No,2.2,4.4
+693,CUS00694,25,Male,Borno,Pc,Debit card,Beauty,40795.41,14,2913.96,28,0,5,4.4,6,2,0.0,No,0.733,0.0
+694,CUS00695,45,Female,Imo,Mobile,Bank transfer,Fashion,157241.02,14,11231.5,1,2,7,3.3,2,0,2.9,No,0.825,9.57
+695,CUS00696,45,Female,Imo,Desktop,Bank transfer,Food,140077.14,11,12734.29,30,3,4,2.0,6,0,2.3,Yes,0.222,4.6
+696,CUS00697,54,Male,Delta,Mobile,Bank transfer,Sports,14286.1,11,1298.74,35,3,6,3.7,4,1,3.6,Yes,0.529,13.32
+697,CUS00698,58,Male,Bauchi,Tablet,Bank transfer,Electronics,43043.29,16,2690.21,35,1,1,2.6,4,1,2.4,Yes,0.52,6.24
+698,CUS00699,53,Female,Rivers,Desktop,Debit card,Home,500.0,9,55.56,63,1,4,2.0,3,1,2.1,Yes,0.5,4.2
+699,CUS00700,44,Female,Rivers,Desktop,Cash,Food,49783.39,11,4525.76,104,3,5,2.2,3,0,3.7,Yes,0.367,8.14
+700,CUS00701,34,Male,Borno,Desktop,POS,Auto,119487.48,6,19914.58,48,0,1,3.8,4,1,3.9,No,0.95,14.82
+701,CUS00702,26,Male,Enugu,Desktop,Debit card,Fashion,66374.73,1,66374.73,38,2,2,4.9,6,0,0.0,No,0.612,0.0
+702,CUS00703,50,Female,Abuja,Tablet,Bank transfer,Electronics,105735.88,4,26433.97,37,1,6,3.5,2,2,0.8,Yes,1.167,2.8
+703,CUS00704,37,Female,Anambra,Tablet,Bank transfer,Beauty,16494.96,7,2356.42,48,2,1,3.7,3,0,1.8,Yes,0.74,6.66
+704,CUS00705,30,Female,Kaduna,Desktop,Bank transfer,Fashion,120908.89,8,15113.61,20,1,0,4.7,4,0,2.1,No,0.94,9.87
+705,CUS00706,45,Male,Kano,Pc,Bank transfer,Electronics,60020.08,17,3530.59,48,2,6,2.0,5,0,1.7,Yes,0.286,3.4
+706,CUS00707,46,Male,Bauchi,Mobile,Bank transfer,Home,85547.64,8,10693.46,58,1,5,4.0,2,1,2.7,No,1.333,10.8
+707,CUS00708,30,Female,Oyo,Mobile,Bank transfer,Electronics,80820.65,13,6216.97,51,0,3,3.5,1,1,3.5,Yes,3.5,12.25
+708,CUS00709,63,Female,Anambra,Mobile,Bank transfer,Fashion,217428.06,5,43485.61,58,3,2,4.1,5,2,4.6,Yes,0.512,18.86
+709,CUS00710,52,Male,Enugu,Laptop,Bank transfer,Auto,33111.21,6,5518.54,58,0,2,3.0,1,0,2.9,No,3.0,8.7
+710,CUS00711,23,Male,Anambra,Desktop,Bank transfer,Electronics,128550.75,1,128550.75,1,2,3,2.7,6,1,0.7,Yes,0.338,1.89
+711,CUS00712,35,Male,Enugu,Mobile,Debit card,Fashion,102954.65,4,25738.66,64,0,6,3.6,3,0,1.8,No,1.2,6.48
+712,CUS00713,22,Female,Kano,Desktop,Debit card,Fashion,132252.21,10,13225.22,24,2,3,5.0,1,0,1.9,No,1.667,9.5
+713,CUS00714,64,Male,Abuja,Mobile,Debit card,Fashion,99609.62,8,12451.2,12,2,7,4.4,3,2,2.8,No,0.88,12.32
+714,CUS00715,42,Male,Enugu,Mobile,POS,Fashion,91434.58,12,7619.55,11,1,1,3.0,4,0,2.6,No,0.6,7.8
+715,CUS00716,19,Male,Kano,Desktop,USSD,Beauty,7329.52,8,916.19,58,1,2,2.2,2,1,5.1,Yes,0.733,11.22
+716,CUS00717,27,Male,Kano,Laptop,Bank transfer,Electronics,72833.5,6,12138.92,38,1,2,1.8,4,1,1.3,Yes,0.36,2.34
+717,CUS00718,47,Male,Abuja,Tablet,USSD,Electronics,83767.71,18,4653.76,1,0,0,4.8,5,0,2.6,No,0.96,12.48
+718,CUS00719,62,Female,Rivers,Desktop,USSD,Home,172889.82,7,24698.55,59,1,2,2.5,3,1,5.5,Yes,0.625,13.75
+719,CUS00720,22,Female,Anambra,Desktop,Bank transfer,Food,115913.05,13,8916.39,1,0,3,3.2,2,0,1.1,No,1.6,3.52
+720,CUS00721,50,Male,Borno,Mobile,Debit card,Fashion,154122.75,8,19265.34,49,1,4,4.8,3,2,2.2,No,1.2,10.56
+721,CUS00722,18,Male,Lagos,Phone,Bank transfer,Fashion,111889.2,11,10171.75,52,0,7,1.9,6,2,0.6,Yes,0.317,1.14
+722,CUS00723,43,Female,Lagos,Desktop,Bank transfer,Home,52991.35,12,4415.95,71,0,3,5.0,7,1,2.1,Yes,0.714,10.5
+723,CUS00724,49,Male,Borno,Desktop,Bank transfer,Electronics,90270.59,9,10030.07,98,3,5,3.2,1,3,0.8,Yes,0.8,2.56
+724,CUS00725,64,Male,Oyo,Desktop,Bank transfer,Auto,95630.06,1,95630.06,4,2,3,2.4,6,0,3.6,Yes,0.3,8.64
+725,CUS00726,28,Female,Imo,Desktop,USSD,Electronics,42738.0,8,5342.25,43,0,6,3.3,4,1,2.2,No,0.825,7.26
+726,CUS00727,38,Female,Oyo,Mobile,Bank transfer,Fashion,92123.84,14,6580.27,36,1,7,2.8,6,2,0.6,Yes,0.4,1.68
+727,CUS00728,43,Male,Imo,Mobile,Debit card,Food,75740.49,10,7574.05,58,0,4,3.9,2,0,3.3,No,1.95,12.87
+728,CUS00729,89,Male,Borno,Mobile,Bank transfer,Food,157252.89,10,15725.29,51,1,1,2.9,1,0,2.3,No,1.45,6.67
+729,CUS00730,39,Male,Lagos,Pc,POS,Food,50000.0,1,50000.0,34,0,1,1.6,5,0,2.1,Yes,0.32,3.36
+730,CUS00731,44,Female,Kaduna,Mobile,Bank transfer,Fashion,139261.83,4,34815.46,31,2,3,3.3,2,3,0.3,Yes,0.825,0.99
+731,CUS00732,30,Female,Lagos,Laptop,USSD,Food,42844.21,10,4284.42,11,0,3,2.1,2,0,2.6,No,1.05,5.46
+732,CUS00733,50,Female,Oyo,Mobile,Bank transfer,Sports,23256.44,10,2325.64,74,0,4,3.7,1,0,2.1,No,3.7,7.77
+733,CUS00734,51,Male,Bauchi,Tablet,USSD,Electronics,138097.4,14,9864.1,58,1,3,2.3,5,0,1.4,Yes,0.383,3.22
+734,CUS00735,58,Male,Borno,Mobile,Debit card,Food,117935.41,7,16847.92,72,0,3,3.0,4,1,0.1,No,0.75,0.3
+735,CUS00736,52,Male,Oyo,Mobile,USSD,Electronics,141453.34,8,17681.67,35,1,1,3.7,5,0,1.9,No,0.617,7.03
+736,CUS00737,18,Male,Kaduna,Desktop,Bank transfer,Fashion,121031.59,8,15128.95,25,0,3,3.3,5,0,3.8,No,0.66,12.54
+737,CUS00738,38,Male,Anambra,Desktop,Debit card,Electronics,177693.03,3,59231.01,12,1,6,3.8,3,1,3.7,No,0.95,14.06
+738,CUS00739,23,Male,Imo,Mobile,Bank transfer,Books,110142.57,1,110142.57,55,2,5,4.2,3,0,1.4,Yes,0.84,5.88
+739,CUS00740,45,Female,Lagos,Desktop,Bank transfer,Sports,77958.52,10,7795.85,13,0,4,2.3,2,0,0.1,No,1.15,0.23
+740,CUS00741,34,Male,Abuja,Mobile,Bank transfer,Beauty,100431.69,8,12553.96,100,0,5,3.4,3,2,1.4,Yes,1.133,4.76
+741,CUS00742,22,Female,Bauchi,Desktop,USSD,Electronics,140956.11,4,35239.03,5,1,2,1.0,2,1,1.3,Yes,0.333,1.3
+742,CUS00743,48,Female,Kano,Mobile,Debit card,Electronics,49928.11,1,49928.11,53,0,1,3.7,4,1,2.7,No,0.925,9.99
+743,CUS00744,22,Male,Kaduna,Mobile,Debit card,Sports,55665.01,11,5060.46,92,1,1,3.2,6,1,1.8,Yes,0.457,5.76
+744,CUS00745,55,Male,Oyo,Mobile,Debit card,Fashion,71096.8,6,11849.47,62,1,2,2.5,2,0,0.9,No,0.833,2.25
+745,CUS00746,20,Female,Imo,Mobile,POS,Beauty,500.0,10,50.0,50,2,2,3.8,6,2,3.7,Yes,0.475,14.06
+746,CUS00747,40,Male,Abuja,Phone,Bank transfer,Beauty,91213.53,17,5365.5,15,0,5,4.7,4,0,2.2,No,1.175,10.34
+747,CUS00748,54,Female,Enugu,Mobile,Bank transfer,Fashion,500.0,1,500.0,3,0,2,3.0,4,1,2.7,Yes,0.75,8.1
+748,CUS00749,54,Female,Rivers,Desktop,Bank transfer,Food,87387.67,4,21846.92,68,0,1,2.6,1,1,0.0,Yes,2.6,0.0
+749,CUS00750,27,Male,Lagos,Mobile,Bank transfer,Auto,123938.04,6,20656.34,90,0,6,3.7,1,2,0.0,No,3.7,0.0
+750,CUS00751,27,Female,Rivers,Mobile,Bank transfer,Home,63540.56,15,4236.04,31,1,2,2.2,4,2,0.0,Yes,0.44,0.0
+751,CUS00752,36,Male,Kaduna,Mobile,Bank transfer,Electronics,160470.21,1,160470.21,10,0,3,2.8,5,0,1.3,No,0.56,3.64
+752,CUS00753,34,Female,Enugu,Mobile,Debit card,Electronics,19277.46,17,1133.97,1,4,3,4.7,2,1,2.9,Yes,0.783,13.63
+753,CUS00754,38,Male,Enugu,Pc,POS,Food,138606.73,8,17325.84,15,2,0,5.0,7,1,0.0,Yes,0.556,0.0
+754,CUS00755,31,Male,Enugu,Desktop,Debit card,Fashion,115381.17,7,16483.02,41,1,5,1.6,5,0,4.4,Yes,0.267,7.04
+755,CUS00756,26,Male,Kano,Mobile,Debit card,Food,7778.5,7,1111.21,92,2,4,1.7,2,0,2.3,Yes,0.425,3.91
+756,CUS00757,63,Female,Kaduna,Mobile,Debit card,Fashion,206985.74,5,41397.15,65,0,6,3.7,4,0,4.0,No,0.925,14.8
+757,CUS00758,18,Male,Anambra,Mobile,Bank transfer,Food,82131.46,13,6317.8,54,4,1,4.4,8,0,0.7,Yes,0.367,3.08
+758,CUS00759,62,Male,Rivers,Desktop,Bank transfer,Food,45513.22,2,22756.61,32,0,3,1.9,1,0,2.8,Yes,1.9,5.32
+759,CUS00760,30,Male,Anambra,Mobile,Bank transfer,Sports,21681.08,9,2409.01,27,0,3,3.9,5,1,2.1,No,0.78,8.19
+760,CUS00761,21,Male,Abuja,Mobile,Bank transfer,Electronics,75099.19,6,12516.53,87,0,3,4.8,3,1,3.2,No,1.6,15.36
+761,CUS00762,18,Female,Delta,Pc,Debit card,Food,79266.69,4,19816.67,51,1,0,5.0,5,0,1.6,No,0.833,8.0
+762,CUS00763,57,Female,Bauchi,Tablet,Bank transfer,Fashion,89619.05,20,4480.95,1,0,3,3.8,7,0,2.7,No,0.543,10.26
+763,CUS00764,49,Male,Bauchi,Mobile,Bank transfer,Electronics,71599.17,10,7159.92,24,1,0,4.0,3,0,3.7,No,1.0,14.8
+764,CUS00765,51,Female,Anambra,Mobile,USSD,Electronics,113495.14,11,10317.74,19,0,3,1.4,6,0,1.0,Yes,0.233,1.4
+765,CUS00766,45,Female,Delta,Mobile,Debit card,Fashion,67556.66,13,5196.67,28,0,0,5.0,8,0,2.4,No,0.625,12.0
+766,CUS00767,89,Male,Delta,Tablet,Bank transfer,Auto,500.0,1,500.0,61,0,0,2.9,4,1,0.0,No,0.725,0.0
+767,CUS00768,25,Female,Lagos,Mobile,Bank transfer,Fashion,78278.73,16,4892.42,41,1,4,2.6,5,1,3.1,Yes,0.433,8.06
+768,CUS00769,56,Female,Abuja,Mobile,Bank transfer,Books,500.0,1,500.0,42,0,1,3.2,2,0,4.9,No,1.6,15.68
+769,CUS00770,43,Male,Kaduna,Mobile,USSD,Electronics,100919.68,4,25229.92,84,0,1,5.0,4,1,0.1,No,1.25,0.5
+770,CUS00771,51,Female,Delta,Mobile,Bank transfer,Food,40931.49,21,1949.12,24,1,5,3.5,3,0,1.9,No,0.875,6.65
+771,CUS00772,20,Male,Oyo,Pc,USSD,Beauty,92351.22,10,9235.12,100,4,3,3.6,5,0,3.3,Yes,0.4,11.88
+772,CUS00773,29,Male,Borno,Mobile,Bank transfer,Fashion,144133.37,9,16014.82,24,1,4,5.0,6,1,2.0,No,0.714,10.0
+773,CUS00774,18,Male,Bauchi,Phone,Bank transfer,Food,42306.31,7,6043.76,47,0,2,3.5,3,3,2.2,No,1.167,7.7
+774,CUS00775,61,Male,Oyo,Laptop,Debit card,Electronics,132756.53,7,18965.22,36,0,8,2.5,7,1,1.4,Yes,0.357,3.5
+775,CUS00776,22,Female,Abuja,Mobile,Debit card,Electronics,65497.47,3,21832.49,48,1,1,5.0,7,0,1.4,No,0.625,7.0
+776,CUS00777,47,Female,Delta,Desktop,Debit card,Electronics,163893.77,1,163893.77,58,0,6,2.9,5,1,1.9,Yes,0.58,5.51
+777,CUS00778,47,Female,Rivers,Mobile,Debit card,Home,68568.13,11,6233.47,58,2,2,3.5,2,1,2.1,No,0.875,7.35
+778,CUS00779,34,Female,Bauchi,Desktop,POS,Food,47177.82,11,4288.89,22,1,0,4.8,2,1,0.2,No,1.6,0.96
+779,CUS00780,64,Female,Lagos,Mobile,Cash,Food,115925.73,15,7728.38,11,2,3,4.1,2,3,1.9,Yes,1.025,7.79
+780,CUS00781,40,Male,Imo,Mobile,Bank transfer,Fashion,217428.06,4,54357.02,120,0,3,5.0,5,0,4.4,No,1.0,22.0
+781,CUS00782,32,Male,Lagos,Pc,USSD,Beauty,47134.77,11,4284.98,30,2,0,5.0,1,1,1.4,No,1.667,7.0
+782,CUS00783,54,Female,Borno,Desktop,USSD,Food,63497.21,6,10582.87,65,0,1,3.3,5,2,0.1,No,0.66,0.33
+783,CUS00784,38,Female,Enugu,Tablet,USSD,Home,82992.71,13,6384.05,1,0,2,2.7,1,2,1.8,No,2.7,4.86
+784,CUS00785,31,Male,Imo,Mobile,Bank transfer,Electronics,145398.11,13,11184.47,36,4,3,3.5,5,0,0.9,Yes,0.389,3.15
+785,CUS00786,19,Female,Kano,Laptop,USSD,Fashion,500.0,9,55.56,41,0,0,5.0,4,0,0.0,No,1.25,0.0
+786,CUS00787,28,Male,Delta,Mobile,Bank transfer,Fashion,86038.63,6,14339.77,59,0,5,5.0,6,2,2.2,No,0.833,11.0
+787,CUS00788,56,Female,Abuja,Laptop,Debit card,Home,113120.66,12,9426.72,1,0,2,4.6,6,3,0.9,No,0.767,4.14
+788,CUS00789,55,Female,Bauchi,Mobile,USSD,Fashion,93705.19,11,8518.65,49,4,0,2.8,6,1,1.1,Yes,0.28,3.08
+789,CUS00790,51,Male,Kano,Mobile,Debit card,Beauty,143943.93,4,35985.98,10,3,4,5.0,6,0,2.2,No,0.556,11.0
+790,CUS00791,55,Male,Abuja,Mobile,Debit card,Fashion,81654.46,1,81654.46,54,3,2,2.8,4,0,0.0,Yes,0.4,0.0
+791,CUS00792,51,Male,Borno,Mobile,Cash,Electronics,76695.19,6,12782.53,13,0,5,2.3,1,3,0.0,No,2.3,0.0
+792,CUS00793,35,Male,Anambra,Desktop,Bank transfer,Food,111654.83,15,7443.66,19,4,3,3.3,1,1,3.0,Yes,0.66,9.9
+793,CUS00794,47,Male,Delta,Mobile,USSD,Beauty,89469.12,13,6882.24,36,1,2,3.0,1,0,0.0,No,1.5,0.0
+794,CUS00795,32,Female,Kaduna,Desktop,Debit card,Food,67431.61,2,33715.8,13,2,2,4.1,1,0,0.5,No,1.367,2.05
+795,CUS00796,44,Male,Kaduna,Mobile,Debit card,Fashion,108226.48,2,54113.24,30,1,3,3.4,4,1,0.0,Yes,0.68,0.0
+796,CUS00797,51,Male,Delta,Mobile,POS,Electronics,55636.23,14,3974.02,9,0,2,4.1,2,1,1.3,No,2.05,5.33
+797,CUS00798,55,Male,Imo,Pc,USSD,Fashion,57497.03,2,28748.52,1,0,1,3.2,3,0,2.6,No,1.067,8.32
+798,CUS00799,50,Male,Enugu,Desktop,Bank transfer,Home,61240.27,10,6124.03,75,0,4,2.8,4,0,2.2,No,0.7,6.16
+799,CUS00800,41,Female,Enugu,Mobile,Bank transfer,Beauty,145888.11,4,36472.03,6,1,2,2.9,3,0,5.6,No,0.725,16.24
+800,CUS00801,32,Male,Imo,Desktop,USSD,Food,500.0,16,31.25,39,1,3,5.0,4,2,3.6,No,1.0,18.0
+801,CUS00802,47,Female,Kaduna,Mobile,Debit card,Food,102801.95,4,25700.49,67,0,5,3.7,3,0,0.6,No,1.233,2.22
+802,CUS00803,59,Female,Rivers,Mobile,Debit card,Home,86542.23,13,6657.09,26,3,2,1.5,2,1,0.2,Yes,0.3,0.3
+803,CUS00804,34,Female,Imo,Mobile,Debit card,Food,9360.83,8,1170.1,20,0,3,3.0,3,2,6.1,Yes,1.0,18.3
+804,CUS00805,22,Male,Bauchi,Mobile,Bank transfer,Beauty,98937.71,9,10993.08,51,1,1,3.6,6,1,3.6,Yes,0.514,12.96
+805,CUS00806,46,Female,Kaduna,Desktop,Bank transfer,Fashion,106408.84,1,106408.84,78,2,3,5.0,3,0,2.9,No,1.0,14.5
+806,CUS00807,21,Male,Rivers,Mobile,Bank transfer,Food,111533.77,1,111533.77,9,2,3,4.5,7,1,2.1,Yes,0.5,9.45
+807,CUS00808,27,Male,Borno,Mobile,USSD,Food,500.0,6,83.33,40,0,4,2.6,6,1,2.4,Yes,0.433,6.24
+808,CUS00809,34,Male,Kano,Mobile,Bank transfer,Home,146487.52,9,16276.39,1,1,1,5.0,2,2,0.0,No,1.667,0.0
+809,CUS00810,27,Male,Rivers,Mobile,Debit card,Food,51801.85,2,25900.92,33,2,2,3.5,1,1,2.2,No,1.167,7.7
+810,CUS00811,34,Female,Kano,Mobile,Bank transfer,Fashion,115895.55,2,57947.78,46,3,4,4.7,3,0,2.1,Yes,0.783,9.87
+811,CUS00812,37,Male,Abuja,Mobile,Debit card,Electronics,118348.32,10,11834.83,19,0,3,3.5,6,2,0.6,Yes,0.583,2.1
+812,CUS00813,41,Female,Oyo,Desktop,Bank transfer,Food,45548.63,10,4554.86,31,1,1,1.1,3,2,1.2,Yes,0.275,1.32
+813,CUS00814,22,Female,Abuja,Laptop,Bank transfer,Beauty,114720.7,7,16388.67,2,3,5,2.1,5,0,4.3,Yes,0.262,9.03
+814,CUS00815,51,Female,Kaduna,Mobile,USSD,Fashion,67652.8,11,6150.25,47,0,0,1.0,6,2,1.8,Yes,0.167,1.8
+815,CUS00816,23,Female,Kano,Mobile,Debit card,Books,500.0,2,250.0,76,0,4,5.0,2,1,5.1,No,2.5,25.5
+816,CUS00817,19,Male,Kaduna,Mobile,Debit card,Fashion,137548.39,6,22924.73,12,3,0,3.7,2,1,0.0,No,0.74,0.0
+817,CUS00818,30,Female,Imo,Mobile,Debit card,Food,50122.98,16,3132.69,26,2,6,2.6,5,2,1.2,Yes,0.371,3.12
+818,CUS00819,60,Female,Delta,Mobile,Debit card,Fashion,46547.79,8,5818.47,60,1,0,4.0,4,0,0.0,No,0.8,0.0
+819,CUS00820,60,Female,Bauchi,Mobile,Debit card,Electronics,217428.06,8,27178.51,81,0,5,3.7,2,1,0.2,Yes,1.85,0.74
+820,CUS00821,28,Female,Lagos,Mobile,Cash,Home,217428.06,19,11443.58,1,0,2,4.1,3,0,0.8,No,1.367,3.28
+821,CUS00822,64,Male,Kaduna,Mobile,Debit card,Food,82422.83,1,82422.83,39,0,2,4.7,4,0,2.5,No,1.175,11.75
+822,CUS00823,40,Male,Bauchi,Tablet,Debit card,Beauty,217428.06,11,19766.19,53,3,3,3.2,1,0,2.4,Yes,0.8,7.68
+823,CUS00824,33,Female,Imo,Mobile,USSD,Auto,24722.98,16,1545.19,41,0,4,2.6,5,1,1.0,No,0.52,2.6
+824,CUS00825,48,Female,Rivers,Mobile,USSD,Food,51592.61,6,8598.77,1,1,1,4.3,3,0,0.0,No,1.075,0.0
+825,CUS00826,28,Female,Imo,Desktop,USSD,Food,79780.13,12,6648.34,60,0,1,4.3,1,2,4.2,No,4.3,18.06
+826,CUS00827,33,Female,Borno,Mobile,USSD,Food,170404.93,3,56801.64,90,2,4,3.6,3,2,1.6,Yes,0.72,5.76
+827,CUS00828,25,Female,Abuja,Desktop,Bank transfer,Beauty,79878.44,4,19969.61,48,0,0,5.0,2,2,0.3,No,2.5,1.5
+828,CUS00829,89,Male,Rivers,Mobile,Bank transfer,Fashion,133835.0,9,14870.56,14,0,1,3.5,7,1,2.4,No,0.5,8.4
+829,CUS00830,57,Male,Lagos,Mobile,Debit card,Fashion,86734.98,11,7885.0,29,0,9,2.6,2,1,2.3,No,1.3,5.98
+830,CUS00831,21,Male,Kano,Mobile,Bank transfer,Home,63235.36,13,4864.26,98,0,1,3.9,1,0,1.5,No,3.9,5.85
+831,CUS00832,42,Female,Delta,Desktop,Bank transfer,Sports,84914.48,15,5660.97,72,1,5,2.8,5,1,2.2,Yes,0.467,6.16
+832,CUS00833,20,Male,Bauchi,Mobile,Bank transfer,Electronics,77421.11,7,11060.16,64,0,1,4.0,2,1,0.3,No,2.0,1.2
+833,CUS00834,49,Male,Delta,Desktop,Bank transfer,Sports,112164.06,13,8628.0,55,4,4,2.7,2,1,3.1,Yes,0.45,8.37
+834,CUS00835,20,Female,Oyo,Mobile,USSD,Electronics,146857.51,6,24476.25,25,0,4,3.1,5,2,0.5,Yes,0.62,1.55
+835,CUS00836,44,Male,Imo,Tablet,Bank transfer,Electronics,101185.64,12,8432.14,38,0,5,5.0,1,0,1.1,No,5.0,5.5
+836,CUS00837,46,Female,Kaduna,Desktop,Bank transfer,Beauty,138418.5,9,15379.83,42,1,2,3.1,2,0,3.0,No,1.033,9.3
+837,CUS00838,49,Female,Kano,Mobile,Bank transfer,Food,41584.46,10,4158.45,61,0,6,2.7,7,1,3.8,Yes,0.386,10.26
+838,CUS00839,36,Male,Oyo,Mobile,USSD,Beauty,66341.63,10,6634.16,90,0,1,4.7,5,0,4.4,No,0.94,20.68
+839,CUS00840,38,Male,Imo,Mobile,Cash,Electronics,52406.39,1,52406.39,78,0,3,2.4,3,0,3.6,Yes,0.8,8.64
+840,CUS00841,22,Male,Anambra,Mobile,Bank transfer,Food,99150.01,2,49575.0,2,0,3,2.8,4,1,1.5,No,0.7,4.2
+841,CUS00842,35,Male,Kaduna,Mobile,Bank transfer,Fashion,68846.87,8,8605.86,51,0,0,4.1,5,0,0.0,No,0.82,0.0
+842,CUS00843,45,Female,Rivers,Mobile,USSD,Fashion,117839.78,1,117839.78,67,3,2,4.4,5,2,4.1,Yes,0.55,18.04
+843,CUS00844,59,Female,Abuja,Mobile,Debit card,Beauty,43104.92,12,3592.08,63,1,3,4.7,2,0,4.1,Yes,1.567,19.27
+844,CUS00845,39,Male,Bauchi,Phone,Cash,Home,86936.39,12,7244.7,26,2,2,2.8,4,2,1.0,Yes,0.467,2.8
+845,CUS00846,38,Male,Borno,Mobile,Cash,Fashion,115908.61,9,12878.73,132,1,7,4.1,2,1,3.4,No,1.367,13.94
+846,CUS00847,23,Female,Lagos,Laptop,Debit card,Electronics,500.0,2,250.0,6,2,1,3.0,3,0,1.5,No,0.6,4.5
+847,CUS00848,18,Male,Lagos,Mobile,POS,Food,180473.41,14,12890.96,12,0,5,2.9,4,0,4.3,No,0.725,12.47
+848,CUS00849,22,Female,Rivers,Mobile,Bank transfer,Fashion,72258.17,18,4014.34,52,0,4,4.7,3,0,1.2,No,1.567,5.64
+849,CUS00850,58,Female,Enugu,Mobile,Cash,Food,500.0,8,62.5,108,2,2,3.0,5,0,5.0,Yes,0.429,15.0
+850,CUS00851,29,Female,Lagos,Mobile,USSD,Sports,92114.23,10,9211.42,19,0,1,3.8,4,2,3.2,No,0.95,12.16
+851,CUS00852,43,Male,Bauchi,Mobile,Debit card,Electronics,86504.96,9,9611.66,37,3,1,3.7,1,0,4.7,No,0.925,17.39
+852,CUS00853,63,Female,Rivers,Mobile,Cash,Auto,81314.75,10,8131.48,77,3,1,2.4,1,2,1.3,Yes,0.6,3.12
+853,CUS00854,51,Male,Kano,Mobile,Bank transfer,Beauty,129603.6,7,18514.8,44,0,0,4.5,3,0,2.6,No,1.5,11.7
+854,CUS00855,31,Female,Lagos,Pc,Cash,Fashion,118635.02,7,16947.86,34,0,0,4.1,7,1,0.5,No,0.586,2.05
+855,CUS00856,43,Female,Delta,Mobile,Bank transfer,Electronics,98404.43,12,8200.37,61,0,0,1.5,2,0,3.3,No,0.75,4.95
+856,CUS00857,62,Male,Rivers,Mobile,POS,Fashion,105257.0,19,5539.84,53,0,5,3.8,3,0,3.3,No,1.267,12.54
+857,CUS00858,44,Male,Bauchi,Mobile,Bank transfer,Electronics,80303.87,1,80303.87,75,0,4,5.0,2,0,5.6,Yes,2.5,28.0
+858,CUS00859,26,Male,Delta,Mobile,Bank transfer,Home,164897.09,7,23556.73,83,1,4,4.6,2,0,2.7,Yes,1.533,12.42
+859,CUS00860,43,Female,Kaduna,Mobile,Debit card,Fashion,92123.84,2,46061.92,54,0,4,2.1,4,0,3.1,Yes,0.525,6.51
+860,CUS00861,64,Female,Kaduna,Mobile,Bank transfer,Electronics,91284.33,15,6085.62,53,1,3,3.1,6,0,1.3,Yes,0.443,4.03
+861,CUS00862,39,Female,Lagos,Mobile,Debit card,Home,87926.11,5,17585.22,51,1,5,3.9,4,1,2.8,No,0.78,10.92
+862,CUS00863,64,Male,Delta,Mobile,Debit card,Beauty,121597.62,1,121597.62,59,0,1,3.6,2,2,1.4,No,1.8,5.04
+863,CUS00864,47,Male,Abuja,Desktop,USSD,Food,47026.58,11,4275.14,46,3,3,4.3,9,1,2.2,Yes,0.358,9.46
+864,CUS00865,60,Male,Imo,Laptop,Debit card,Food,6534.73,16,408.42,44,1,4,2.0,4,2,2.3,Yes,0.4,4.6
+865,CUS00866,34,Male,Kaduna,Desktop,Bank transfer,Fashion,92057.04,11,8368.82,80,2,0,5.0,2,1,1.5,No,1.25,7.5
+866,CUS00867,43,Female,Abuja,Pc,USSD,Home,97655.37,9,10850.6,90,0,9,4.0,6,1,2.1,Yes,0.667,8.4
+867,CUS00868,53,Female,Kano,Mobile,Debit card,Food,152031.97,10,15203.2,1,1,3,4.9,3,0,1.4,No,1.225,6.86
+868,CUS00869,18,Male,Rivers,Desktop,Bank transfer,Fashion,27833.71,15,1855.58,45,2,3,4.4,7,1,1.4,No,0.489,6.16
+869,CUS00870,25,Female,Imo,Mobile,Bank transfer,Beauty,136961.22,3,45653.74,24,0,5,3.5,2,1,3.6,No,1.75,12.6
+870,CUS00871,52,Male,Oyo,Mobile,USSD,Food,191533.65,7,27361.95,35,4,4,2.2,6,2,2.3,Yes,0.22,5.06
+871,CUS00872,32,Male,Bauchi,Mobile,POS,Food,68000.58,5,13600.12,57,1,3,2.9,4,1,2.5,Yes,0.58,7.25
+872,CUS00873,64,Female,Borno,Desktop,USSD,Fashion,26907.6,2,13453.8,65,2,3,5.0,6,2,0.0,No,0.625,0.0
+873,CUS00874,39,Male,Rivers,Mobile,USSD,Auto,83657.61,6,13942.94,41,1,0,4.9,7,0,2.6,No,0.612,12.74
+874,CUS00875,31,Female,Imo,Desktop,Debit card,Food,88686.96,13,6822.07,1,1,1,2.9,1,0,2.8,No,1.45,8.12
+875,CUS00876,43,Male,Bauchi,Tablet,Debit card,Beauty,110370.45,10,11037.04,16,0,4,1.0,6,1,1.4,Yes,0.167,1.4
+876,CUS00877,45,Female,Imo,Desktop,Debit card,Fashion,58387.24,11,5307.93,71,1,3,3.3,1,2,5.1,No,1.65,16.83
+877,CUS00878,40,Female,Delta,Mobile,Bank transfer,Fashion,154983.93,8,19372.99,1,0,5,3.2,1,0,0.0,No,3.2,0.0
+878,CUS00879,31,Male,Kano,Desktop,Bank transfer,Electronics,34846.05,10,3484.61,80,0,2,3.3,2,0,3.2,No,1.65,10.56
+879,CUS00880,41,Male,Anambra,Mobile,Debit card,Home,6735.77,3,2245.26,60,3,0,4.0,5,1,3.1,Yes,0.5,12.4
+880,CUS00881,19,Male,Borno,Mobile,Debit card,Fashion,134801.97,6,22467.0,84,0,5,4.4,4,0,2.8,No,1.1,12.32
+881,CUS00882,62,Male,Lagos,Laptop,Bank transfer,Home,500.0,8,62.5,39,0,5,4.5,3,2,2.3,No,1.5,10.35
+882,CUS00883,43,Male,Imo,Mobile,Bank transfer,Food,75814.16,9,8423.8,1,0,4,3.9,4,0,2.8,No,0.975,10.92
+883,CUS00884,31,Male,Bauchi,Desktop,Bank transfer,Food,217428.06,9,24158.67,57,0,2,1.7,5,0,3.3,Yes,0.34,5.61
+884,CUS00885,24,Male,Bauchi,Desktop,Bank transfer,Food,84458.04,7,12065.43,83,3,5,3.2,5,1,0.9,Yes,0.4,2.88
+885,CUS00886,20,Female,Delta,Desktop,USSD,Food,34565.46,6,5760.91,72,0,9,5.0,6,2,2.4,No,0.833,12.0
+886,CUS00887,64,Male,Abuja,Mobile,Debit card,Electronics,82417.11,21,3924.62,25,1,3,3.9,7,1,1.7,Yes,0.488,6.63
+887,CUS00888,40,Female,Rivers,Mobile,Bank transfer,Fashion,82713.96,12,6892.83,47,3,0,3.9,3,1,0.4,Yes,0.65,1.56
+888,CUS00889,63,Female,Anambra,Mobile,Bank transfer,Home,92229.25,10,9222.92,29,0,1,3.9,2,1,3.1,No,1.95,12.09
+889,CUS00890,60,Female,Enugu,Mobile,POS,Home,114801.83,21,5466.75,20,1,4,3.9,6,0,1.2,No,0.557,4.68
+890,CUS00891,64,Male,Lagos,Desktop,Debit card,Fashion,38240.0,21,1820.95,73,0,0,1.1,2,0,0.0,Yes,0.55,0.0
+891,CUS00892,62,Female,Oyo,Mobile,Bank transfer,Food,160939.66,7,22991.38,9,4,3,3.3,2,0,1.2,Yes,0.55,3.96
+892,CUS00893,35,Female,Enugu,Tablet,Bank transfer,Fashion,96030.14,21,4572.86,18,2,3,3.5,5,1,0.8,Yes,0.5,2.8
+893,CUS00894,55,Male,Rivers,Pc,Debit card,Fashion,117705.73,1,117705.73,11,0,6,4.8,3,2,3.5,Yes,1.6,16.8
+894,CUS00895,89,Male,Lagos,Mobile,USSD,Electronics,56733.28,1,56733.28,1,0,5,3.5,1,1,2.2,No,3.5,7.7
+895,CUS00896,32,Female,Bauchi,Mobile,USSD,Electronics,142887.2,4,35721.8,49,0,4,1.9,2,1,4.1,No,0.95,7.79
+896,CUS00897,42,Male,Oyo,Desktop,Bank transfer,Fashion,73432.64,9,8159.18,79,0,0,3.9,4,2,1.0,Yes,0.975,3.9
+897,CUS00898,54,Male,Imo,Mobile,Bank transfer,Fashion,97489.86,6,16248.31,39,3,4,2.7,6,1,3.3,Yes,0.3,8.91
+898,CUS00899,45,Female,Abuja,Laptop,Bank transfer,Fashion,43010.23,15,2867.35,1,0,4,2.3,6,0,6.3,No,0.383,14.49
+899,CUS00900,27,Male,Anambra,Mobile,Bank transfer,Electronics,40138.08,1,40138.08,70,1,3,2.7,4,0,2.5,No,0.54,6.75
+900,CUS00901,56,Male,Imo,Phone,USSD,Sports,115969.24,4,28992.31,95,0,0,4.0,8,3,3.3,Yes,0.5,13.2
+901,CUS00902,34,Male,Abuja,Mobile,Bank transfer,Electronics,65037.69,15,4335.85,25,0,1,4.8,3,1,3.0,No,1.6,14.4
+902,CUS00903,56,Female,Kano,Mobile,Debit card,Electronics,46577.96,8,5822.24,30,0,0,4.0,3,0,0.0,No,1.333,0.0
+903,CUS00904,43,Female,Delta,Desktop,Bank transfer,Sports,56056.75,12,4671.4,60,0,0,4.1,1,0,2.9,No,4.1,11.89
+904,CUS00905,43,Female,Lagos,Desktop,Bank transfer,Fashion,116452.89,18,6469.6,93,2,2,4.0,3,2,2.5,Yes,0.8,10.0
+905,CUS00906,61,Male,Imo,Laptop,Bank transfer,Home,56693.3,4,14173.32,29,1,1,3.6,5,0,1.6,No,0.6,5.76
+906,CUS00907,42,Female,Abuja,Mobile,Bank transfer,Beauty,79705.53,7,11386.5,5,1,8,4.2,7,2,0.7,No,0.525,2.94
+907,CUS00908,34,Female,Enugu,Mobile,Debit card,Fashion,85676.25,6,14279.38,63,0,2,1.1,2,0,3.0,Yes,0.55,3.3
+908,CUS00909,30,Male,Delta,Desktop,Bank transfer,Home,500.0,1,500.0,68,1,5,3.6,4,2,0.5,Yes,0.72,1.8
+909,CUS00910,37,Female,Abuja,Desktop,Bank transfer,Electronics,18799.31,6,3133.22,45,0,0,2.5,6,1,5.2,Yes,0.417,13.0
+910,CUS00911,42,Female,Kaduna,Desktop,Debit card,Beauty,217428.06,12,18119.0,28,1,1,4.7,4,1,2.2,No,0.94,10.34
+911,CUS00912,21,Female,Kano,Mobile,Bank transfer,Food,51833.68,10,5183.37,74,3,3,3.4,1,0,0.2,No,0.85,0.68
+912,CUS00913,27,Male,Rivers,Mobile,Debit card,Fashion,132552.62,11,12050.24,60,0,1,3.5,4,2,1.2,No,0.875,4.2
+913,CUS00914,20,Male,Imo,Mobile,Bank transfer,Sports,128506.32,6,21417.72,21,0,2,2.0,5,1,1.6,Yes,0.4,3.2
+914,CUS00915,58,Female,Anambra,Phone,Debit card,Electronics,117362.59,4,29340.65,46,0,2,4.5,2,0,5.6,No,2.25,25.2
+915,CUS00916,62,Female,Kano,Mobile,Bank transfer,Fashion,166889.73,14,11920.7,4,2,2,4.1,3,0,0.7,No,0.82,2.87
+916,CUS00917,35,Female,Delta,Desktop,Bank transfer,Sports,81260.98,5,16252.2,65,1,6,4.1,1,1,1.8,No,2.05,7.38
+917,CUS00918,64,Male,Kaduna,Mobile,USSD,Food,114199.69,9,12688.85,37,3,3,2.7,1,0,1.2,Yes,0.675,3.24
+918,CUS00919,53,Male,Lagos,Desktop,Debit card,Fashion,58701.96,8,7337.74,31,1,3,2.7,6,0,2.7,Yes,0.386,7.29
+919,CUS00920,64,Male,Enugu,Mobile,Bank transfer,Fashion,195356.65,15,13023.78,44,1,4,3.7,3,0,1.2,No,0.925,4.44
+920,CUS00921,39,Male,Anambra,Desktop,USSD,Food,217428.06,12,18119.0,46,1,4,2.8,7,0,0.3,Yes,0.35,0.84
+921,CUS00922,51,Male,Imo,Mobile,Bank transfer,Food,85534.62,1,85534.62,71,2,2,3.9,5,1,1.7,Yes,0.557,6.63
+922,CUS00923,64,Female,Anambra,Laptop,USSD,Fashion,102396.38,2,51198.19,62,0,2,5.0,3,1,1.6,Yes,1.667,8.0
+923,CUS00924,25,Female,Kano,Mobile,Debit card,Food,88686.96,10,8868.7,40,1,3,3.0,3,2,1.1,Yes,0.75,3.3
+924,CUS00925,57,Female,Delta,Desktop,Cash,Food,78378.72,7,11196.96,67,0,5,5.0,5,1,1.2,No,1.0,6.0
+925,CUS00926,61,Female,Lagos,Desktop,POS,Food,55451.92,5,11090.38,57,2,5,3.9,5,0,3.8,Yes,0.557,14.82
+926,CUS00927,36,Female,Bauchi,Mobile,POS,Auto,124329.54,13,9563.81,32,0,2,3.7,4,1,1.5,No,0.925,5.55
+927,CUS00928,59,Female,Kaduna,Mobile,Debit card,Home,88529.77,8,11066.22,41,0,4,5.0,6,1,0.3,No,0.833,1.5
+928,CUS00929,58,Female,Imo,Pc,USSD,Sports,93234.75,8,11654.34,40,1,2,1.2,3,0,1.3,Yes,0.3,1.56
+929,CUS00930,54,Male,Bauchi,Phone,Bank transfer,Fashion,47457.79,11,4314.34,60,0,3,2.7,2,1,2.1,No,1.35,5.67
+930,CUS00931,23,Female,Enugu,Pc,Debit card,Auto,7704.75,6,1284.12,33,0,2,3.1,3,2,0.0,Yes,1.033,0.0
+931,CUS00932,43,Female,Lagos,Laptop,Bank transfer,Electronics,95626.41,15,6375.09,33,2,2,4.4,4,1,4.4,Yes,0.733,19.36
+932,CUS00933,51,Female,Borno,Mobile,Bank transfer,Electronics,125723.29,4,31430.82,104,1,5,4.4,1,0,3.3,No,2.2,14.52
+933,CUS00934,62,Male,Borno,Desktop,Bank transfer,Beauty,74838.7,11,6803.52,73,1,3,2.6,1,1,4.1,No,1.3,10.66
+934,CUS00935,23,Male,Lagos,Desktop,Bank transfer,Food,149639.33,15,9975.96,22,2,3,4.5,4,0,2.1,No,0.75,9.45
+935,CUS00936,54,Female,Kaduna,Tablet,Debit card,Food,53323.77,1,53323.77,62,0,0,3.1,3,1,0.0,Yes,1.033,0.0
+936,CUS00937,50,Male,Oyo,Desktop,Debit card,Home,37538.3,21,1787.54,48,0,2,4.7,3,1,4.3,No,1.567,20.21
+937,CUS00938,39,Female,Bauchi,Desktop,Debit card,Electronics,81974.64,13,6305.74,56,0,2,2.5,3,0,0.7,No,0.833,1.75
+938,CUS00939,38,Female,Abuja,Mobile,Debit card,Electronics,81283.33,13,6252.56,49,0,1,3.4,7,0,0.8,No,0.486,2.72
+939,CUS00940,23,Female,Anambra,Mobile,Debit card,Food,119648.59,21,5697.55,80,0,3,3.0,6,0,2.2,Yes,0.5,6.6
+940,CUS00941,23,Male,Imo,Mobile,Bank transfer,Fashion,50126.67,4,12531.67,55,0,2,4.6,1,1,4.1,No,4.6,18.86
+941,CUS00942,21,Male,Oyo,Tablet,Debit card,Electronics,146564.24,12,12213.69,43,0,3,3.0,2,0,3.6,No,1.5,10.8
+942,CUS00943,47,Male,Abuja,Mobile,Debit card,Food,173511.26,13,13347.02,76,0,3,3.5,5,0,3.4,Yes,0.7,11.9
+943,CUS00944,28,Male,Delta,Mobile,Debit card,Food,83238.52,2,41619.26,51,0,1,4.0,5,2,1.5,No,0.8,6.0
+944,CUS00945,47,Female,Imo,Mobile,Debit card,Food,141236.97,1,141236.97,48,0,2,4.0,3,0,1.5,No,1.333,6.0
+945,CUS00946,48,Male,Imo,Desktop,Debit card,Home,37457.63,9,4161.96,54,1,3,4.4,1,1,2.5,No,2.2,11.0
+946,CUS00947,41,Male,Borno,Mobile,Debit card,Food,133384.97,11,12125.91,42,0,5,3.7,2,1,1.8,No,1.85,6.66
+947,CUS00948,26,Male,Kaduna,Desktop,Bank transfer,Food,88686.96,6,14781.16,45,2,3,3.1,2,1,3.3,Yes,0.775,10.23
+948,CUS00949,20,Male,Delta,Mobile,Bank transfer,Beauty,123854.68,11,11259.52,27,3,1,3.2,4,0,3.2,No,0.457,10.24
+949,CUS00950,48,Female,Anambra,Mobile,Bank transfer,Auto,84299.66,21,4014.27,22,2,3,5.0,7,0,2.9,Yes,0.556,14.5
+950,CUS00951,57,Male,Rivers,Mobile,Debit card,Electronics,500.0,1,500.0,15,0,6,3.7,2,0,0.0,No,1.85,0.0
+951,CUS00952,54,Male,Abuja,Desktop,Debit card,Food,56122.28,5,11224.46,3,3,4,3.4,1,1,2.2,No,0.85,7.48
+952,CUS00953,53,Female,Borno,Mobile,Cash,Fashion,56833.78,8,7104.22,18,3,4,3.5,4,0,1.8,Yes,0.5,6.3
+953,CUS00954,43,Male,Imo,Mobile,Cash,Beauty,40978.53,6,6829.76,39,1,4,2.0,7,0,2.3,Yes,0.25,4.6
+954,CUS00955,48,Female,Oyo,Desktop,Debit card,Electronics,90500.94,2,45250.47,48,2,5,4.2,1,3,0.9,Yes,1.4,3.78
+955,CUS00956,23,Male,Borno,Mobile,Bank transfer,Electronics,66146.64,1,66146.64,36,0,5,3.7,6,0,0.0,No,0.617,0.0
+956,CUS00957,19,Male,Abuja,Tablet,Debit card,Electronics,47892.46,5,9578.49,1,0,4,4.5,3,0,2.7,No,1.5,12.15
+957,CUS00958,37,Male,Abuja,Mobile,Debit card,Electronics,37353.99,12,3112.83,92,0,5,3.5,2,2,1.5,Yes,1.75,5.25
+958,CUS00959,45,Female,Kaduna,Mobile,Cash,Fashion,52801.92,14,3771.57,77,3,0,1.8,1,0,2.9,Yes,0.45,5.22
+959,CUS00960,28,Male,Imo,Desktop,Debit card,Home,135467.46,13,10420.57,58,0,0,3.1,5,0,1.0,No,0.62,3.1
+960,CUS00961,21,Male,Delta,Mobile,Bank transfer,Beauty,55253.87,3,18417.96,102,0,3,3.3,3,2,4.1,No,1.1,13.53
+961,CUS00962,32,Female,Bauchi,Mobile,Bank transfer,Auto,61827.76,2,30913.88,15,1,3,4.2,4,1,3.5,No,0.84,14.7
+962,CUS00963,23,Female,Rivers,Mobile,Bank transfer,Electronics,64448.61,10,6444.86,101,0,1,1.4,2,0,2.4,Yes,0.7,3.36
+963,CUS00964,47,Female,Kaduna,Mobile,Bank transfer,Electronics,100254.71,11,9114.06,16,0,4,3.5,3,1,1.7,No,1.167,5.95
+964,CUS00965,55,Female,Enugu,Tablet,Bank transfer,Beauty,105531.23,10,10553.12,52,1,0,4.0,3,0,3.3,No,1.0,13.2
+965,CUS00966,19,Female,Imo,Mobile,Bank transfer,Food,500.0,1,500.0,6,0,1,2.8,3,0,2.6,Yes,0.933,7.28
+966,CUS00967,32,Male,Kaduna,Desktop,Debit card,Food,130973.58,3,43657.86,45,0,2,3.6,2,0,2.4,No,1.8,8.64
+967,CUS00968,28,Male,Anambra,Mobile,Debit card,Fashion,149636.56,7,21376.65,56,1,0,2.9,2,0,3.6,No,0.967,10.44
+968,CUS00969,25,Female,Rivers,Mobile,Bank transfer,Sports,37741.61,10,3774.16,40,2,5,2.8,9,1,4.1,Yes,0.255,11.48
+969,CUS00970,43,Male,Borno,Pc,Bank transfer,Fashion,41246.58,11,3749.69,66,2,0,3.1,1,1,0.1,Yes,1.033,0.31
+970,CUS00971,62,Female,Lagos,Mobile,Bank transfer,Auto,64738.6,8,8092.32,47,0,1,2.8,4,1,0.4,No,0.7,1.12
+971,CUS00972,89,Male,Enugu,Tablet,Bank transfer,Fashion,50979.82,9,5664.42,29,0,4,4.2,1,2,0.8,No,4.2,3.36
+972,CUS00973,22,Male,Kano,Mobile,Bank transfer,Electronics,95076.71,21,4527.46,27,0,4,2.8,1,0,0.0,No,2.8,0.0
+973,CUS00974,23,Female,Kaduna,Mobile,Debit card,Electronics,80315.08,11,7301.37,69,3,0,2.6,4,1,1.9,Yes,0.371,4.94
+974,CUS00975,43,Female,Abuja,Mobile,Cash,Sports,34693.26,9,3854.81,25,1,4,5.0,4,1,2.9,No,1.0,14.5
+975,CUS00976,21,Female,Bauchi,Desktop,Debit card,Auto,154263.87,8,19282.98,72,2,3,4.5,6,1,2.0,Yes,0.562,9.0
+976,CUS00977,36,Female,Lagos,Mobile,Debit card,Fashion,43230.1,6,7205.02,81,2,7,1.6,4,0,1.2,Yes,0.267,1.92
+977,CUS00978,37,Male,Kaduna,Phone,Debit card,Fashion,140954.27,8,17619.28,1,1,3,2.7,3,0,3.7,No,0.675,9.99
+978,CUS00979,50,Female,Kaduna,Mobile,Debit card,Books,100990.22,10,10099.02,78,1,2,3.7,2,1,2.2,Yes,1.233,8.14
+979,CUS00980,37,Female,Oyo,Mobile,Debit card,Electronics,3582.95,9,398.11,106,1,1,3.8,6,0,2.5,Yes,0.543,9.5
+980,CUS00981,29,Female,Oyo,Phone,USSD,Food,113589.81,9,12621.09,52,0,1,2.0,6,0,3.7,Yes,0.333,7.4
+981,CUS00982,64,Male,Lagos,Mobile,Bank transfer,Beauty,79704.97,14,5693.21,62,0,1,4.7,1,0,1.8,No,4.7,8.46
+982,CUS00983,18,Female,Delta,Phone,Bank transfer,Beauty,64503.98,9,7167.11,76,2,5,4.3,4,0,5.1,No,0.717,21.93
+983,CUS00984,43,Female,Borno,Mobile,Debit card,Home,96023.07,4,24005.77,36,2,3,4.0,4,0,1.3,No,0.667,5.2
+984,CUS00985,31,Male,Oyo,Mobile,Debit card,Food,106358.51,12,8863.21,50,0,4,4.9,3,2,5.0,No,1.633,24.5
+985,CUS00986,55,Female,Abuja,Desktop,Bank transfer,Sports,116841.63,1,116841.63,5,2,6,4.0,5,1,0.5,No,0.571,2.0
+986,CUS00987,54,Male,Enugu,Desktop,Bank transfer,Beauty,138021.38,2,69010.69,49,3,0,3.9,5,0,2.8,Yes,0.488,10.92
+987,CUS00988,28,Male,Kano,Pc,Debit card,Beauty,103366.12,9,11485.12,59,0,5,5.0,4,1,1.0,No,1.25,5.0
+988,CUS00989,53,Female,Rivers,Mobile,USSD,Sports,23096.47,10,2309.65,60,0,3,4.6,3,1,3.7,No,1.533,17.02
+989,CUS00990,30,Male,Kano,Mobile,Debit card,Fashion,63685.95,1,63685.95,76,1,3,2.7,6,0,1.3,Yes,0.386,3.51
+990,CUS00991,60,Female,Kano,Mobile,Bank transfer,Electronics,217428.06,6,36238.01,21,0,1,4.1,5,0,2.4,No,0.82,9.84
+991,CUS00992,20,Male,Rivers,Mobile,USSD,Electronics,117602.1,4,29400.52,29,0,1,2.8,4,0,1.0,No,0.7,2.8
+992,CUS00993,50,Female,Oyo,Mobile,Debit card,Fashion,191617.93,8,23952.24,101,1,3,4.0,1,0,3.4,No,2.0,13.6
+993,CUS00994,23,Female,Lagos,Desktop,Bank transfer,Beauty,147794.53,12,12316.21,40,0,7,4.0,4,0,1.0,No,1.0,4.0
+994,CUS00995,27,Male,Rivers,Mobile,Bank transfer,Auto,95881.09,11,8716.46,51,0,5,2.1,5,1,4.5,Yes,0.42,9.45
+995,CUS00996,22,Female,Borno,Mobile,Bank transfer,Home,98563.32,7,14080.47,42,1,5,3.4,1,1,0.5,No,1.7,1.7
+996,CUS00997,40,Male,Borno,Desktop,USSD,Books,83353.9,5,16670.78,20,0,2,3.8,4,1,0.0,No,0.95,0.0
+997,CUS00998,27,Male,Imo,Mobile,Bank transfer,Food,6798.79,1,6798.79,93,1,1,3.1,3,1,3.4,Yes,0.775,10.54
+998,CUS00999,61,Female,Anambra,Mobile,Debit card,Food,85812.13,15,5720.81,29,3,1,3.8,3,1,1.1,No,0.633,4.18
+999,CUS01000,19,Male,Delta,Mobile,Bank transfer,Food,139480.35,10,13948.04,11,1,2,4.3,2,0,2.0,No,1.433,8.6
+1000,CUS01001,30,Male,Enugu,Mobile,Debit card,Fashion,58016.2,4,14504.05,31,1,0,3.5,3,1,1.5,No,0.875,5.25
+1001,CUS01002,57,Male,Bauchi,Mobile,Debit card,Electronics,103537.88,11,9412.53,1,0,1,3.7,6,0,0.0,No,0.617,0.0
+1002,CUS01003,43,Female,Oyo,Mobile,USSD,Beauty,123321.6,7,17617.37,25,2,1,4.9,3,0,1.9,No,0.98,9.31
+1003,CUS01004,37,Female,Delta,Mobile,Bank transfer,Electronics,44064.38,6,7344.06,15,0,2,4.0,5,2,3.9,No,0.8,15.6
+1004,CUS01005,18,Female,Rivers,Desktop,USSD,Fashion,64691.37,10,6469.14,63,1,3,3.7,2,0,3.5,Yes,1.233,12.95
+1005,CUS01006,54,Male,Anambra,Mobile,Debit card,Electronics,39193.98,4,9798.5,24,0,3,2.5,5,1,2.3,Yes,0.5,5.75
+1006,CUS01007,26,Female,Bauchi,Mobile,Debit card,Books,48002.55,6,8000.42,71,2,2,4.2,4,0,3.7,Yes,0.7,15.54
+1007,CUS01008,34,Female,Enugu,Mobile,Debit card,Fashion,27057.76,8,3382.22,86,0,1,3.8,4,0,0.4,No,0.95,1.52
+1008,CUS01009,26,Female,Enugu,Desktop,Bank transfer,Auto,44479.82,5,8895.96,68,0,0,5.0,4,1,1.5,No,1.25,7.5
+1009,CUS01010,28,Male,Oyo,Mobile,Bank transfer,Home,148875.51,11,13534.14,38,0,1,3.5,5,0,2.6,Yes,0.7,9.1
+1010,CUS01011,32,Female,Rivers,Pc,Debit card,Food,43803.53,17,2576.68,49,1,1,1.7,1,0,1.8,No,0.85,3.06
+1011,CUS01012,41,Male,Delta,Mobile,Bank transfer,Food,90690.66,4,22672.66,1,1,3,1.8,1,0,1.6,Yes,0.9,2.88
+1012,CUS01013,55,Male,Lagos,Mobile,Debit card,Home,62370.91,1,62370.91,40,2,4,4.2,4,0,0.2,No,0.7,0.84
+1013,CUS01014,52,Male,Delta,Phone,USSD,Food,138048.97,1,138048.97,19,1,4,2.9,1,0,0.0,No,1.45,0.0
+1014,CUS01015,47,Male,Delta,Tablet,Bank transfer,Sports,144002.3,7,20571.76,65,0,4,3.9,2,2,3.2,No,1.95,12.48
+1015,CUS01016,48,Female,Enugu,Mobile,Cash,Food,123883.15,4,30970.79,122,0,2,3.6,3,2,2.4,No,1.2,8.64
+1016,CUS01017,22,Male,Lagos,Desktop,Cash,Fashion,98776.05,9,10975.12,59,0,1,3.3,2,0,3.4,No,1.65,11.22
+1017,CUS01018,43,Female,Lagos,Desktop,Cash,Beauty,74602.32,8,9325.29,1,2,1,3.4,2,1,1.3,No,0.85,4.42
+1018,CUS01019,31,Male,Oyo,Pc,Bank transfer,Beauty,217428.06,1,217428.06,34,0,0,2.6,4,1,0.9,No,0.65,2.34
+1019,CUS01020,28,Female,Bauchi,Laptop,Bank transfer,Auto,172458.8,1,172458.8,48,1,4,3.5,7,1,2.0,Yes,0.438,7.0
+1020,CUS01021,26,Female,Kaduna,Desktop,USSD,Home,50814.71,9,5646.08,47,1,2,2.9,4,0,3.3,No,0.58,9.57
+1021,CUS01022,51,Female,Kano,Mobile,Bank transfer,Home,114864.09,8,14358.01,23,0,0,3.1,3,0,1.7,No,1.033,5.27
+1022,CUS01023,89,Male,Kano,Phone,Cash,Electronics,132680.45,5,26536.09,52,1,1,3.2,2,0,3.2,No,1.067,10.24
+1023,CUS01024,52,Female,Enugu,Mobile,Debit card,Home,60012.38,1,60012.38,7,3,1,3.3,1,0,0.5,No,0.825,1.65
+1024,CUS01025,52,Female,Kaduna,Mobile,Bank transfer,Beauty,131710.56,10,13171.06,16,0,3,4.4,4,0,1.8,No,1.1,7.92
+1025,CUS01026,18,Female,Bauchi,Phone,Debit card,Electronics,119389.59,14,8527.83,64,0,5,3.4,5,0,1.9,No,0.68,6.46
+1026,CUS01027,57,Male,Kaduna,Mobile,Cash,Fashion,162758.37,9,18084.26,14,0,2,4.5,6,0,3.8,No,0.75,17.1
+1027,CUS01028,39,Female,Oyo,Mobile,Bank transfer,Electronics,63879.41,3,21293.14,61,0,0,5.0,2,0,2.3,No,2.5,11.5
+1028,CUS01029,46,Female,Delta,Mobile,Debit card,Auto,27136.12,8,3392.02,3,1,2,4.4,1,0,4.6,No,2.2,20.24
+1029,CUS01030,25,Female,Enugu,Phone,Bank transfer,Electronics,62252.96,1,62252.96,97,1,2,4.0,4,1,0.0,No,0.8,0.0
+1030,CUS01031,28,Female,Lagos,Mobile,Bank transfer,Food,94398.41,13,7261.42,21,3,2,3.8,5,0,2.2,Yes,0.475,8.36
+1031,CUS01032,58,Female,Borno,Desktop,Bank transfer,Beauty,87619.57,21,4172.36,38,0,1,4.4,4,1,2.3,No,1.1,10.12
+1032,CUS01033,54,Male,Enugu,Mobile,Bank transfer,Electronics,67295.29,1,67295.29,54,1,3,3.6,4,2,2.9,Yes,0.72,10.44
+1033,CUS01034,31,Male,Kano,Tablet,Cash,Home,500.0,6,83.33,28,0,3,4.5,6,2,0.8,No,0.75,3.6
+1034,CUS01035,47,Male,Bauchi,Tablet,Bank transfer,Electronics,106171.73,10,10617.17,49,0,2,4.1,2,0,4.5,No,2.05,18.45
+1035,CUS01036,52,Male,Kaduna,Desktop,Debit card,Fashion,173755.5,6,28959.25,62,0,3,3.1,4,0,2.0,No,0.775,6.2
+1036,CUS01037,38,Female,Bauchi,Desktop,Bank transfer,Beauty,105891.31,6,17648.55,73,0,2,4.4,7,0,0.4,No,0.629,1.76
+1037,CUS01038,54,Male,Oyo,Mobile,Debit card,Home,112411.1,1,112411.1,68,0,2,3.6,3,1,2.0,No,1.2,7.2
+1038,CUS01039,22,Female,Enugu,Laptop,Debit card,Fashion,110760.04,10,11076.0,39,1,5,3.4,1,0,1.5,No,1.7,5.1
+1039,CUS01040,89,Female,Rivers,Mobile,USSD,Home,102867.1,4,25716.78,40,0,4,3.0,2,0,6.2,No,1.5,18.6
+1040,CUS01041,31,Female,Enugu,Pc,USSD,Home,126924.97,1,126924.97,115,1,4,3.7,2,1,3.6,Yes,1.233,13.32
+1041,CUS01042,43,Female,Lagos,Desktop,Bank transfer,Food,102791.82,6,17131.97,73,0,5,4.5,5,1,2.1,Yes,0.9,9.45
+1042,CUS01043,21,Male,Enugu,Mobile,USSD,Electronics,70929.53,12,5910.79,17,0,4,4.4,2,1,1.8,No,2.2,7.92
+1043,CUS01044,42,Female,Anambra,Tablet,Bank transfer,Electronics,49180.5,6,8196.75,47,1,4,5.0,4,1,3.4,No,1.0,17.0
+1044,CUS01045,62,Female,Oyo,Desktop,Bank transfer,Beauty,73796.19,8,9224.52,34,1,0,4.1,2,1,3.5,No,1.367,14.35
+1045,CUS01046,89,Female,Abuja,Laptop,Cash,Home,99135.83,10,9913.58,40,2,3,4.8,1,1,0.0,No,1.6,0.0
+1046,CUS01047,89,Female,Oyo,Desktop,Debit card,Food,70776.27,9,7864.03,8,0,2,3.4,4,1,3.0,No,0.85,10.2
+1047,CUS01048,35,Female,Kaduna,Mobile,Bank transfer,Home,99145.24,7,14163.61,32,0,6,2.4,4,1,2.0,No,0.6,4.8
+1048,CUS01049,57,Male,Borno,Desktop,USSD,Beauty,104761.76,7,14965.97,99,0,4,4.8,5,0,0.0,No,0.96,0.0
+1049,CUS01050,25,Female,Abuja,Desktop,Debit card,Electronics,122493.07,6,20415.51,62,0,1,3.0,2,2,3.3,Yes,1.5,9.9
+1050,CUS01051,56,Male,Kaduna,Mobile,USSD,Fashion,142725.77,6,23787.63,1,0,3,2.8,2,0,5.4,No,1.4,15.12
+1051,CUS01052,57,Male,Kaduna,Mobile,Debit card,Auto,88510.33,10,8851.03,81,4,3,1.7,4,0,2.8,Yes,0.212,4.76
+1052,CUS01053,31,Male,Lagos,Mobile,Bank transfer,Home,26150.05,3,8716.68,77,0,3,4.1,7,0,3.7,Yes,0.586,15.17
+1053,CUS01054,49,Male,Lagos,Desktop,Debit card,Electronics,69470.32,2,34735.16,34,0,0,1.9,4,1,4.7,Yes,0.475,8.93
+1054,CUS01055,55,Male,Imo,Desktop,Bank transfer,Electronics,86982.82,2,43491.41,66,0,3,2.7,4,0,0.8,No,0.675,2.16
+1055,CUS01056,50,Female,Delta,Mobile,USSD,Electronics,2390.41,18,132.8,19,0,2,4.1,3,0,0.0,No,1.367,0.0
+1056,CUS01057,89,Female,Kano,Desktop,Debit card,Fashion,147489.9,10,14748.99,30,0,3,4.2,1,1,3.0,No,4.2,12.6
+1057,CUS01058,32,Female,Delta,Mobile,Bank transfer,Electronics,91407.01,9,10156.33,89,1,1,2.8,5,1,1.6,Yes,0.467,4.48
+1058,CUS01059,50,Female,Delta,Desktop,Bank transfer,Electronics,102160.88,2,51080.44,36,0,1,3.4,5,0,0.0,No,0.68,0.0
+1059,CUS01060,42,Male,Borno,Mobile,Bank transfer,Fashion,146448.69,11,13313.52,1,2,5,2.6,5,0,1.9,No,0.371,4.94
+1060,CUS01061,34,Male,Kano,Mobile,USSD,Home,56643.57,7,8091.94,43,1,0,3.0,3,0,3.1,No,0.75,9.3
+1061,CUS01062,89,Female,Rivers,Mobile,USSD,Fashion,110831.89,9,12314.65,42,0,1,3.8,5,0,1.8,No,0.76,6.84
+1062,CUS01063,64,Female,Abuja,Pc,Bank transfer,Beauty,80056.11,3,26685.37,80,0,2,3.0,5,0,0.8,Yes,0.6,2.4
+1063,CUS01064,19,Male,Bauchi,Desktop,POS,Fashion,76716.09,8,9589.51,45,0,1,3.3,7,0,1.7,No,0.471,5.61
+1064,CUS01065,31,Female,Delta,Tablet,Debit card,Fashion,50251.34,5,10050.27,32,0,1,3.5,5,1,2.0,Yes,0.7,7.0
+1065,CUS01066,57,Male,Borno,Phone,Bank transfer,Home,159952.14,4,39988.04,76,4,3,4.6,4,1,0.0,Yes,0.575,0.0
+1066,CUS01067,57,Male,Imo,Mobile,Cash,Fashion,68102.5,11,6191.14,48,1,0,4.0,1,1,1.8,No,2.0,7.2
+1067,CUS01068,56,Female,Enugu,Mobile,Debit card,Sports,116475.89,1,116475.89,22,0,0,4.3,4,1,0.0,No,1.075,0.0
+1068,CUS01069,23,Female,Enugu,Laptop,Bank transfer,Fashion,624.67,10,62.47,79,0,7,4.8,4,1,3.0,No,1.2,14.4
+1069,CUS01070,23,Male,Kaduna,Desktop,Bank transfer,Fashion,138099.48,11,12554.5,50,0,3,2.7,5,1,0.0,Yes,0.54,0.0
+1070,CUS01071,20,Female,Kano,Desktop,Bank transfer,Fashion,132349.5,3,44116.5,45,1,1,3.1,6,0,3.5,Yes,0.443,10.85
+1071,CUS01072,89,Female,Kaduna,Mobile,USSD,Fashion,89384.53,3,29794.84,50,0,3,1.6,3,0,1.4,Yes,0.533,2.24
+1072,CUS01073,25,Male,Borno,Tablet,POS,Fashion,74787.59,6,12464.6,12,0,4,3.5,9,0,1.2,No,0.389,4.2
+1073,CUS01074,59,Female,Anambra,Mobile,Debit card,Food,103000.0,9,11444.44,29,0,4,3.4,1,0,2.4,No,3.4,8.16
+1074,CUS01075,32,Female,Anambra,Mobile,Bank transfer,Fashion,187995.58,7,26856.51,45,0,2,4.5,4,0,0.7,No,1.125,3.15
+1075,CUS01076,64,Male,Imo,Desktop,USSD,Food,5654.35,10,565.44,39,1,4,2.3,2,1,2.4,No,0.767,5.52
+1076,CUS01077,46,Female,Bauchi,Mobile,Bank transfer,Fashion,120191.23,16,7511.95,83,2,0,5.0,1,2,0.9,No,1.667,4.5
+1077,CUS01078,50,Female,Lagos,Phone,Bank transfer,Home,43977.22,8,5497.15,51,2,0,5.0,4,1,1.2,No,0.833,6.0
+1078,CUS01079,47,Female,Lagos,Desktop,Bank transfer,Food,84103.67,1,84103.67,70,1,3,3.4,1,1,2.6,No,1.7,8.84
+1079,CUS01080,56,Female,Kano,Phone,Bank transfer,Food,73845.39,12,6153.78,45,0,3,2.5,3,1,0.3,No,0.833,0.75
+1080,CUS01081,44,Male,Kano,Phone,Debit card,Electronics,65725.68,16,4107.85,76,2,1,3.4,4,0,0.1,Yes,0.567,0.34
+1081,CUS01082,53,Female,Delta,Tablet,Debit card,Beauty,84529.07,9,9392.12,56,1,3,1.3,6,1,2.4,Yes,0.186,3.12
+1082,CUS01083,89,Female,Anambra,Mobile,Debit card,Fashion,33962.3,2,16981.15,45,1,1,3.5,1,1,2.0,No,1.75,7.0
+1083,CUS01084,55,Female,Delta,Desktop,Bank transfer,Home,131313.12,7,18759.02,44,0,2,4.3,5,0,2.3,No,0.86,9.89
+1084,CUS01085,50,Male,Lagos,Pc,Bank transfer,Beauty,4263.54,2,2131.77,16,0,5,3.5,4,0,2.5,No,0.875,8.75
+1085,CUS01086,54,Male,Abuja,Desktop,Debit card,Home,109289.4,11,9935.4,60,1,4,3.2,6,0,2.1,Yes,0.457,6.72
+1086,CUS01087,44,Female,Abuja,Desktop,Debit card,Electronics,70305.89,1,70305.89,43,4,1,4.0,3,0,2.9,Yes,0.571,11.6
+1087,CUS01088,50,Female,Kano,Mobile,Bank transfer,Food,32308.38,6,5384.73,29,1,0,4.1,1,0,2.1,No,2.05,8.61
+1088,CUS01089,21,Female,Kaduna,Mobile,Bank transfer,Fashion,94107.25,2,47053.62,78,0,2,1.8,1,3,0.0,Yes,1.8,0.0
+1089,CUS01090,39,Female,Lagos,Mobile,Bank transfer,Books,14937.2,8,1867.15,7,0,2,3.6,1,0,0.0,No,3.6,0.0
+1090,CUS01091,19,Male,Abuja,Mobile,USSD,Food,86787.12,6,14464.52,32,0,1,5.0,4,0,4.9,No,1.25,24.5
+1091,CUS01092,27,Male,Lagos,Desktop,Debit card,Sports,20970.54,8,2621.32,75,4,5,2.2,6,0,2.0,Yes,0.22,4.4
+1092,CUS01093,22,Male,Oyo,Mobile,Debit card,Fashion,105757.24,8,13219.66,54,0,3,3.4,2,1,3.4,No,1.7,11.56
+1093,CUS01094,27,Male,Enugu,Phone,Debit card,Fashion,43403.92,3,14467.97,43,2,3,5.0,5,1,1.5,Yes,0.714,7.5
+1094,CUS01095,50,Male,Anambra,Mobile,Debit card,Home,64705.27,11,5882.3,52,0,0,4.6,1,1,1.9,No,4.6,8.74
+1095,CUS01096,55,Male,Delta,Laptop,Debit card,Electronics,98227.72,7,14032.53,50,1,5,3.0,4,0,1.3,Yes,0.6,3.9
+1096,CUS01097,30,Female,Lagos,Desktop,USSD,Fashion,50235.6,3,16745.2,1,2,0,3.7,5,2,5.7,Yes,0.529,21.09
+1097,CUS01098,48,Female,Enugu,Desktop,Bank transfer,Sports,82391.62,19,4336.4,34,0,4,3.5,1,1,2.4,Yes,3.5,8.4
+1098,CUS01099,64,Female,Oyo,Tablet,Bank transfer,Electronics,16877.63,10,1687.76,93,0,4,2.8,3,2,1.2,Yes,0.933,3.36
+1099,CUS01100,53,Female,Delta,Mobile,Bank transfer,Electronics,113389.4,7,16198.49,25,3,2,3.4,5,1,0.0,Yes,0.425,0.0
+1100,CUS01101,62,Female,Lagos,Pc,Cash,Food,164421.12,15,10961.41,35,2,5,3.2,1,1,5.0,Yes,1.067,16.0
+1101,CUS01102,41,Male,Kano,Desktop,USSD,Fashion,210649.4,17,12391.14,28,2,2,3.6,6,0,1.8,Yes,0.45,6.48
+1102,CUS01103,32,Male,Enugu,Phone,Debit card,Food,89102.57,7,12728.94,42,2,3,2.8,4,0,3.1,Yes,0.467,8.68
+1103,CUS01104,46,Female,Delta,Mobile,Bank transfer,Fashion,120469.19,9,13385.47,27,1,3,2.2,5,2,3.3,Yes,0.367,7.26
+1104,CUS01105,25,Female,Lagos,Desktop,Debit card,Fashion,4871.84,3,1623.95,59,4,9,3.5,3,2,1.3,Yes,0.5,4.55
+1105,CUS01106,22,Male,Enugu,Desktop,Bank transfer,Home,152623.04,7,21803.29,50,1,5,5.0,1,0,3.0,No,2.5,15.0
+1106,CUS01107,46,Male,Oyo,Desktop,Debit card,Beauty,119930.28,7,17132.9,68,1,4,3.6,5,1,1.1,Yes,0.6,3.96
+1107,CUS01108,64,Female,Lagos,Mobile,Cash,Fashion,63222.99,8,7902.87,13,0,1,3.2,3,0,0.5,No,1.067,1.6
+1108,CUS01109,21,Female,Lagos,Phone,Bank transfer,Fashion,140673.14,9,15630.35,34,0,3,4.3,4,0,3.7,No,1.075,15.91
+1109,CUS01110,29,Male,Lagos,Mobile,Bank transfer,Beauty,73548.58,10,7354.86,38,0,1,3.3,6,1,1.8,Yes,0.55,5.94
+1110,CUS01111,62,Female,Imo,Mobile,Debit card,Electronics,64388.87,9,7154.32,58,2,4,5.0,5,2,2.8,Yes,0.714,14.0
+1111,CUS01112,19,Female,Bauchi,Desktop,Debit card,Electronics,106390.07,1,106390.07,21,0,3,3.5,7,1,2.6,No,0.5,9.1
+1112,CUS01113,44,Female,Imo,Tablet,Debit card,Electronics,37149.05,3,12383.02,72,0,0,4.2,4,0,3.0,No,1.05,12.6
+1113,CUS01114,48,Male,Kano,Mobile,Debit card,Auto,130973.11,5,26194.62,80,0,3,2.7,2,1,0.0,Yes,1.35,0.0
+1114,CUS01115,53,Male,Oyo,Desktop,Bank transfer,Books,37480.46,6,6246.74,15,0,1,4.0,3,0,1.1,No,1.333,4.4
+1115,CUS01116,53,Female,Imo,Mobile,Debit card,Books,37747.53,13,2903.66,30,0,3,3.8,4,1,1.5,No,0.95,5.7
+1116,CUS01117,89,Male,Delta,Mobile,USSD,Home,44063.96,2,22031.98,29,3,1,3.5,6,2,0.8,Yes,0.389,2.8
+1117,CUS01118,60,Male,Borno,Mobile,USSD,Home,119177.5,21,5675.12,123,1,3,3.0,1,0,2.6,Yes,1.5,7.8
+1118,CUS01119,44,Female,Bauchi,Mobile,Debit card,Food,57245.11,12,4770.43,32,0,4,2.9,4,1,3.8,No,0.725,11.02
+1119,CUS01120,22,Male,Kaduna,Desktop,Bank transfer,Sports,24340.19,6,4056.7,95,2,2,3.8,7,0,4.0,Yes,0.422,15.2
+1120,CUS01121,37,Male,Borno,Mobile,Bank transfer,Electronics,57744.4,10,5774.44,7,1,2,4.1,3,2,1.5,No,1.025,6.15
+1121,CUS01122,28,Male,Bauchi,Mobile,Bank transfer,Sports,83558.09,7,11936.87,15,1,3,3.4,5,0,2.4,No,0.567,8.16
+1122,CUS01123,27,Female,Anambra,Tablet,Bank transfer,Books,31856.24,9,3539.58,24,0,4,3.8,4,0,2.7,No,0.95,10.26
+1123,CUS01124,57,Female,Anambra,Mobile,USSD,Beauty,33174.35,6,5529.06,19,0,0,3.5,5,1,2.9,No,0.7,10.15
+1124,CUS01125,55,Male,Lagos,Mobile,Bank transfer,Food,180008.34,11,16364.39,36,0,3,3.6,2,1,0.7,No,1.8,2.52
+1125,CUS01126,23,Male,Bauchi,Desktop,Cash,Fashion,46274.56,1,46274.56,23,1,5,3.3,2,0,4.7,No,1.1,15.51
+1126,CUS01127,25,Female,Kaduna,Mobile,USSD,Sports,70463.09,6,11743.85,20,1,4,3.5,4,0,3.4,No,0.7,11.9
+1127,CUS01128,40,Male,Bauchi,Mobile,Bank transfer,Home,68474.33,9,7608.26,79,3,3,5.0,1,0,3.4,Yes,1.25,17.0
+1128,CUS01129,64,Female,Kano,Desktop,Debit card,Electronics,66038.94,10,6603.89,81,1,4,3.8,3,0,3.8,Yes,0.95,14.44
+1129,CUS01130,43,Male,Borno,Desktop,Debit card,Fashion,112960.6,15,7530.71,73,0,3,4.1,4,0,2.8,No,1.025,11.48
+1130,CUS01131,63,Female,Kano,Desktop,Debit card,Books,127666.43,6,21277.74,60,1,4,3.9,7,1,0.5,No,0.488,1.95
+1131,CUS01132,60,Male,Kaduna,Phone,Bank transfer,Beauty,71232.05,15,4748.8,47,0,0,3.2,4,0,1.8,No,0.8,5.76
+1132,CUS01133,29,Male,Bauchi,Desktop,Debit card,Electronics,29358.48,4,7339.62,30,0,0,4.8,5,1,0.0,No,0.96,0.0
+1133,CUS01134,43,Male,Enugu,Mobile,Bank transfer,Beauty,142349.81,14,10167.84,16,0,5,3.2,6,2,2.6,Yes,0.533,8.32
+1134,CUS01135,30,Male,Kano,Desktop,Debit card,Beauty,80709.65,12,6725.8,55,0,0,4.6,2,0,1.7,No,2.3,7.82
+1135,CUS01136,57,Female,Kano,Phone,Debit card,Beauty,162864.48,3,54288.16,9,0,3,3.2,4,1,1.9,No,0.8,6.08
+1136,CUS01137,35,Male,Abuja,Mobile,Debit card,Home,500.0,9,55.56,15,1,2,2.5,8,3,3.8,Yes,0.278,9.5
+1137,CUS01138,42,Male,Bauchi,Laptop,Bank transfer,Food,93793.14,7,13399.02,79,0,1,3.9,3,0,1.3,No,1.3,5.07
+1138,CUS01139,50,Female,Kano,Desktop,Bank transfer,Electronics,171337.29,11,15576.12,102,1,3,2.4,6,2,1.6,Yes,0.343,3.84
+1139,CUS01140,64,Female,Imo,Mobile,Bank transfer,Electronics,69103.11,6,11517.18,56,4,3,4.0,5,2,2.0,Yes,0.444,8.0
+1140,CUS01141,57,Female,Oyo,Mobile,Debit card,Fashion,74852.8,6,12475.47,78,0,7,2.3,1,1,0.0,Yes,2.3,0.0
+1141,CUS01142,60,Female,Bauchi,Mobile,Bank transfer,Beauty,98298.03,14,7021.29,37,0,1,3.2,4,2,1.6,Yes,0.8,5.12
+1142,CUS01143,29,Male,Anambra,Pc,Debit card,Sports,59854.19,7,8550.6,4,0,5,2.1,4,1,0.0,No,0.525,0.0
+1143,CUS01144,61,Female,Abuja,Mobile,Debit card,Food,70956.76,12,5913.06,63,0,3,5.0,4,0,1.1,No,1.25,5.5
+1144,CUS01145,53,Male,Kano,Tablet,Debit card,Electronics,69798.32,6,11633.05,62,1,1,1.8,2,2,3.3,Yes,0.6,5.94
+1145,CUS01146,21,Female,Abuja,Desktop,Bank transfer,Books,56766.07,16,3547.88,47,2,4,3.5,1,2,2.7,Yes,1.167,9.45
+1146,CUS01147,89,Male,Anambra,Mobile,Debit card,Home,140298.54,4,35074.64,37,1,4,4.6,3,2,1.1,No,1.15,5.06
+1147,CUS01148,54,Female,Kaduna,Mobile,Bank transfer,Fashion,105748.51,4,26437.13,73,2,3,4.5,3,1,2.1,Yes,0.9,9.45
+1148,CUS01149,25,Male,Kaduna,Mobile,Debit card,Fashion,96278.27,15,6418.55,15,4,3,4.4,6,0,0.4,Yes,0.44,1.76
+1149,CUS01150,59,Male,Borno,Laptop,Debit card,Auto,121385.7,5,24277.14,21,3,1,3.2,7,1,2.0,Yes,0.32,6.4
+1150,CUS01151,45,Female,Bauchi,Desktop,Bank transfer,Electronics,73103.99,16,4569.0,14,0,1,4.9,6,1,6.4,No,0.817,31.36
+1151,CUS01152,48,Male,Anambra,Desktop,Bank transfer,Electronics,50160.83,12,4180.07,47,0,4,4.4,5,2,4.8,No,0.88,21.12
+1152,CUS01153,26,Female,Rivers,Desktop,Debit card,Fashion,57881.91,21,2756.28,12,0,2,3.7,1,0,2.1,No,3.7,7.77
+1153,CUS01154,46,Male,Borno,Mobile,Bank transfer,Beauty,85080.24,1,85080.24,24,0,2,3.7,3,1,2.2,Yes,1.233,8.14
+1154,CUS01155,31,Male,Rivers,Desktop,Bank transfer,Fashion,37335.47,7,5333.64,23,1,3,3.2,4,0,0.5,No,0.64,1.6
+1155,CUS01156,57,Female,Bauchi,Phone,Bank transfer,Home,62488.25,8,7811.03,37,0,3,2.6,2,1,0.8,No,1.3,2.08
+1156,CUS01157,58,Female,Lagos,Mobile,Bank transfer,Food,61774.75,13,4751.9,1,0,0,4.7,5,0,2.5,No,0.94,11.75
+1157,CUS01158,39,Female,Abuja,Mobile,Bank transfer,Home,180605.03,15,12040.34,47,2,5,4.8,5,1,1.2,Yes,0.686,5.76
+1158,CUS01159,28,Female,Abuja,Mobile,Bank transfer,Fashion,500.0,4,125.0,82,0,3,2.6,5,0,3.4,Yes,0.52,8.84
+1159,CUS01160,40,Male,Kaduna,Laptop,Debit card,Fashion,76917.11,12,6409.76,49,0,2,3.3,6,2,4.4,No,0.55,14.52
+1160,CUS01161,18,Male,Rivers,Mobile,USSD,Fashion,162656.22,11,14786.93,91,2,3,3.4,2,1,2.5,Yes,0.85,8.5
+1161,CUS01162,63,Male,Imo,Mobile,USSD,Books,90483.0,13,6960.23,85,0,3,3.5,5,0,2.2,No,0.7,7.7
+1162,CUS01163,54,Male,Delta,Desktop,POS,Sports,118903.79,10,11890.38,68,0,4,3.6,2,1,0.0,No,1.8,0.0
+1163,CUS01164,38,Male,Kano,Mobile,Bank transfer,Food,89492.18,1,89492.18,47,0,4,4.4,2,0,3.1,No,2.2,13.64
+1164,CUS01165,89,Male,Kano,Desktop,Debit card,Electronics,54970.0,7,7852.86,45,1,4,2.8,5,1,0.3,Yes,0.467,0.84
+1165,CUS01166,63,Male,Kano,Desktop,Bank transfer,Electronics,50000.0,2,25000.0,67,1,5,2.7,6,0,1.4,Yes,0.386,3.78
+1166,CUS01167,53,Female,Kaduna,Mobile,Bank transfer,Beauty,94245.51,6,15707.58,33,1,4,4.7,4,0,3.4,No,0.94,15.98
+1167,CUS01168,40,Male,Anambra,Mobile,Bank transfer,Books,50097.7,12,4174.81,1,0,2,3.0,4,0,3.5,No,0.75,10.5
+1168,CUS01169,18,Female,Imo,Mobile,USSD,Beauty,48984.91,9,5442.77,59,0,0,2.2,4,0,1.3,No,0.55,2.86
+1169,CUS01170,57,Female,Enugu,Mobile,Debit card,Auto,62545.57,13,4811.2,11,0,6,3.0,4,2,1.4,Yes,0.75,4.2
+1170,CUS01171,32,Male,Rivers,Desktop,Cash,Electronics,163518.76,9,18168.75,16,0,2,3.2,1,1,1.0,No,3.2,3.2
+1171,CUS01172,38,Male,Imo,Tablet,Debit card,Food,193217.69,1,193217.69,45,2,2,5.0,1,2,0.2,No,1.667,1.0
+1172,CUS01173,64,Male,Borno,Mobile,USSD,Fashion,94774.36,1,94774.36,42,0,0,4.4,3,2,1.0,No,1.467,4.4
+1173,CUS01174,26,Female,Rivers,Tablet,USSD,Food,64085.47,8,8010.68,2,2,3,5.0,4,0,0.0,No,0.833,0.0
+1174,CUS01175,26,Male,Imo,Mobile,Debit card,Electronics,32024.81,6,5337.47,49,1,3,4.3,4,0,3.0,No,0.86,12.9
+1175,CUS01176,27,Female,Delta,Desktop,Bank transfer,Food,106084.31,3,35361.44,73,0,0,4.4,5,0,2.6,No,0.88,11.44
+1176,CUS01177,43,Male,Imo,Mobile,Bank transfer,Fashion,165230.75,1,165230.75,11,1,3,2.8,4,0,2.8,No,0.56,7.84
+1177,CUS01178,58,Female,Imo,Laptop,USSD,Fashion,73869.68,4,18467.42,83,0,2,3.3,5,0,0.6,No,0.66,1.98
+1178,CUS01179,52,Male,Imo,Desktop,USSD,Food,500.0,7,71.43,1,1,8,2.5,3,0,0.2,Yes,0.625,0.5
+1179,CUS01180,42,Male,Abuja,Pc,Bank transfer,Electronics,115152.24,11,10468.39,108,1,1,3.3,4,0,2.1,Yes,0.66,6.93
+1180,CUS01181,43,Female,Lagos,Desktop,Debit card,Beauty,129342.99,8,16167.87,32,0,2,4.2,4,0,2.1,No,1.05,8.82
+1181,CUS01182,28,Male,Bauchi,Mobile,USSD,Fashion,13636.95,16,852.31,49,1,1,3.6,8,3,1.8,No,0.4,6.48
+1182,CUS01183,89,Male,Borno,Mobile,Bank transfer,Electronics,92941.79,2,46470.9,1,1,5,4.8,4,0,1.6,No,0.96,7.68
+1183,CUS01184,19,Female,Borno,Desktop,USSD,Home,105305.17,12,8775.43,43,2,2,2.4,3,1,4.6,Yes,0.48,11.04
+1184,CUS01185,24,Male,Abuja,Mobile,Debit card,Fashion,81710.17,8,10213.77,51,2,1,4.0,2,1,2.6,No,1.0,10.4
+1185,CUS01186,35,Female,Anambra,Mobile,Bank transfer,Electronics,49415.31,11,4492.3,42,1,4,2.3,1,1,5.0,Yes,1.15,11.5
+1186,CUS01187,44,Female,Bauchi,Pc,Debit card,Electronics,130717.18,5,26143.44,28,0,0,3.6,2,1,3.9,No,1.8,14.04
+1187,CUS01188,51,Male,Rivers,Mobile,Bank transfer,Food,66847.91,13,5142.15,16,4,4,4.2,2,0,4.6,Yes,0.7,19.32
+1188,CUS01189,44,Male,Anambra,Desktop,Debit card,Fashion,18166.62,9,2018.51,78,0,6,3.3,4,0,2.1,No,0.825,6.93
+1189,CUS01190,89,Female,Bauchi,Mobile,USSD,Beauty,500.0,4,125.0,45,2,4,4.1,2,0,2.9,Yes,1.025,11.89
+1190,CUS01191,60,Female,Delta,Mobile,Debit card,Beauty,141738.23,7,20248.32,91,1,4,2.5,4,1,1.4,Yes,0.5,3.5
+1191,CUS01192,61,Female,Delta,Mobile,POS,Electronics,112749.88,6,18791.65,29,0,4,1.8,6,0,0.0,No,0.3,0.0
+1192,CUS01193,41,Male,Oyo,Desktop,Debit card,Electronics,88958.81,10,8895.88,31,0,6,4.1,3,1,4.2,No,1.367,17.22
+1193,CUS01194,42,Female,Enugu,Pc,Bank transfer,Auto,65187.64,2,32593.82,69,0,5,5.0,4,0,1.6,No,1.25,8.0
+1194,CUS01195,24,Female,Delta,Desktop,USSD,Electronics,61195.07,7,8742.15,1,2,3,2.5,1,1,0.4,Yes,0.833,1.0
+1195,CUS01196,23,Female,Rivers,Mobile,Bank transfer,Sports,36591.85,9,4065.76,8,0,4,4.7,4,0,1.4,No,1.175,6.58
+1196,CUS01197,41,Female,Lagos,Mobile,Bank transfer,Fashion,65584.5,8,8198.06,77,0,1,3.5,2,0,0.8,No,1.75,2.8
+1197,CUS01198,50,Female,Kano,Desktop,Bank transfer,Fashion,500.0,14,35.71,9,0,4,2.2,5,1,1.0,Yes,0.44,2.2
+1198,CUS01199,46,Male,Oyo,Desktop,Bank transfer,Home,51877.14,11,4716.1,1,3,0,2.4,1,1,1.7,Yes,0.6,4.08
+1199,CUS01200,60,Female,Kano,Mobile,POS,Electronics,71007.81,7,10143.97,101,0,2,3.5,1,0,4.6,No,3.5,16.1
+1200,CUS01201,39,Male,Borno,Desktop,POS,Sports,112444.6,9,12493.84,3,1,0,3.1,3,1,1.0,No,0.775,3.1
+1201,CUS01202,43,Female,Imo,Mobile,Debit card,Fashion,83203.31,9,9244.81,50,0,3,2.2,7,0,4.5,Yes,0.314,9.9
+1202,CUS01203,45,Male,Enugu,Mobile,Debit card,Home,120771.54,10,12077.15,47,0,1,1.8,4,0,3.3,No,0.45,5.94
+1203,CUS01204,38,Female,Borno,Laptop,USSD,Fashion,145711.08,1,145711.08,1,2,5,2.7,1,2,2.6,Yes,0.9,7.02
+1204,CUS01205,24,Female,Bauchi,Mobile,Debit card,Food,132617.65,6,22102.94,36,3,3,3.7,1,0,3.1,No,0.925,11.47
+1205,CUS01206,34,Female,Borno,Mobile,Bank transfer,Beauty,106172.94,1,106172.94,58,1,5,3.5,7,0,2.0,Yes,0.438,7.0
+1206,CUS01207,37,Male,Kaduna,Mobile,Bank transfer,Fashion,85533.82,14,6109.56,55,1,0,3.0,2,0,3.9,No,1.0,11.7
+1207,CUS01208,58,Female,Delta,Mobile,Debit card,Home,217428.06,7,31061.15,72,1,5,3.7,2,0,2.9,No,1.233,10.73
+1208,CUS01209,43,Female,Lagos,Desktop,USSD,Fashion,118297.48,7,16899.64,33,2,7,4.5,6,0,0.0,No,0.562,0.0
+1209,CUS01210,39,Male,Enugu,Mobile,Debit card,Home,160588.63,12,13382.39,66,0,4,3.9,6,0,2.4,No,0.65,9.36
+1210,CUS01211,45,Female,Kano,Desktop,Cash,Fashion,100394.77,10,10039.48,24,2,4,3.4,6,1,3.2,Yes,0.425,10.88
+1211,CUS01212,57,Female,Oyo,Desktop,Bank transfer,Home,171276.66,2,85638.33,2,2,3,4.4,2,0,1.6,No,1.1,7.04
+1212,CUS01213,24,Male,Delta,Desktop,Bank transfer,Electronics,16349.27,7,2335.61,6,2,1,2.5,1,2,2.2,Yes,0.833,5.5
+1213,CUS01214,18,Female,Rivers,Mobile,Debit card,Food,33062.65,6,5510.44,1,0,4,3.3,4,1,1.1,No,0.825,3.63
+1214,CUS01215,49,Male,Delta,Phone,USSD,Fashion,123484.07,1,123484.07,75,0,0,3.3,4,1,0.0,No,0.825,0.0
+1215,CUS01216,30,Female,Oyo,Phone,Debit card,Home,96893.06,4,24223.26,1,1,2,3.5,4,2,0.0,Yes,0.7,0.0
+1216,CUS01217,47,Male,Oyo,Mobile,Bank transfer,Fashion,144120.2,7,20588.6,53,0,0,3.1,6,0,0.0,Yes,0.517,0.0
+1217,CUS01218,40,Male,Kaduna,Tablet,Bank transfer,Electronics,84303.78,7,12043.4,37,3,1,1.4,1,0,3.0,Yes,0.35,4.2
+1218,CUS01219,36,Male,Delta,Tablet,Bank transfer,Electronics,45941.11,1,45941.11,41,0,4,5.0,5,2,0.0,No,1.0,0.0
+1219,CUS01220,49,Male,Borno,Laptop,Bank transfer,Fashion,75388.3,13,5799.1,85,1,4,2.6,1,1,1.0,No,1.3,2.6
+1220,CUS01221,47,Male,Delta,Tablet,Debit card,Sports,16029.22,7,2289.89,31,0,3,5.0,5,1,0.9,No,1.0,4.5
+1221,CUS01222,46,Male,Imo,Laptop,Bank transfer,Electronics,34213.42,8,4276.68,63,0,3,3.5,3,0,1.6,No,1.167,5.6
+1222,CUS01223,62,Female,Kaduna,Tablet,Bank transfer,Food,217428.06,10,21742.81,46,0,0,4.1,2,0,0.0,No,2.05,0.0
+1223,CUS01224,46,Male,Anambra,Mobile,Bank transfer,Home,124275.43,4,31068.86,40,1,2,3.0,2,1,2.6,Yes,1.0,7.8
+1224,CUS01225,47,Male,Anambra,Mobile,Bank transfer,Home,101335.19,10,10133.52,113,2,1,3.7,1,1,0.1,Yes,1.233,0.37
+1225,CUS01226,33,Male,Imo,Laptop,Debit card,Sports,7551.51,6,1258.58,1,1,1,4.2,4,1,3.7,No,0.84,15.54
+1226,CUS01227,57,Male,Bauchi,Phone,Bank transfer,Fashion,68871.84,3,22957.28,83,1,4,4.2,2,1,1.1,Yes,1.4,4.62
+1227,CUS01228,36,Female,Anambra,Mobile,Debit card,Food,29875.01,10,2987.5,64,0,1,4.3,5,1,1.9,No,0.86,8.17
+1228,CUS01229,35,Male,Imo,Desktop,Bank transfer,Electronics,137944.0,15,9196.27,30,1,1,3.1,5,1,2.0,Yes,0.517,6.2
+1229,CUS01230,18,Male,Abuja,Desktop,Bank transfer,Home,58732.5,11,5339.32,93,3,0,3.0,7,0,2.4,Yes,0.3,7.2
+1230,CUS01231,31,Male,Borno,Mobile,USSD,Beauty,217428.06,12,18119.0,1,2,2,1.9,4,2,2.1,Yes,0.317,3.99
+1231,CUS01232,64,Female,Delta,Desktop,POS,Home,86340.83,5,17268.17,29,2,0,4.0,5,0,1.4,Yes,0.571,5.6
+1232,CUS01233,19,Female,Borno,Mobile,Debit card,Fashion,56193.05,1,56193.05,8,1,3,4.6,6,1,2.5,No,0.657,11.5
+1233,CUS01234,45,Female,Imo,Mobile,Debit card,Fashion,151768.48,15,10117.9,57,0,1,5.0,2,0,2.7,No,2.5,13.5
+1234,CUS01235,47,Female,Lagos,Desktop,Debit card,Fashion,51933.51,18,2885.2,11,0,3,3.8,1,0,0.9,No,3.8,3.42
+1235,CUS01236,55,Female,Delta,Mobile,Bank transfer,Electronics,22034.73,15,1468.98,57,1,2,2.7,4,0,2.6,Yes,0.54,7.02
+1236,CUS01237,89,Male,Abuja,Mobile,Bank transfer,Fashion,500.0,6,83.33,39,0,6,1.8,4,0,3.8,No,0.45,6.84
+1237,CUS01238,18,Female,Abuja,Desktop,USSD,Auto,83614.61,2,41807.3,30,1,3,4.5,8,1,3.1,No,0.5,13.95
+1238,CUS01239,25,Female,Borno,Mobile,Bank transfer,Electronics,59713.14,2,29856.57,56,3,0,1.7,6,0,3.4,Yes,0.189,5.78
+1239,CUS01240,46,Male,Kano,Mobile,Bank transfer,Beauty,20699.29,1,20699.29,36,2,0,3.2,8,1,2.3,Yes,0.32,7.36
+1240,CUS01241,56,Female,Delta,Mobile,Bank transfer,Food,138515.19,7,19787.88,12,2,3,3.3,4,1,0.6,Yes,0.55,1.98
+1241,CUS01242,20,Male,Enugu,Mobile,Debit card,Electronics,115026.03,16,7189.13,129,1,1,3.4,5,0,0.8,Yes,0.567,2.72
+1242,CUS01243,49,Male,Abuja,Mobile,Debit card,Electronics,83730.2,7,11961.46,30,0,0,3.5,3,0,2.5,No,1.167,8.75
+1243,CUS01244,27,Male,Lagos,Mobile,USSD,Electronics,146394.68,9,16266.08,1,0,5,3.6,5,1,3.4,No,0.72,12.24
+1244,CUS01245,27,Male,Kaduna,Desktop,Bank transfer,Food,114814.12,14,8201.01,19,0,4,1.1,1,1,6.2,Yes,1.1,6.82
+1245,CUS01246,36,Female,Bauchi,Desktop,Debit card,Food,47971.48,5,9594.3,6,3,4,3.5,1,0,3.5,No,0.875,12.25
+1246,CUS01247,63,Male,Kano,Phone,Bank transfer,Fashion,38235.09,18,2124.17,69,2,1,1.3,2,1,0.2,Yes,0.325,0.26
+1247,CUS01248,51,Male,Kaduna,Pc,USSD,Fashion,121809.17,17,7165.25,54,1,3,4.2,1,0,0.8,No,2.1,3.36
+1248,CUS01249,50,Male,Kano,Tablet,Debit card,Electronics,102836.51,7,14690.93,56,2,1,2.9,6,1,5.4,Yes,0.362,15.66
+1249,CUS01250,40,Male,Lagos,Desktop,Cash,Beauty,92638.65,5,18527.73,33,0,3,1.3,7,1,1.7,Yes,0.186,2.21
+1250,CUS01251,45,Male,Borno,Mobile,Debit card,Beauty,46907.6,8,5863.45,36,1,1,2.7,1,1,2.1,No,1.35,5.67
+1251,CUS01252,49,Male,Oyo,Laptop,USSD,Fashion,112357.64,6,18726.27,33,0,6,2.9,6,0,0.6,No,0.483,1.74
+1252,CUS01253,24,Male,Delta,Mobile,Bank transfer,Food,51002.55,2,25501.28,42,0,0,4.7,5,0,4.3,No,0.94,20.21
+1253,CUS01254,46,Female,Imo,Mobile,Bank transfer,Home,80410.6,14,5743.61,70,0,5,3.7,1,0,2.8,No,3.7,10.36
+1254,CUS01255,25,Female,Rivers,Mobile,Bank transfer,Home,150112.49,14,10722.32,55,1,3,3.8,3,0,0.8,No,0.95,3.04
+1255,CUS01256,18,Female,Enugu,Desktop,POS,Electronics,55262.46,8,6907.81,60,1,2,4.7,2,2,0.5,No,1.567,2.35
+1256,CUS01257,20,Male,Kaduna,Mobile,USSD,Fashion,14215.48,1,14215.48,59,3,3,3.4,5,1,2.5,Yes,0.425,8.5
+1257,CUS01258,41,Male,Delta,Mobile,Debit card,Fashion,37635.38,1,37635.38,71,0,4,4.3,1,0,2.1,No,4.3,9.03
+1258,CUS01259,40,Male,Enugu,Mobile,USSD,Fashion,129743.45,8,16217.93,53,2,5,4.2,3,0,3.2,No,0.84,13.44
+1259,CUS01260,25,Female,Oyo,Mobile,Bank transfer,Fashion,96462.9,5,19292.58,55,1,3,2.2,2,1,2.8,Yes,0.733,6.16
+1260,CUS01261,64,Male,Rivers,Mobile,Debit card,Electronics,79200.52,6,13200.09,80,0,1,5.0,4,0,1.6,No,1.25,8.0
+1261,CUS01262,54,Male,Enugu,Mobile,USSD,Electronics,62090.78,13,4776.21,25,0,3,2.1,3,0,1.2,No,0.7,2.52
+1262,CUS01263,20,Female,Enugu,Pc,Cash,Electronics,106841.2,11,9712.84,19,0,6,4.4,2,2,1.8,No,2.2,7.92
+1263,CUS01264,50,Female,Kaduna,Mobile,Debit card,Fashion,46790.28,14,3342.16,9,2,5,2.0,3,0,1.2,Yes,0.4,2.4
+1264,CUS01265,45,Male,Anambra,Mobile,USSD,Electronics,98754.95,3,32918.32,50,1,4,4.1,8,1,1.8,Yes,0.456,7.38
+1265,CUS01266,64,Female,Rivers,Mobile,USSD,Electronics,52093.54,6,8682.26,1,0,4,5.0,3,2,2.0,No,1.667,10.0
+1266,CUS01267,25,Male,Delta,Mobile,USSD,Home,44605.33,11,4055.03,58,0,4,3.3,1,0,0.7,No,3.3,2.31
+1267,CUS01268,51,Female,Oyo,Laptop,USSD,Electronics,56313.07,10,5631.31,41,4,5,3.2,5,0,2.9,Yes,0.356,9.28
+1268,CUS01269,52,Male,Rivers,Mobile,Debit card,Fashion,68106.66,15,4540.44,79,1,2,4.1,3,0,1.4,No,1.025,5.74
+1269,CUS01270,49,Female,Borno,Phone,Bank transfer,Electronics,82802.66,10,8280.27,24,0,0,3.2,1,0,0.7,No,3.2,2.24
+1270,CUS01271,41,Female,Lagos,Mobile,USSD,Fashion,217428.06,17,12789.89,38,1,3,5.0,8,1,1.5,No,0.556,7.5
+1271,CUS01272,31,Female,Borno,Phone,Debit card,Electronics,80315.08,10,8031.51,78,2,1,3.7,3,0,2.4,No,0.74,8.88
+1272,CUS01273,49,Male,Anambra,Mobile,Bank transfer,Electronics,48655.72,13,3742.75,86,0,0,3.2,3,1,2.1,Yes,1.067,6.72
+1273,CUS01274,63,Male,Lagos,Mobile,Bank transfer,Food,67379.35,6,11229.89,24,1,1,3.0,4,2,2.6,Yes,0.6,7.8
+1274,CUS01275,60,Male,Oyo,Tablet,Bank transfer,Fashion,152727.79,8,19090.97,50,0,7,2.6,7,1,3.3,Yes,0.371,8.58
+1275,CUS01276,33,Male,Kaduna,Pc,Bank transfer,Beauty,36399.88,12,3033.32,53,2,3,2.9,1,1,4.0,Yes,0.967,11.6
+1276,CUS01277,21,Male,Kaduna,Pc,USSD,Fashion,92325.85,16,5770.37,56,1,3,3.1,4,0,2.4,Yes,0.62,7.44
+1277,CUS01278,54,Male,Oyo,Mobile,Debit card,Food,152276.36,11,13843.31,37,1,0,3.0,8,1,0.4,Yes,0.333,1.2
+1278,CUS01279,38,Female,Kano,Phone,Bank transfer,Fashion,25916.42,7,3702.35,83,0,0,2.8,4,2,1.6,Yes,0.7,4.48
+1279,CUS01280,31,Female,Oyo,Mobile,Debit card,Beauty,102728.89,14,7337.78,1,0,1,5.0,1,0,0.5,No,5.0,2.5
+1280,CUS01281,48,Female,Borno,Mobile,Bank transfer,Food,48897.77,1,48897.77,32,2,5,2.5,2,1,4.5,Yes,0.625,11.25
+1281,CUS01282,35,Male,Anambra,Mobile,Debit card,Food,62291.48,1,62291.48,58,0,3,3.6,4,0,5.0,No,0.9,18.0
+1282,CUS01283,24,Female,Abuja,Desktop,Debit card,Food,48860.01,11,4441.82,58,1,4,4.1,6,0,3.0,No,0.586,12.3
+1283,CUS01284,27,Male,Kaduna,Desktop,USSD,Home,52066.42,8,6508.3,85,0,4,4.1,3,1,3.3,No,1.367,13.53
+1284,CUS01285,24,Female,Bauchi,Mobile,Debit card,Food,207486.05,11,18862.37,80,2,1,3.4,5,2,2.4,Yes,0.486,8.16
+1285,CUS01286,50,Female,Anambra,Mobile,Bank transfer,Electronics,123000.51,8,15375.06,36,0,5,3.3,1,1,2.5,No,3.3,8.25
+1286,CUS01287,40,Female,Imo,Desktop,Debit card,Food,134578.2,10,13457.82,83,0,1,4.0,1,0,0.0,No,4.0,0.0
+1287,CUS01288,38,Female,Anambra,Mobile,USSD,Fashion,107139.71,3,35713.24,23,2,5,3.8,4,0,1.9,No,0.633,7.22
+1288,CUS01289,36,Female,Anambra,Desktop,Cash,Beauty,12718.44,10,1271.84,72,2,3,3.5,6,1,0.7,Yes,0.438,2.45
+1289,CUS01290,36,Male,Enugu,Mobile,Debit card,Electronics,102773.11,12,8564.43,99,0,0,1.9,4,1,2.4,Yes,0.475,4.56
+1290,CUS01291,53,Female,Anambra,Mobile,Debit card,Fashion,133281.83,21,6346.75,81,3,1,3.0,4,0,1.9,Yes,0.429,5.7
+1291,CUS01292,46,Male,Kaduna,Desktop,USSD,Food,46597.02,18,2588.72,48,1,0,2.4,4,0,4.9,Yes,0.48,11.76
+1292,CUS01293,35,Male,Abuja,Mobile,Debit card,Fashion,128439.7,9,14271.08,35,0,5,2.8,6,3,3.4,Yes,0.467,9.52
+1293,CUS01294,19,Female,Abuja,Mobile,Debit card,Electronics,116695.13,9,12966.13,1,1,2,3.5,2,2,2.4,No,1.167,8.4
+1294,CUS01295,89,Female,Anambra,Mobile,Bank transfer,Fashion,168341.8,1,168341.8,54,0,0,3.9,5,2,1.6,No,0.78,6.24
+1295,CUS01296,64,Male,Imo,Mobile,USSD,Food,66199.76,5,13239.95,11,1,3,5.0,2,0,4.5,No,1.667,22.5
+1296,CUS01297,22,Male,Lagos,Desktop,Bank transfer,Sports,35607.51,7,5086.79,21,0,1,3.0,7,0,2.0,No,0.429,6.0
+1297,CUS01298,37,Male,Kaduna,Desktop,Bank transfer,Home,68726.74,13,5286.67,9,1,0,4.3,2,1,2.5,No,1.433,10.75
+1298,CUS01299,28,Male,Kaduna,Mobile,Cash,Food,149600.69,4,37400.17,31,0,6,3.8,2,0,2.1,No,1.9,7.98
+1299,CUS01300,59,Female,Imo,Mobile,Bank transfer,Electronics,2721.74,11,247.43,44,2,3,4.8,5,2,1.4,No,0.686,6.72
+1300,CUS01301,19,Female,Rivers,Laptop,Bank transfer,Beauty,500.0,7,71.43,53,0,2,4.1,4,2,2.1,No,1.025,8.61
+1301,CUS01302,89,Male,Borno,Laptop,Bank transfer,Food,89022.79,7,12717.54,26,0,2,5.0,4,0,0.0,No,1.25,0.0
+1302,CUS01303,40,Male,Imo,Desktop,Bank transfer,Electronics,65083.48,9,7231.5,77,1,0,1.8,4,2,0.0,Yes,0.36,0.0
+1303,CUS01304,29,Female,Imo,Mobile,Bank transfer,Food,85347.76,6,14224.63,38,3,0,3.8,1,0,2.5,No,0.95,9.5
+1304,CUS01305,37,Female,Delta,Mobile,USSD,Auto,127539.03,5,25507.81,21,0,5,3.0,7,3,4.4,Yes,0.429,13.2
+1305,CUS01306,22,Male,Kano,Desktop,Debit card,Sports,60134.38,8,7516.8,51,2,2,2.5,5,1,2.5,Yes,0.357,6.25
+1306,CUS01307,54,Male,Imo,Pc,Bank transfer,Auto,714.74,6,119.12,103,2,3,3.5,6,1,0.9,Yes,0.438,3.15
+1307,CUS01308,55,Male,Kano,Mobile,Bank transfer,Food,177001.67,5,35400.33,55,2,0,3.7,2,2,0.0,Yes,0.925,0.0
+1308,CUS01309,47,Female,Lagos,Tablet,Debit card,Electronics,40124.73,5,8024.95,34,0,0,5.0,4,2,3.2,No,1.25,16.0
+1309,CUS01310,26,Female,Kano,Mobile,USSD,Electronics,37343.33,10,3734.33,1,0,4,3.1,4,1,1.1,No,0.775,3.41
+1310,CUS01311,51,Female,Rivers,Laptop,Debit card,Fashion,134667.4,11,12242.49,38,0,3,4.1,6,0,3.0,No,0.683,12.3
+1311,CUS01312,89,Male,Imo,Desktop,Debit card,Home,67697.99,9,7522.0,52,0,6,3.4,6,1,2.6,Yes,0.567,8.84
+1312,CUS01313,52,Male,Imo,Tablet,Debit card,Books,82147.46,12,6845.62,33,2,5,3.5,4,0,2.7,Yes,0.583,9.45
+1313,CUS01314,39,Male,Oyo,Desktop,Debit card,Fashion,106725.56,10,10672.56,1,0,2,4.2,1,1,2.1,No,4.2,8.82
+1314,CUS01315,61,Male,Kano,Mobile,POS,Food,133761.24,6,22293.54,19,2,3,2.4,7,0,2.6,Yes,0.267,6.24
+1315,CUS01316,41,Male,Kaduna,Mobile,Debit card,Food,69994.27,5,13998.85,88,0,2,3.5,5,0,1.8,Yes,0.7,6.3
+1316,CUS01317,34,Female,Imo,Mobile,Debit card,Food,153397.84,9,17044.2,88,1,7,3.2,2,1,1.0,No,1.067,3.2
+1317,CUS01318,27,Female,Borno,Pc,Cash,Fashion,500.0,10,50.0,18,2,5,4.4,4,2,0.6,No,0.733,2.64
+1318,CUS01319,47,Male,Oyo,Pc,USSD,Electronics,119190.43,14,8513.6,65,0,3,2.4,1,1,0.0,Yes,2.4,0.0
+1319,CUS01320,63,Female,Kano,Phone,Bank transfer,Fashion,47221.26,13,3632.4,9,1,3,3.9,6,0,1.7,No,0.557,6.63
+1320,CUS01321,40,Male,Kaduna,Mobile,Debit card,Electronics,146752.21,5,29350.44,87,0,5,2.7,1,2,4.3,No,2.7,11.61
+1321,CUS01322,49,Male,Kaduna,Mobile,Cash,Fashion,91392.0,7,13056.0,52,2,4,3.0,4,0,3.1,Yes,0.5,9.3
+1322,CUS01323,34,Female,Anambra,Mobile,Bank transfer,Electronics,54719.26,11,4974.48,73,1,6,1.0,4,0,2.3,Yes,0.2,2.3
+1323,CUS01324,34,Male,Abuja,Desktop,Cash,Sports,114827.85,13,8832.91,1,1,0,3.5,6,0,0.9,No,0.5,3.15
+1324,CUS01325,31,Male,Lagos,Desktop,Cash,Fashion,125193.48,12,10432.79,65,3,3,4.1,4,0,3.5,Yes,0.586,14.35
+1325,CUS01326,26,Female,Rivers,Mobile,Debit card,Food,113885.24,7,16269.32,44,1,1,2.7,5,1,1.8,Yes,0.45,4.86
+1326,CUS01327,57,Male,Enugu,Desktop,USSD,Fashion,38663.67,1,38663.67,70,0,6,2.4,3,0,4.4,Yes,0.8,10.56
+1327,CUS01328,19,Male,Imo,Mobile,Bank transfer,Fashion,63219.23,3,21073.08,72,0,6,3.5,4,1,0.5,Yes,0.875,1.75
+1328,CUS01329,62,Female,Delta,Mobile,Debit card,Food,217428.06,9,24158.67,46,0,3,4.2,4,2,0.9,No,1.05,3.78
+1329,CUS01330,42,Male,Kano,Mobile,Bank transfer,Electronics,217428.06,9,24158.67,26,1,6,1.6,3,0,0.7,No,0.4,1.12
+1330,CUS01331,56,Male,Kano,Desktop,Bank transfer,Auto,118738.55,2,59369.28,68,4,6,3.4,1,1,0.0,Yes,0.68,0.0
+1331,CUS01332,26,Male,Oyo,Mobile,Bank transfer,Electronics,500.0,8,62.5,43,1,3,5.0,2,1,0.6,No,1.667,3.0
+1332,CUS01333,39,Female,Oyo,Mobile,Bank transfer,Food,100044.72,11,9094.97,18,0,7,2.4,4,0,2.2,Yes,0.6,5.28
+1333,CUS01334,60,Female,Delta,Mobile,POS,Electronics,71950.84,2,35975.42,17,0,2,3.6,3,2,0.9,No,1.2,3.24
+1334,CUS01335,63,Male,Kano,Mobile,Bank transfer,Beauty,47267.47,13,3635.96,1,0,2,5.0,3,0,0.0,No,1.667,0.0
+1335,CUS01336,21,Male,Bauchi,Mobile,Debit card,Beauty,51588.1,6,8598.02,29,0,4,4.1,3,0,3.6,No,1.367,14.76
+1336,CUS01337,43,Female,Rivers,Mobile,USSD,Home,87885.06,14,6277.5,78,0,2,3.6,2,3,0.0,Yes,1.8,0.0
+1337,CUS01338,46,Female,Kano,Desktop,Bank transfer,Food,500.0,5,100.0,50,0,3,4.0,3,1,2.9,No,1.333,11.6
+1338,CUS01339,62,Female,Imo,Desktop,Debit card,Sports,53441.97,2,26720.98,29,0,5,3.1,3,1,2.0,No,1.033,6.2
+1339,CUS01340,51,Female,Abuja,Mobile,POS,Electronics,45588.33,5,9117.67,69,1,3,4.8,4,2,5.2,No,0.96,24.96
+1340,CUS01341,40,Female,Delta,Mobile,Bank transfer,Electronics,108975.24,7,15567.89,20,1,0,3.1,4,0,3.5,Yes,0.62,10.85
+1341,CUS01342,54,Male,Imo,Tablet,Debit card,Food,48751.3,6,8125.22,47,1,3,1.5,3,2,1.2,Yes,0.375,1.8
+1342,CUS01343,28,Female,Bauchi,Mobile,Debit card,Beauty,75319.88,6,12553.31,39,0,1,3.1,1,0,0.9,No,3.1,2.79
+1343,CUS01344,23,Female,Rivers,Mobile,Bank transfer,Electronics,154402.45,9,17155.83,68,0,4,2.5,1,0,4.3,No,2.5,10.75
+1344,CUS01345,35,Male,Kano,Mobile,Cash,Electronics,129745.82,7,18535.12,1,1,4,3.2,9,0,0.0,Yes,0.32,0.0
+1345,CUS01346,38,Female,Enugu,Phone,Bank transfer,Auto,125602.21,7,17943.17,19,3,5,3.2,1,0,2.3,Yes,0.8,7.36
+1346,CUS01347,59,Male,Anambra,Desktop,Debit card,Fashion,62505.74,21,2976.46,1,1,4,4.7,2,1,1.8,No,1.567,8.46
+1347,CUS01348,53,Female,Imo,Desktop,USSD,Food,109436.45,9,12159.61,37,0,5,4.2,5,1,1.5,No,0.84,6.3
+1348,CUS01349,58,Male,Abuja,Mobile,Bank transfer,Fashion,74474.6,7,10639.23,81,0,1,3.8,4,0,2.5,No,0.95,9.5
+1349,CUS01350,55,Female,Enugu,Desktop,Debit card,Food,76175.81,16,4760.99,29,0,4,3.5,5,1,2.3,No,0.7,8.05
+1350,CUS01351,51,Female,Borno,Desktop,Debit card,Fashion,103435.84,3,34478.61,29,1,6,2.4,3,0,2.7,No,0.6,6.48
+1351,CUS01352,34,Female,Oyo,Mobile,USSD,Beauty,58135.29,1,58135.29,71,2,1,1.3,4,0,2.2,Yes,0.217,2.86
+1352,CUS01353,54,Male,Imo,Mobile,Debit card,Auto,152185.14,11,13835.01,77,1,6,3.6,4,1,2.6,Yes,0.72,9.36
+1353,CUS01354,42,Male,Oyo,Mobile,Bank transfer,Food,77794.14,9,8643.79,42,2,1,4.3,3,1,2.1,Yes,0.86,9.03
+1354,CUS01355,55,Male,Kano,Desktop,Bank transfer,Food,112826.23,2,56413.12,65,2,1,3.4,4,1,1.0,Yes,0.567,3.4
+1355,CUS01356,43,Female,Oyo,Mobile,Bank transfer,Auto,150502.02,1,150502.02,12,1,3,3.0,6,0,2.0,No,0.429,6.0
+1356,CUS01357,40,Male,Borno,Mobile,Cash,Home,131424.42,15,8761.63,86,0,4,4.0,3,1,0.9,No,1.333,3.6
+1357,CUS01358,59,Female,Abuja,Mobile,Bank transfer,Food,21598.64,21,1028.51,109,1,4,3.4,3,0,0.8,Yes,0.85,2.72
+1358,CUS01359,39,Female,Rivers,Mobile,USSD,Fashion,105020.32,1,105020.32,60,0,1,5.0,6,0,1.5,No,0.833,7.5
+1359,CUS01360,38,Female,Kaduna,Pc,Bank transfer,Electronics,123282.37,5,24656.47,1,1,3,4.7,5,0,1.8,No,0.783,8.46
+1360,CUS01361,44,Male,Lagos,Mobile,Bank transfer,Beauty,125133.84,16,7820.86,28,1,1,4.5,7,1,2.1,Yes,0.562,9.45
+1361,CUS01362,48,Female,Delta,Tablet,POS,Fashion,34901.73,5,6980.35,63,3,0,4.3,1,1,3.4,No,1.075,14.62
+1362,CUS01363,23,Female,Rivers,Mobile,Bank transfer,Fashion,55433.41,5,11086.68,32,0,1,2.2,5,1,1.3,No,0.44,2.86
+1363,CUS01364,44,Female,Kaduna,Desktop,Bank transfer,Auto,129755.12,6,21625.85,83,1,1,3.5,5,2,2.3,Yes,0.583,8.05
+1364,CUS01365,57,Male,Bauchi,Pc,Debit card,Electronics,50720.78,2,25360.39,62,3,4,3.9,4,0,2.2,No,0.557,8.58
+1365,CUS01366,51,Male,Imo,Mobile,POS,Food,217428.06,1,217428.06,23,2,5,4.1,4,0,1.1,No,0.683,4.51
+1366,CUS01367,29,Female,Imo,Laptop,Bank transfer,Electronics,155914.41,13,11993.42,45,2,0,4.0,6,1,2.1,Yes,0.5,8.4
+1367,CUS01368,62,Male,Abuja,Mobile,Bank transfer,Books,82849.03,1,82849.03,18,1,3,4.0,2,1,3.5,No,1.333,14.0
+1368,CUS01369,24,Female,Imo,Desktop,Debit card,Food,52295.16,9,5810.57,39,2,0,5.0,4,0,2.3,No,0.833,11.5
+1369,CUS01370,27,Female,Enugu,Mobile,Debit card,Food,45507.22,12,3792.27,28,0,4,3.4,5,2,2.3,No,0.68,7.82
+1370,CUS01371,62,Male,Kaduna,Phone,Debit card,Electronics,99972.37,1,99972.37,80,0,1,4.4,1,0,0.9,No,4.4,3.96
+1371,CUS01372,34,Male,Abuja,Mobile,USSD,Food,88686.96,3,29562.32,108,0,0,3.0,3,2,5.0,No,1.0,15.0
+1372,CUS01373,43,Female,Anambra,Mobile,Bank transfer,Beauty,73869.88,14,5276.42,2,0,4,4.3,4,1,1.0,No,1.075,4.3
+1373,CUS01374,43,Female,Enugu,Mobile,USSD,Electronics,99995.37,10,9999.54,1,2,1,4.4,2,1,0.0,No,1.1,0.0
+1374,CUS01375,45,Female,Imo,Mobile,Bank transfer,Electronics,143461.74,4,35865.44,37,2,2,3.9,2,0,3.3,Yes,0.975,12.87
+1375,CUS01376,63,Female,Oyo,Pc,USSD,Fashion,115039.66,14,8217.12,1,0,0,5.0,3,2,1.8,No,1.667,9.0
+1376,CUS01377,43,Male,Borno,Desktop,USSD,Home,52867.07,14,3776.22,46,0,4,2.6,5,0,1.5,Yes,0.52,3.9
+1377,CUS01378,60,Male,Oyo,Desktop,POS,Electronics,138028.87,9,15336.54,67,0,4,3.0,5,0,1.2,No,0.6,3.6
+1378,CUS01379,18,Female,Enugu,Tablet,Debit card,Electronics,71521.82,3,23840.61,89,1,3,3.7,2,0,4.8,No,1.233,17.76
+1379,CUS01380,53,Male,Bauchi,Desktop,Debit card,Food,29393.36,5,5878.67,51,1,0,4.4,6,1,2.5,No,0.629,11.0
+1380,CUS01381,43,Male,Imo,Laptop,Bank transfer,Sports,77258.14,9,8584.24,39,1,5,3.7,4,1,2.8,Yes,0.74,10.36
+1381,CUS01382,46,Female,Bauchi,Desktop,Cash,Home,149717.61,7,21388.23,1,0,1,4.8,1,1,2.2,No,4.8,10.56
+1382,CUS01383,38,Female,Bauchi,Mobile,Debit card,Fashion,92435.8,12,7702.98,45,2,2,2.8,4,1,2.4,Yes,0.467,6.72
+1383,CUS01384,28,Male,Kaduna,Phone,Bank transfer,Electronics,85563.48,1,85563.48,47,1,7,2.4,7,1,4.1,Yes,0.3,9.84
+1384,CUS01385,57,Male,Delta,Mobile,USSD,Food,158674.52,1,158674.52,64,0,1,3.8,5,1,1.6,No,0.76,6.08
+1385,CUS01386,28,Male,Kaduna,Mobile,Bank transfer,Fashion,20589.03,8,2573.63,23,3,4,3.4,3,0,0.0,No,0.567,0.0
+1386,CUS01387,53,Male,Kano,Tablet,Debit card,Electronics,27148.04,5,5429.61,31,0,4,4.0,4,0,3.3,No,1.0,13.2
+1387,CUS01388,56,Female,Lagos,Mobile,Debit card,Electronics,12286.91,4,3071.73,1,0,3,3.5,3,1,2.1,No,1.167,7.35
+1388,CUS01389,57,Female,Enugu,Desktop,Bank transfer,Books,101769.17,1,101769.17,1,2,3,3.2,4,1,2.2,No,0.533,7.04
+1389,CUS01390,52,Male,Rivers,Pc,Debit card,Fashion,92492.19,8,11561.52,11,0,3,3.4,1,1,2.7,No,3.4,9.18
+1390,CUS01391,51,Male,Lagos,Desktop,USSD,Auto,154423.14,7,22060.45,1,1,3,3.5,3,0,1.4,No,0.875,4.9
+1391,CUS01392,64,Female,Anambra,Desktop,Bank transfer,Books,95956.38,11,8723.31,55,1,2,3.2,3,1,2.0,Yes,0.8,6.4
+1392,CUS01393,41,Female,Borno,Laptop,POS,Beauty,66812.93,8,8351.62,29,0,6,3.3,1,0,1.8,No,3.3,5.94
+1393,CUS01394,39,Male,Kaduna,Desktop,Debit card,Fashion,85080.77,7,12154.4,28,0,0,3.1,2,2,1.1,No,1.55,3.41
+1394,CUS01395,22,Male,Kaduna,Tablet,Debit card,Fashion,90296.83,13,6945.91,15,0,5,4.4,4,0,3.8,No,1.1,16.72
+1395,CUS01396,50,Male,Abuja,Desktop,Debit card,Electronics,9770.74,1,9770.74,1,0,4,3.7,4,2,0.0,No,0.925,0.0
+1396,CUS01397,53,Male,Lagos,Pc,Debit card,Beauty,206964.92,10,20696.49,90,4,4,5.0,3,0,5.5,Yes,0.714,27.5
+1397,CUS01398,64,Female,Abuja,Mobile,Debit card,Beauty,108394.2,1,108394.2,14,0,5,3.7,2,2,3.3,No,1.85,12.21
+1398,CUS01399,37,Female,Rivers,Tablet,Debit card,Food,94450.37,3,31483.46,32,2,2,2.9,7,0,0.0,Yes,0.322,0.0
+1399,CUS01400,36,Female,Abuja,Mobile,Debit card,Food,88686.96,1,88686.96,1,0,0,5.0,2,0,1.7,No,2.5,8.5
+1400,CUS01401,52,Male,Lagos,Desktop,Bank transfer,Food,116923.49,11,10629.41,74,0,2,3.9,4,1,1.7,No,0.975,6.63
+1401,CUS01402,60,Female,Enugu,Desktop,Debit card,Sports,78675.09,7,11239.3,49,1,1,4.5,3,0,2.6,No,1.125,11.7
+1402,CUS01403,34,Male,Imo,Mobile,USSD,Fashion,56594.15,7,8084.88,20,1,1,4.1,4,0,0.5,No,0.82,2.05
+1403,CUS01404,62,Female,Imo,Desktop,Debit card,Fashion,111975.28,2,55987.64,33,2,0,4.1,4,0,2.1,No,0.683,8.61
+1404,CUS01405,60,Male,Borno,Mobile,Debit card,Food,102356.99,6,17059.5,95,3,2,4.0,1,0,1.8,No,1.0,7.2
+1405,CUS01406,51,Female,Anambra,Pc,Debit card,Electronics,48554.95,4,12138.74,42,5,1,2.4,3,1,0.9,Yes,0.3,2.16
+1406,CUS01407,26,Male,Kaduna,Mobile,Debit card,Sports,148856.6,9,16539.62,39,1,0,3.9,6,0,0.7,Yes,0.557,2.73
+1407,CUS01408,43,Female,Rivers,Desktop,Cash,Home,98200.84,3,32733.61,16,0,4,2.2,7,0,3.4,Yes,0.314,7.48
+1408,CUS01409,19,Male,Kaduna,Mobile,Debit card,Fashion,117841.87,14,8417.28,1,1,7,3.3,3,0,0.0,No,0.825,0.0
+1409,CUS01410,26,Female,Kano,Mobile,Debit card,Fashion,147636.44,1,147636.44,40,0,4,2.8,4,0,2.7,No,0.7,7.56
+1410,CUS01411,26,Male,Borno,Desktop,Bank transfer,Food,85985.0,3,28661.67,54,2,2,3.9,8,2,3.2,Yes,0.39,12.48
+1411,CUS01412,57,Female,Anambra,Mobile,Bank transfer,Electronics,99262.84,16,6203.93,77,0,2,3.8,6,0,1.7,Yes,0.633,6.46
+1412,CUS01413,34,Male,Delta,Desktop,USSD,Sports,121451.23,5,24290.25,1,4,2,4.0,2,0,2.1,Yes,0.667,8.4
+1413,CUS01414,18,Female,Abuja,Desktop,Bank transfer,Electronics,52381.25,1,52381.25,11,2,3,3.8,2,1,3.7,No,0.95,14.06
+1414,CUS01415,42,Male,Oyo,Tablet,POS,Electronics,87432.32,9,9714.7,27,0,2,2.9,5,0,0.9,No,0.58,2.61
+1415,CUS01416,60,Female,Lagos,Desktop,Bank transfer,Beauty,90649.69,5,18129.94,44,0,1,3.2,1,3,1.1,No,3.2,3.52
+1416,CUS01417,57,Female,Kaduna,Desktop,Bank transfer,Home,41977.37,3,13992.46,40,2,6,4.4,6,0,1.3,No,0.55,5.72
+1417,CUS01418,59,Male,Abuja,Mobile,USSD,Auto,189293.66,2,94646.83,41,2,0,4.6,4,1,3.7,No,0.767,17.02
+1418,CUS01419,42,Male,Rivers,Mobile,Debit card,Fashion,21671.8,21,1031.99,57,0,4,2.4,5,1,3.9,Yes,0.48,9.36
+1419,CUS01420,56,Female,Kaduna,Desktop,Bank transfer,Electronics,26585.32,6,4430.89,17,2,2,2.0,3,1,0.0,Yes,0.4,0.0
+1420,CUS01421,52,Female,Delta,Mobile,Bank transfer,Electronics,144140.2,1,144140.2,73,0,6,2.8,2,1,3.5,No,1.4,9.8
+1421,CUS01422,20,Female,Imo,Mobile,Bank transfer,Fashion,117096.98,15,7806.47,58,0,3,4.5,6,0,3.2,No,0.75,14.4
+1422,CUS01423,54,Female,Anambra,Mobile,Bank transfer,Electronics,38831.58,11,3530.14,35,2,2,4.7,3,3,4.3,Yes,0.94,20.21
+1423,CUS01424,61,Female,Borno,Desktop,Bank transfer,Food,112328.01,4,28082.0,93,0,2,2.6,3,0,2.6,No,0.867,6.76
+1424,CUS01425,61,Female,Anambra,Tablet,Bank transfer,Beauty,151053.27,3,50351.09,91,0,3,3.8,3,0,1.9,No,1.267,7.22
+1425,CUS01426,47,Male,Imo,Mobile,Debit card,Electronics,83638.16,11,7603.47,72,1,0,5.0,4,0,3.7,No,1.0,18.5
+1426,CUS01427,55,Female,Kaduna,Laptop,Debit card,Fashion,201947.03,6,33657.84,1,0,1,3.9,1,0,2.1,No,3.9,8.19
+1427,CUS01428,51,Male,Rivers,Desktop,Debit card,Electronics,7417.22,1,7417.22,92,1,0,4.9,2,1,5.4,No,1.633,26.46
+1428,CUS01429,29,Female,Anambra,Laptop,USSD,Food,116222.06,16,7263.88,68,0,1,4.5,2,0,3.4,No,2.25,15.3
+1429,CUS01430,36,Female,Anambra,Desktop,Debit card,Electronics,137493.78,5,27498.76,105,0,3,2.6,5,0,2.2,Yes,0.52,5.72
+1430,CUS01431,54,Male,Delta,Tablet,Bank transfer,Food,125110.48,15,8340.7,82,0,3,3.3,2,0,0.2,No,1.65,0.66
+1431,CUS01432,61,Male,Lagos,Phone,Bank transfer,Sports,75803.99,14,5414.57,92,1,0,3.5,1,3,1.1,Yes,1.75,3.85
+1432,CUS01433,34,Female,Rivers,Mobile,Bank transfer,Fashion,71930.13,2,35965.06,71,0,2,3.6,1,0,0.0,No,3.6,0.0
+1433,CUS01434,27,Female,Rivers,Desktop,Bank transfer,Fashion,104986.53,13,8075.89,85,0,4,4.4,1,0,1.7,No,4.4,7.48
+1434,CUS01435,64,Female,Enugu,Mobile,USSD,Beauty,121708.95,4,30427.24,104,1,2,3.9,6,0,3.4,Yes,0.557,13.26
+1435,CUS01436,29,Male,Imo,Desktop,POS,Fashion,112111.3,1,112111.3,51,2,1,1.0,4,0,2.0,Yes,0.167,2.0
+1436,CUS01437,33,Male,Enugu,Mobile,Debit card,Fashion,131802.61,5,26360.52,1,0,2,2.2,5,0,3.5,Yes,0.44,7.7
+1437,CUS01438,41,Female,Imo,Mobile,Debit card,Books,39150.85,9,4350.09,35,1,1,1.3,5,0,2.5,Yes,0.217,3.25
+1438,CUS01439,36,Female,Anambra,Mobile,Debit card,Home,74750.31,5,14950.06,56,1,1,3.7,4,0,1.4,No,0.74,5.18
+1439,CUS01440,25,Male,Imo,Mobile,Debit card,Home,42699.28,6,7116.55,47,0,3,3.7,3,1,2.1,No,1.233,7.77
+1440,CUS01441,48,Male,Oyo,Laptop,Debit card,Fashion,67624.93,13,5201.92,7,4,7,3.8,6,0,2.7,Yes,0.38,10.26
+1441,CUS01442,38,Male,Enugu,Mobile,Cash,Fashion,130684.94,8,16335.62,1,0,1,2.5,4,0,2.2,No,0.625,5.5
+1442,CUS01443,34,Male,Anambra,Desktop,Bank transfer,Home,89859.28,3,29953.09,22,1,2,4.2,6,0,2.1,No,0.6,8.82
+1443,CUS01444,43,Female,Bauchi,Mobile,Debit card,Fashion,202308.66,11,18391.7,69,2,2,4.2,5,2,0.8,Yes,0.6,3.36
+1444,CUS01445,54,Male,Kano,Mobile,Bank transfer,Food,93703.29,8,11712.91,92,0,1,2.2,2,2,1.4,Yes,1.1,3.08
+1445,CUS01446,33,Female,Kano,Mobile,Cash,Books,87686.13,1,87686.13,72,1,5,2.0,3,0,5.4,Yes,0.5,10.8
+1446,CUS01447,23,Male,Rivers,Desktop,Bank transfer,Books,89778.23,10,8977.82,76,1,0,3.5,2,2,3.8,Yes,1.167,13.3
+1447,CUS01448,25,Female,Oyo,Mobile,USSD,Food,56298.61,9,6255.4,42,0,1,5.0,6,0,0.0,No,0.833,0.0
+1448,CUS01449,42,Male,Delta,Desktop,USSD,Books,82397.35,8,10299.67,1,0,4,3.5,3,0,0.0,No,1.167,0.0
+1449,CUS01450,35,Female,Lagos,Tablet,USSD,Auto,135750.46,12,11312.54,31,0,2,4.1,2,2,2.1,No,2.05,8.61
+1450,CUS01451,42,Male,Enugu,Laptop,Bank transfer,Home,90128.68,4,22532.17,37,0,1,2.8,4,1,3.3,No,0.7,9.24
+1451,CUS01452,29,Female,Bauchi,Mobile,Bank transfer,Fashion,49294.31,9,5477.15,30,0,3,4.4,3,1,1.2,No,1.467,5.28
+1452,CUS01453,32,Female,Anambra,Desktop,USSD,Fashion,43371.19,1,43371.19,46,2,4,3.0,5,1,3.5,Yes,0.429,10.5
+1453,CUS01454,43,Male,Oyo,Mobile,Bank transfer,Fashion,64740.91,10,6474.09,58,3,3,2.7,7,1,2.1,Yes,0.27,5.67
+1454,CUS01455,58,Male,Rivers,Mobile,Bank transfer,Electronics,88323.85,17,5195.52,70,2,1,1.4,5,0,1.8,Yes,0.2,2.52
+1455,CUS01456,62,Male,Borno,Phone,Debit card,Fashion,138711.39,3,46237.13,36,2,3,3.6,4,0,3.1,Yes,0.6,11.16
+1456,CUS01457,43,Female,Enugu,Mobile,USSD,Fashion,217428.06,4,54357.02,1,0,2,2.9,1,0,1.2,No,2.9,3.48
+1457,CUS01458,64,Female,Oyo,Desktop,Debit card,Food,70607.82,4,17651.96,30,0,4,3.6,3,1,1.6,No,1.2,5.76
+1458,CUS01459,49,Female,Enugu,Mobile,Bank transfer,Fashion,91493.95,8,11436.74,46,0,5,1.2,5,0,3.0,Yes,0.24,3.6
+1459,CUS01460,27,Male,Borno,Mobile,Debit card,Electronics,2483.24,2,1241.62,81,1,0,3.7,1,1,2.0,No,1.85,7.4
+1460,CUS01461,33,Male,Lagos,Desktop,Bank transfer,Home,47488.08,10,4748.81,27,1,3,1.1,8,1,4.9,Yes,0.122,5.39
+1461,CUS01462,24,Male,Lagos,Tablet,Debit card,Home,54405.02,12,4533.75,60,0,0,4.6,4,0,3.0,No,1.15,13.8
+1462,CUS01463,34,Female,Delta,Phone,Cash,Electronics,49181.33,10,4918.13,53,2,7,4.0,4,0,2.9,Yes,0.667,11.6
+1463,CUS01464,40,Male,Kano,Desktop,Debit card,Fashion,93635.03,1,93635.03,46,1,2,3.2,2,0,1.9,No,1.067,6.08
+1464,CUS01465,43,Male,Imo,Phone,Debit card,Beauty,77774.82,8,9721.85,72,0,4,4.1,4,0,3.3,No,1.025,13.53
+1465,CUS01466,38,Female,Abuja,Mobile,Bank transfer,Food,60012.13,12,5001.01,25,0,2,2.5,1,1,1.5,No,2.5,3.75
+1466,CUS01467,39,Male,Abuja,Tablet,Debit card,Books,104258.32,12,8688.19,27,2,1,3.6,8,0,2.4,Yes,0.36,8.64
+1467,CUS01468,24,Male,Enugu,Mobile,POS,Fashion,162538.36,9,18059.82,44,2,1,4.3,6,0,0.6,No,0.538,2.58
+1468,CUS01469,31,Male,Borno,Mobile,Bank transfer,Home,158766.54,9,17640.73,25,1,6,1.0,5,2,3.6,Yes,0.167,3.6
+1469,CUS01470,32,Female,Delta,Desktop,Bank transfer,Electronics,80315.08,13,6178.08,60,3,4,3.1,1,1,2.4,Yes,0.775,7.44
+1470,CUS01471,24,Female,Abuja,Mobile,Debit card,Auto,110968.25,17,6527.54,23,3,6,3.5,4,0,5.0,No,0.5,17.5
+1471,CUS01472,26,Female,Imo,Desktop,Debit card,Food,76988.95,3,25662.98,51,1,3,3.3,6,1,5.6,Yes,0.471,18.48
+1472,CUS01473,25,Female,Rivers,Mobile,Bank transfer,Sports,91981.99,13,7075.54,41,0,3,5.0,5,2,3.1,No,1.0,15.5
+1473,CUS01474,40,Male,Abuja,Mobile,Debit card,Fashion,67077.26,7,9582.47,51,0,2,2.4,1,1,2.1,No,2.4,5.04
+1474,CUS01475,46,Female,Kaduna,Mobile,Debit card,Home,90291.49,7,12898.78,31,0,2,2.9,2,1,0.6,Yes,1.45,1.74
+1475,CUS01476,35,Female,Anambra,Mobile,Bank transfer,Books,91813.33,1,91813.33,34,2,0,1.6,3,0,3.4,Yes,0.32,5.44
+1476,CUS01477,48,Female,Delta,Mobile,Bank transfer,Food,58947.17,6,9824.53,47,3,3,5.0,2,2,2.3,Yes,1.0,11.5
+1477,CUS01478,47,Female,Rivers,Desktop,USSD,Sports,44663.46,3,14887.82,51,1,1,3.3,7,3,2.8,Yes,0.412,9.24
+1478,CUS01479,56,Male,Oyo,Mobile,Bank transfer,Food,64808.69,5,12961.74,44,2,3,3.1,1,0,4.6,Yes,1.033,14.26
+1479,CUS01480,52,Male,Rivers,Phone,Bank transfer,Electronics,95541.67,2,47770.84,96,0,3,3.4,5,0,0.8,No,0.68,2.72
+1480,CUS01481,35,Female,Kano,Desktop,Bank transfer,Food,111954.84,5,22390.97,15,1,3,4.1,1,1,0.6,No,2.05,2.46
+1481,CUS01482,59,Female,Oyo,Desktop,Bank transfer,Auto,123400.7,5,24680.14,43,2,6,3.8,2,1,1.6,No,0.95,6.08
+1482,CUS01483,56,Male,Bauchi,Laptop,Debit card,Auto,62761.45,8,7845.18,1,0,2,5.0,1,0,3.2,No,5.0,16.0
+1483,CUS01484,34,Male,Anambra,Desktop,Bank transfer,Food,97773.01,1,97773.01,56,0,4,4.0,2,0,2.8,No,2.0,11.2
+1484,CUS01485,31,Male,Anambra,Pc,Debit card,Fashion,128312.62,1,128312.62,11,2,7,3.0,7,0,0.7,Yes,0.333,2.1
+1485,CUS01486,48,Female,Anambra,Mobile,Bank transfer,Food,137451.77,9,15272.42,36,1,5,2.9,4,1,3.1,Yes,0.58,8.99
+1486,CUS01487,41,Female,Borno,Mobile,Debit card,Auto,82352.52,4,20588.13,33,0,5,3.1,1,0,0.2,No,3.1,0.62
+1487,CUS01488,52,Female,Anambra,Mobile,Bank transfer,Fashion,75058.07,13,5773.7,53,0,2,2.0,6,1,0.7,Yes,0.333,1.4
+1488,CUS01489,61,Female,Enugu,Desktop,USSD,Beauty,93600.59,9,10400.07,28,0,3,3.5,6,2,1.8,No,0.583,6.3
+1489,CUS01490,62,Female,Anambra,Mobile,Bank transfer,Auto,83657.61,11,7605.24,27,0,0,4.3,4,1,1.2,No,1.075,5.16
+1490,CUS01491,51,Female,Imo,Desktop,Debit card,Food,76287.57,8,9535.95,88,0,3,2.9,8,0,3.3,Yes,0.362,9.57
+1491,CUS01492,20,Female,Anambra,Mobile,POS,Sports,118506.39,6,19751.06,53,1,3,2.7,5,1,2.4,Yes,0.45,6.48
+1492,CUS01493,54,Male,Anambra,Mobile,POS,Fashion,217428.06,8,27178.51,28,1,3,5.0,5,0,4.6,No,0.833,23.0
+1493,CUS01494,60,Male,Borno,Mobile,Debit card,Electronics,72837.96,12,6069.83,37,2,5,2.1,2,0,1.6,No,0.525,3.36
+1494,CUS01495,57,Male,Delta,Mobile,Debit card,Books,94797.32,10,9479.73,94,0,0,1.4,5,0,1.8,Yes,0.28,2.52
+1495,CUS01496,43,Female,Enugu,Desktop,Bank transfer,Electronics,47890.73,7,6841.53,37,0,6,2.3,4,0,3.8,No,0.575,8.74
+1496,CUS01497,40,Male,Borno,Mobile,Bank transfer,Fashion,116657.15,14,8332.65,24,0,4,2.0,5,0,1.9,No,0.4,3.8
+1497,CUS01498,61,Male,Lagos,Laptop,POS,Electronics,81498.04,6,13583.01,24,1,2,3.9,2,2,4.2,Yes,1.3,16.38
+1498,CUS01499,56,Male,Rivers,Desktop,Cash,Fashion,72582.18,8,9072.77,28,1,2,3.1,4,3,2.8,Yes,0.62,8.68
+1499,CUS01500,32,Male,Rivers,Pc,Bank transfer,Food,68722.43,8,8590.3,27,1,3,3.3,2,0,0.0,Yes,1.1,0.0
+1500,CUS01501,89,Male,Delta,Mobile,USSD,Home,44063.96,2,22031.98,29,3,1,3.5,6,2,0.8,Yes,0.389,2.8
+1501,CUS01502,24,Female,Imo,Desktop,Debit card,Food,52295.16,9,5810.57,39,2,0,5.0,4,0,2.3,No,0.833,11.5
+1502,CUS01503,57,Female,Abuja,Mobile,Debit card,Food,98375.22,7,14053.6,50,0,1,4.0,6,1,0.2,No,0.667,0.8
+1503,CUS01504,22,Female,Anambra,Mobile,USSD,Electronics,101459.2,8,12682.4,55,2,3,4.3,4,1,1.9,Yes,0.717,8.17
+1504,CUS01505,20,Female,Rivers,Mobile,Debit card,Fashion,64574.89,19,3398.68,55,2,6,2.9,1,2,4.3,Yes,0.967,12.47
+1505,CUS01506,39,Female,Lagos,Mobile,Debit card,Home,87926.11,5,17585.22,51,1,5,3.9,4,1,2.8,No,0.78,10.92
+1506,CUS01507,19,Male,Bauchi,Desktop,POS,Fashion,76716.09,8,9589.51,45,0,1,3.3,7,0,1.7,No,0.471,5.61
+1507,CUS01508,22,Female,Bauchi,Desktop,USSD,Electronics,140956.11,4,35239.03,5,1,2,1.0,2,1,1.3,Yes,0.333,1.3
+1508,CUS01509,49,Male,Anambra,Mobile,Bank transfer,Electronics,48655.72,13,3742.75,86,0,0,3.2,3,1,2.1,Yes,1.067,6.72
+1509,CUS01510,59,Male,Oyo,Mobile,Debit card,Beauty,163342.37,8,20417.8,35,0,3,3.7,2,1,0.3,No,1.85,1.11
+1510,CUS01511,63,Female,Anambra,Mobile,Bank transfer,Home,92229.25,10,9222.92,29,0,1,3.9,2,1,3.1,No,1.95,12.09
+1511,CUS01512,34,Female,Rivers,Mobile,Bank transfer,Fashion,71930.13,2,35965.06,71,0,2,3.6,1,0,0.0,No,3.6,0.0
+1512,CUS01513,22,Female,Kano,Desktop,Debit card,Fashion,132252.21,10,13225.22,24,2,3,5.0,1,0,1.9,No,1.667,9.5
+1513,CUS01514,38,Female,Bauchi,Mobile,Debit card,Fashion,92435.8,12,7702.98,45,2,2,2.8,4,1,2.4,Yes,0.467,6.72
+1514,CUS01515,51,Female,Borno,Mobile,Bank transfer,Electronics,80315.08,9,8923.9,43,0,6,2.6,3,0,3.6,Yes,0.867,9.36
+1515,CUS01516,52,Male,Rivers,Mobile,Debit card,Fashion,68106.66,15,4540.44,79,1,2,4.1,3,0,1.4,No,1.025,5.74
+1516,CUS01517,20,Female,Anambra,Mobile,POS,Sports,118506.39,6,19751.06,53,1,3,2.7,5,1,2.4,Yes,0.45,6.48
+1517,CUS01518,30,Male,Delta,Desktop,USSD,Fashion,125415.28,19,6600.8,26,2,1,2.6,4,0,1.9,No,0.433,4.94
+1518,CUS01519,43,Male,Delta,Desktop,USSD,Food,32432.0,6,5405.33,38,2,4,1.4,5,1,1.1,Yes,0.2,1.54
+1519,CUS01520,64,Male,Oyo,Mobile,Debit card,Fashion,84828.81,13,6525.29,90,1,7,4.5,5,1,3.8,No,0.75,17.1
+1520,CUS01521,60,Female,Kano,Mobile,POS,Electronics,71007.81,7,10143.97,101,0,2,3.5,1,0,4.6,No,3.5,16.1
+1521,CUS01522,64,Female,Kano,Desktop,Debit card,Electronics,66038.94,10,6603.89,81,1,4,3.8,3,0,3.8,Yes,0.95,14.44
+1522,CUS01523,60,Female,Delta,Mobile,Debit card,Beauty,141738.23,7,20248.32,91,1,4,2.5,4,1,1.4,Yes,0.5,3.5
+1523,CUS01524,40,Male,Lagos,Desktop,Cash,Beauty,92638.65,5,18527.73,33,0,3,1.3,7,1,1.7,Yes,0.186,2.21
+1524,CUS01525,56,Female,Kaduna,Desktop,Bank transfer,Electronics,26585.32,6,4430.89,17,2,2,2.0,3,1,0.0,Yes,0.4,0.0
+1525,CUS01526,54,Male,Borno,Mobile,Debit card,Electronics,500.0,5,100.0,2,0,4,2.1,2,1,1.2,Yes,1.05,2.52
+1526,CUS01527,32,Female,Anambra,Desktop,USSD,Fashion,43371.19,1,43371.19,46,2,4,3.0,5,1,3.5,Yes,0.429,10.5
+1527,CUS01528,24,Female,Abuja,Mobile,Debit card,Auto,110968.25,17,6527.54,23,3,6,3.5,4,0,5.0,No,0.5,17.5
+1528,CUS01529,47,Female,Lagos,Desktop,Debit card,Fashion,51933.51,18,2885.2,11,0,3,3.8,1,0,0.9,No,3.8,3.42
+1529,CUS01530,35,Male,Anambra,Mobile,Debit card,Food,62291.48,1,62291.48,58,0,3,3.6,4,0,5.0,No,0.9,18.0
