@@ -3,7 +3,7 @@ import numpy as np
 import os
 from flask import Flask,render_template,request
 app=Flask( __name__ )
-model2=pickle.load(open("/storage/emulated/0/Download/Work1/model2.pkl", "rb"))
+model2=pickle.load(open("model2.pkl", "rb"))
 
 @app.route("/",methods=["GET","POST"])
 def myFunc():
