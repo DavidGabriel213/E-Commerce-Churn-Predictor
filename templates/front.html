@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="{{ url_for('static', filename='churn_style.css') }}">
+  <title>Nigerian E-Commerce Churn Predictor</title>
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <div class="header-icon">🛒</div>
+  <h1>Nigerian E-Commerce Churn Predictor</h1>
+  <p>Predict whether a customer is likely to churn or remain loyal</p>
+  <div class="header-badge">🇳🇬 Nigerian E-Commerce · ML Powered</div>
+</header>
+
+<div class="wrapper">
+
+  <!-- RESULT BANNER -->
+  {% if answer %}
+    {% if answer == "Churning" %}
+    <div class="result-banner result-churning">
+      <div class="result-icon">⚠️</div>
+      <div class="result-text">
+        <h2>Customer is Churning</h2>
+        <p>This customer shows strong signs of disengagement.
+           Immediate retention action recommended.</p>
+      </div>
+      <div class="result-badge">Churning</div>
+    </div>
+    {% else %}
+    <div class="result-banner result-retained">
+      <div class="result-icon">✅</div>
+      <div class="result-text">
+        <h2>Customer is Retained</h2>
+        <p>This customer is likely to remain loyal.
+           Continue providing excellent service.</p>
+      </div>
+      <div class="result-badge">Retained</div>
+    </div>
+    {% endif %}
+  {% endif %}
+
+  <!-- INFO BOX -->
+  <div class="info-box">
+    <strong>ℹ️ How it works:</strong>
+    Enter the customer profile and behaviour metrics below.
+    The model predicts churn probability based on patterns
+    learned from 20,000+ Nigerian e-commerce customer records.
+  </div>
+
+  <form method="POST" action="/">
+
+    <!-- CARD 1: CUSTOMER PROFILE -->
+    <div class="card">
+      <div class="card-title">
+        <span>👤</span> Customer Profile
+      </div>
+      <div class="grid-2">
+
+        <div class="field">
+          <label>Age</label>
+          <input type="number" name="age"
+                 min="18" max="80"
+                 placeholder="e.g. 32" required/>
+        </div>
+
+        <div class="field">
+          <label>Gender</label>
+          <div class="toggle-group">
+            <input type="radio" name="gender" id="g_male" value="1"/>
+            <label for="g_male">Male</label>
+            <input type="radio" name="gender" id="g_female" value="0" checked/>
+            <label for="g_female">Female</label>
+          </div>
+        </div>
+
+        <div class="field">
+          <label>State</label>
+          <select name="state" required>
+            <option value="" disabled selected>Select state</option>
+            <option value="0">Abuja</option>
+            <option value="1">Anambra</option>
+            <option value="2">Bauchi</option>
+            <option value="3">Borno</option>
+            <option value="4">Delta</option>
+            <option value="5">Enugu</option>
+            <option value="6">Imo</option>
+            <option value="7">Kaduna</option>
+            <option value="8">Kano</option>
+            <option value="9">Lagos</option>
+            <option value="10">Oyo</option>
+            <option value="11">Rivers</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label>Loyalty Years</label>
+          <input type="number" name="loyalty"
+                 min="0" max="20" step="0.5"
+                 placeholder="e.g. 3" required/>
+          <span class="hint">How long they have been a customer</span>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- CARD 2: ORDER BEHAVIOUR -->
+    <div class="card">
+      <div class="card-title">
+        <span>📦</span> Order Behaviour
+      </div>
+      <div class="grid-2">
+
+        <div class="field">
+          <label>Total Amount Spent (₦)</label>
+          <input type="number" name="total"
+                 min="0" placeholder="e.g. 145000" required/>
+        </div>
+
+        <div class="field">
+          <label>Number of Orders</label>
+          <input type="number" name="NumOfOrders"
+                 min="0" placeholder="e.g. 12" required/>
+        </div>
+
+        <div class="field">
+          <label>Days Since Last Order</label>
+          <input type="number" name="DaysLastActive"
+                 min="0" placeholder="e.g. 45" required/>
+          <span class="hint">Higher = less active</span>
+        </div>
+
+        <div class="field">
+          <label>Delivery Days (Average)</label>
+          <input type="number" name="delivery"
+                 min="1" max="60"
+                 placeholder="e.g. 5" required/>
+        </div>
+
+        <div class="field">
+          <label>Number of Returns</label>
+          <input type="number" name="returns"
+                 min="0" placeholder="e.g. 2" required/>
+        </div>
+
+        <div class="field">
+          <label>Discounts Used</label>
+          <input type="number" name="discountused"
+                 min="0" placeholder="e.g. 4" required/>
+        </div>
+
+        <div class="field">
+          <label>Product Category</label>
+          <select name="product" required>
+            <option value="" disabled selected>Select category</option>
+            <option value="0">Auto</option>
+            <option value="1">Beauty</option>
+            <option value="2">Books</option>
+            <option value="3">Electronics</option>
+            <option value="4">Fashion</option>
+            <option value="5">Food</option>
+            <option value="6">Home</option>
+            <option value="7">Sports</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label>Number of Complaints</label>
+          <input type="number" name="complaints"
+                 min="0" placeholder="e.g. 1" required/>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- CARD 3: SATISFACTION SCORE -->
+    <div class="card">
+      <div class="card-title">
+        <span>⭐</span> Customer Satisfaction
+      </div>
+      <div class="score-wrap">
+        <div class="score-display">
+          <div>
+            <label>Satisfaction Score</label>
+            <span class="hint">
+              Drag to select — 1 (very unhappy) to 5 (very happy)
+            </span>
+          </div>
+          <div class="score-val" id="scoreVal">3</div>
+        </div>
+        <input type="range" name="satisfaction"
+               min="1" max="5" step="1" value="3"
+               oninput="document.getElementById('scoreVal').textContent=this.value"/>
+        <div class="score-emojis">
+          <span>😞 Very Unhappy</span>
+          <span>😐 Neutral</span>
+          <span>😄 Very Happy</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- SUBMIT -->
+    <div class="submit-wrap">
+      <button type="submit">🔍 &nbsp;Predict Churn</button>
+    </div>
+
+  </form>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  Built by
+  <a href="https://linkedin.com/in/gabriel-david-ds" target="_blank">
+    Gabriel David
+  </a>
+  &nbsp;|&nbsp;
+  <a href="https://github.com/DavidGabriel213" target="_blank">
+    GitHub
+  </a>
+  &nbsp;|&nbsp;
+  Nigerian E-Commerce Churn Predictor &copy; 2026
+</footer>
+
+</body>
+  </html>
+      
